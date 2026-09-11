@@ -142,6 +142,13 @@ def build_ambiguous_sheet() -> list[str]:
         catalog = {(p := json.loads(line))["sku"]: p for line in f}
 
     ambiguous_skus = sorted(sku for sku, info in labels.items() if not info["confident"])
+    index_path = ARTIFACTS_DIR / "eval" / "ambiguous_review_index.json"
+    if not ambiguous_skus:
+        index_path.write_text("[]")
+        stale_sheet = FIGURES_DIR / "ambiguous_review.png"
+        stale_sheet.unlink(missing_ok=True)
+        print("no ambiguous images to review — cleared ambiguous_review.png/index")
+        return []
     rows = (len(ambiguous_skus) + AMBIGUOUS_COLS - 1) // AMBIGUOUS_COLS
     sheet = Image.new(
         "RGB", (AMBIGUOUS_COLS * AMBIGUOUS_CELL, rows * AMBIGUOUS_CELL), (255, 255, 255)
@@ -174,7 +181,6 @@ def build_ambiguous_sheet() -> list[str]:
     sheet.save(out_path)
     print(f"wrote {out_path} ({len(ambiguous_skus)} ambiguous images)")
 
-    index_path = ARTIFACTS_DIR / "eval" / "ambiguous_review_index.json"
     index_path.write_text(
         json.dumps(
             [

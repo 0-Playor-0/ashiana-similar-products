@@ -20,5 +20,6 @@ class Product(BaseModel):
     in_stock: bool | None = None
     source_url: str | None = None
     # provenance values include "keyword" | "llm" (materials/stones/colors) and
-    # "heuristic" | "user_confirmed" (image_type)
+    # "heuristic" | "heuristic_confirmed" | "user_confirmed" (image_type) — see
+    # pipeline/image_classify.py and pipeline/apply_image_review.py
     attr_provenance: dict[str, str] = Field(default_factory=dict)

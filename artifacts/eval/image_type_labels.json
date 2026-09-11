@@ -8,22 +8,22 @@
   },
   "009e44c8-d247-4514-a0da-f71537ec1569": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 50.8468,
     "whiteness_score": 0.8396
   },
   "00ec5a43-af77-48a8-9bf1-db44d6a379a4": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 30.7506,
     "whiteness_score": 0.9008
   },
   "01311aee-ed32-415a-87a6-841648e1f0b5": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 27.5024,
     "whiteness_score": 0.8362
   },
@@ -50,8 +50,8 @@
   },
   "036831b3-c315-4cf9-80fe-dcd9622e63ae": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 26.1506,
     "whiteness_score": 0.9418
   },
@@ -71,8 +71,8 @@
   },
   "055be6ca-0f9a-41d3-93de-e48af85afac4": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 55.2167,
     "whiteness_score": 0.3681
   },
@@ -119,9 +119,9 @@
     "whiteness_score": 0.0001
   },
   "08bcbbe1-f36e-42e0-98b1-5e4c44ae9091": {
-    "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "user_confirmed",
     "border_std": 45.5651,
     "whiteness_score": 0.6122
   },
@@ -176,8 +176,8 @@
   },
   "0b0053d9-4afb-4577-ab73-bf238bb45bb0": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 43.1769,
     "whiteness_score": 0.8495
   },
@@ -211,8 +211,8 @@
   },
   "0e2ac12a-eb6a-4a77-8940-3ed8309b46cf": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 40.0547,
     "whiteness_score": 0.9071
   },
@@ -239,36 +239,36 @@
   },
   "11c992fb-e396-44d3-a248-1664f086d99f": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 52.991,
     "whiteness_score": 0.0003
   },
   "124ff442-becc-4ddb-bb38-bb2f79dc96c8": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 27.8893,
     "whiteness_score": 0.9264
   },
   "12b2c421-8561-42dd-aa55-384ed48c7a38": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 41.366,
     "whiteness_score": 0.9334
   },
   "12e3e1a2-0cf6-4eed-896b-6d682f05bfb4": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 43.498,
     "whiteness_score": 0.8709
   },
   "13679d4b-00a0-4b56-82c0-0bef38924ba7": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 43.8306,
     "whiteness_score": 0.8665
   },
@@ -344,8 +344,8 @@
   },
   "182d1f49-e12d-4337-8909-fe2390d3192c": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.1146,
     "whiteness_score": 0.8885
   },
@@ -456,8 +456,8 @@
   },
   "1f0f7e73-5d82-44b3-ac91-4f5e780fab35": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 39.1581,
     "whiteness_score": 0.924
   },
@@ -470,8 +470,8 @@
   },
   "217f6e00-80e3-4c64-8e0c-42c8a4e73377": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.0331,
     "whiteness_score": 0.8901
   },
@@ -512,15 +512,15 @@
   },
   "24011c13-1488-4eab-8556-b343c126a818": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 40.0846,
     "whiteness_score": 0.8755
   },
   "252a3fdf-620d-4713-bf32-323dd409d005": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 26.5845,
     "whiteness_score": 0.9442
   },
@@ -568,15 +568,15 @@
   },
   "2ba991f2-0273-481d-8dad-a19100b5ff86": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 25.4971,
     "whiteness_score": 0.8546
   },
   "2c772d8b-8eeb-41e3-a80f-6e0069f4bd93": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 26.6813,
     "whiteness_score": 0.9434
   },
@@ -596,8 +596,8 @@
   },
   "2cf83134-2684-439f-976c-4eb7563387d7": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 29.095,
     "whiteness_score": 0.8689
   },
@@ -631,15 +631,15 @@
   },
   "311c3545-1b94-4b18-937d-f96841924713": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 45.7441,
     "whiteness_score": 0.8548
   },
   "314c97a9-00e6-436a-b44d-b5b23e91f36f": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 40.9955,
     "whiteness_score": 0.8272
   },
@@ -659,8 +659,8 @@
   },
   "32074064-19d4-442b-a0dd-ec81f81226aa": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 34.3875,
     "whiteness_score": 0.8266
   },
@@ -673,8 +673,8 @@
   },
   "32c7b479-a24d-43f0-ad46-9712ba621bba": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 67.413,
     "whiteness_score": 0.0173
   },
@@ -736,8 +736,8 @@
   },
   "38d8a44a-8f42-4256-aa10-4746899c767d": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 40.8175,
     "whiteness_score": 0.8693
   },
@@ -764,8 +764,8 @@
   },
   "3b35999f-8dfc-472d-8c82-efa37e16bcc5": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 52.8567,
     "whiteness_score": 0.7746
   },
@@ -778,8 +778,8 @@
   },
   "3b8f32b1-2199-41c8-9ca8-0cd1f9e9c491": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 25.8143,
     "whiteness_score": 0.9636
   },
@@ -806,8 +806,8 @@
   },
   "3f8099a6-ae7e-48ff-95ea-dfd2c15614b6": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 36.2664,
     "whiteness_score": 0.8601
   },
@@ -820,8 +820,8 @@
   },
   "3fc4e596-117b-40e9-94c0-2c0de73aa1fd": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 38.2604,
     "whiteness_score": 0.0014
   },
@@ -1030,8 +1030,8 @@
   },
   "51d80c35-b43b-4a35-9f57-15a4e83dceac": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.4688,
     "whiteness_score": 0.8913
   },
@@ -1086,8 +1086,8 @@
   },
   "54a90cab-9e7e-4569-b0ef-f36b995cacbe": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 25.8679,
     "whiteness_score": 0.8398
   },
@@ -1156,8 +1156,8 @@
   },
   "5af4eaab-86d6-43b3-aa6a-7cf708ab1678": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 34.4308,
     "whiteness_score": 0.9221
   },
@@ -1184,8 +1184,8 @@
   },
   "5da2286f-f7aa-4ed5-9082-08ddfd30d055": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 64.1779,
     "whiteness_score": 0.0
   },
@@ -1296,8 +1296,8 @@
   },
   "64442b26-9ad1-4a41-9906-194c1890f4eb": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 44.502,
     "whiteness_score": 0.8638
   },
@@ -1470,9 +1470,9 @@
     "whiteness_score": 0.7628
   },
   "7532126a-9c61-4a30-a5c7-4515a84d530e": {
-    "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "user_confirmed",
     "border_std": 51.5804,
     "whiteness_score": 0.0
   },
@@ -1499,8 +1499,8 @@
   },
   "77e85433-89f1-4c7c-983e-2f86cca1bb54": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 34.5502,
     "whiteness_score": 0.957
   },
@@ -1527,8 +1527,8 @@
   },
   "7ae8373d-4bed-4659-a1ce-267afec8235d": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 40.6595,
     "whiteness_score": 0.9314
   },
@@ -1555,8 +1555,8 @@
   },
   "7c47317a-740f-4e00-a665-71ea9a39b928": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 53.0721,
     "whiteness_score": 0.8093
   },
@@ -1625,8 +1625,8 @@
   },
   "8222e8c1-e802-4059-8cdd-f0c2f2c583a6": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 35.12,
     "whiteness_score": 0.941
   },
@@ -1660,8 +1660,8 @@
   },
   "84d4829b-33ca-43b0-a7ee-52cd8a562ffb": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 38.9094,
     "whiteness_score": 0.8499
   },
@@ -1708,9 +1708,9 @@
     "whiteness_score": 1.0
   },
   "880d6f34-7047-47d4-82bd-3968ff6f99e6": {
-    "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "user_confirmed",
     "border_std": 66.6759,
     "whiteness_score": 0.8277
   },
@@ -1723,22 +1723,22 @@
   },
   "8963b19c-9d59-499d-abdc-1e4c5dda2e67": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 28.1752,
     "whiteness_score": 0.8606
   },
   "8a41af1b-d2f5-4fdf-b2b7-0135bfc77f4c": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 44.136,
     "whiteness_score": 0.0119
   },
   "8aeb93ac-179c-4303-bf39-4e726f599a7b": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 63.0771,
     "whiteness_score": 0.0
   },
@@ -1814,8 +1814,8 @@
   },
   "8fe67e2e-18ce-482f-ac01-d3b5580955d0": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.5131,
     "whiteness_score": 0.8758
   },
@@ -1842,8 +1842,8 @@
   },
   "91ce53bf-19e2-4a0b-bb70-bb4c72346ecd": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 44.43,
     "whiteness_score": 0.8342
   },
@@ -2010,8 +2010,8 @@
   },
   "9d7700c9-4f67-48c3-8f6a-f69266d1704f": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 31.8366,
     "whiteness_score": 0.9529
   },
@@ -2031,15 +2031,15 @@
   },
   "a190b2a9-1f9b-4ad6-b2e5-6e8916ea9a08": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 55.5025,
     "whiteness_score": 0.0351
   },
   "a1cf3de5-7f2d-4640-abf7-474d06750c3a": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 46.6959,
     "whiteness_score": 0.0033
   },
@@ -2052,8 +2052,8 @@
   },
   "a3b0480b-68f2-44ac-b357-271e52378eaa": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 31.1314,
     "whiteness_score": 0.8626
   },
@@ -2094,8 +2094,8 @@
   },
   "a55aa3da-c2bb-4787-8a4a-3113d1251f5e": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 39.1767,
     "whiteness_score": 0.8385
   },
@@ -2122,8 +2122,8 @@
   },
   "a6714c6a-84f0-4f69-9577-10351bbd235e": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 30.2831,
     "whiteness_score": 0.0013
   },
@@ -2143,8 +2143,8 @@
   },
   "a87418be-1852-493c-91d3-cb6a33460372": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 31.1932,
     "whiteness_score": 0.8833
   },
@@ -2164,15 +2164,15 @@
   },
   "a9f72185-736f-49f2-8796-b4174601bc79": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 26.0622,
     "whiteness_score": 0.9778
   },
   "aa604533-6270-4bfb-999a-8734502c1afb": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 28.9602,
     "whiteness_score": 0.9144
   },
@@ -2185,8 +2185,8 @@
   },
   "ab5e6b28-022c-49f1-ace0-c8276f624e8d": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 37.3441,
     "whiteness_score": 0.8107
   },
@@ -2213,8 +2213,8 @@
   },
   "affcff33-eed9-4d90-b1d5-c68c79b1e02d": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.7952,
     "whiteness_score": 0.9193
   },
@@ -2227,8 +2227,8 @@
   },
   "b1d483d5-a62a-4890-8433-8bdc652072dc": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 30.7073,
     "whiteness_score": 0.9195
   },
@@ -2262,8 +2262,8 @@
   },
   "b53971f0-5c49-4f0a-b2b6-dcc3aa83a852": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 47.4826,
     "whiteness_score": 0.8746
   },
@@ -2290,8 +2290,8 @@
   },
   "b70fa2ee-1ded-4e9f-8429-8695cb0a8bee": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 49.4444,
     "whiteness_score": 0.7722
   },
@@ -2303,23 +2303,23 @@
     "whiteness_score": 0.0
   },
   "b858f29d-c947-441a-b65a-97dd6935957e": {
-    "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "user_confirmed",
     "border_std": 31.5371,
     "whiteness_score": 0.4081
   },
   "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 27.9214,
     "whiteness_score": 0.9049
   },
   "b8fee544-4d0a-479d-9b22-ad8e0d2a78ee": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 31.527,
     "whiteness_score": 0.8635
   },
@@ -2332,15 +2332,15 @@
   },
   "baa829f0-456f-4c4a-bd74-e2acd6ee2774": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 34.9859,
     "whiteness_score": 0.8995
   },
   "bae08f86-83bb-4bdb-b6e3-ca22c1de5384": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 29.1315,
     "whiteness_score": 0.901
   },
@@ -2374,8 +2374,8 @@
   },
   "bbc30f7d-45c2-40b9-bcd0-fd1dd7468b44": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 62.5447,
     "whiteness_score": 0.0
   },
@@ -2388,22 +2388,22 @@
   },
   "bd09b30b-e190-411a-9f73-06a0dbea0047": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 50.7351,
     "whiteness_score": 0.2611
   },
   "be980a8b-4e51-4f44-b597-6cb9660c1dd8": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 30.3208,
     "whiteness_score": 0.9478
   },
   "bedb17d0-89e6-4be4-9f93-57a3d511b516": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 28.8476,
     "whiteness_score": 0.8821
   },
@@ -2423,8 +2423,8 @@
   },
   "c0cb7857-021c-499d-86ca-9f9f8176dbee": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 54.1795,
     "whiteness_score": 0.0119
   },
@@ -2465,8 +2465,8 @@
   },
   "c2b46489-bfaa-4189-9771-68d6f3822159": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 55.6242,
     "whiteness_score": 0.1565
   },
@@ -2493,8 +2493,8 @@
   },
   "c3a41b16-a727-4a77-a396-ab8e9cad17cf": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 26.1479,
     "whiteness_score": 0.886
   },
@@ -2507,8 +2507,8 @@
   },
   "c421f639-4d92-4539-84c9-ad5d2200da71": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 39.7314,
     "whiteness_score": 0.0002
   },
@@ -2521,8 +2521,8 @@
   },
   "c436fa03-b792-4582-97c6-a60a5a1a7ef6": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 28.0579,
     "whiteness_score": 0.926
   },
@@ -2563,8 +2563,8 @@
   },
   "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 27.7077,
     "whiteness_score": 0.8907
   },
@@ -2577,8 +2577,8 @@
   },
   "c69f50f7-44d3-4c2e-9d83-821f8f40ee35": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 47.8432,
     "whiteness_score": 0.824
   },
@@ -2696,8 +2696,8 @@
   },
   "d0fbc651-4111-45f5-975e-92603dd43146": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.0789,
     "whiteness_score": 0.8096
   },
@@ -2780,8 +2780,8 @@
   },
   "d5ac13d8-dcd3-4927-b5f7-558d77b81dd0": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 65.6055,
     "whiteness_score": 0.0
   },
@@ -2801,15 +2801,15 @@
   },
   "d760afda-4827-41de-b7f0-18863372a2c3": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.6221,
     "whiteness_score": 0.7513
   },
   "d76f09f5-c27e-403a-b7d5-be4df7007566": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 34.0549,
     "whiteness_score": 0.8898
   },
@@ -2871,8 +2871,8 @@
   },
   "dde11258-47ef-4d0c-8ef5-fa963ecfd81f": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 29.6662,
     "whiteness_score": 0.8936
   },
@@ -2906,15 +2906,15 @@
   },
   "df370c53-ceb5-4054-a8c7-e45771db8585": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 43.0663,
     "whiteness_score": 0.0002
   },
   "df6ae3d9-6c9c-4929-bcb8-400d5e98f45d": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 34.604,
     "whiteness_score": 0.869
   },
@@ -2934,8 +2934,8 @@
   },
   "e2ad7930-b9ef-4215-a303-e80bd6a6783c": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 46.0698,
     "whiteness_score": 0.8325
   },
@@ -3004,8 +3004,8 @@
   },
   "e89013f4-78e8-448b-9adc-d67ec85c92f7": {
     "image_type": "packshot",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 33.727,
     "whiteness_score": 0.938
   },
@@ -3235,8 +3235,8 @@
   },
   "f82b838f-b877-4aea-a79f-2ce47854b7f5": {
     "image_type": "lifestyle",
-    "confident": false,
-    "provenance": "heuristic",
+    "confident": true,
+    "provenance": "heuristic_confirmed",
     "border_std": 52.2319,
     "whiteness_score": 0.0
   },
