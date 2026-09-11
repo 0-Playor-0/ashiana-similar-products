@@ -1,0 +1,67 @@
+{
+  "n_samples": 10,
+  "hits": 10,
+  "pass": true,
+  "detail": [
+    {
+      "sku": "eb527da3-254b-4bd8-8298-7fb7bd25fea2",
+      "rank1_sku": "eb527da3-254b-4bd8-8298-7fb7bd25fea2",
+      "hit": true,
+      "sim": 0.9758268594741821
+    },
+    {
+      "sku": "6a43fcd6-64e5-4ef5-a75b-54a6f0da8fd3",
+      "rank1_sku": "6a43fcd6-64e5-4ef5-a75b-54a6f0da8fd3",
+      "hit": true,
+      "sim": 0.9674593210220337
+    },
+    {
+      "sku": "d1e33012-8970-4211-8437-37c00de796a0",
+      "rank1_sku": "d1e33012-8970-4211-8437-37c00de796a0",
+      "hit": true,
+      "sim": 0.9666388630867004
+    },
+    {
+      "sku": "f6b34eea-b874-4f5d-b7e8-9b487c26ad90",
+      "rank1_sku": "f6b34eea-b874-4f5d-b7e8-9b487c26ad90",
+      "hit": true,
+      "sim": 0.9626728296279907
+    },
+    {
+      "sku": "78927c01-334e-46e6-a436-502081e16333",
+      "rank1_sku": "78927c01-334e-46e6-a436-502081e16333",
+      "hit": true,
+      "sim": 0.9638423919677734
+    },
+    {
+      "sku": "09f9d97e-a0ff-4eff-80b7-9c501967ee7d",
+      "rank1_sku": "09f9d97e-a0ff-4eff-80b7-9c501967ee7d",
+      "hit": true,
+      "sim": 0.9552463293075562
+    },
+    {
+      "sku": "4b80ff1d-f9de-42ac-b6b0-6088dc69e9ff",
+      "rank1_sku": "4b80ff1d-f9de-42ac-b6b0-6088dc69e9ff",
+      "hit": true,
+      "sim": 0.9646198749542236
+    },
+    {
+      "sku": "90dd0ead-85af-4da9-aebb-61b15928646c",
+      "rank1_sku": "90dd0ead-85af-4da9-aebb-61b15928646c",
+      "hit": true,
+      "sim": 0.975639283657074
+    },
+    {
+      "sku": "8aeb93ac-179c-4303-bf39-4e726f599a7b",
+      "rank1_sku": "8aeb93ac-179c-4303-bf39-4e726f599a7b",
+      "hit": true,
+      "sim": 0.8825553059577942
+    },
+    {
+      "sku": "73b4f1ef-b68b-4b50-ac0f-59d26bdcf04d",
+      "rank1_sku": "73b4f1ef-b68b-4b50-ac0f-59d26bdcf04d",
+      "hit": true,
+      "sim": 0.9747298359870911
+    }
+  ]
+}

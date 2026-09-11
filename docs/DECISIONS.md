@@ -108,3 +108,59 @@ and multi-collection items are collapsed to one label.
 had 3.14 by default). Did not install Node — it's only needed for the Phase 6 frontend, and
 the scraper's headless-browser needs are covered by Playwright's Python binding instead.
 **Reason.** Rule 9 (pin Python 3.11); avoids an unnecessary Node install this early.
+
+## 2026-09-11 — D3: no image data committed (deviates from the roadmap's default)
+
+**Decision.** Full-size originals (`data/images/`) and generated thumbnails
+(`artifacts/thumbs/`) are both fully gitignored. Nothing image-derived — not even the
+400px thumbnails the roadmap's D3 default calls for — is committed to the repo for now.
+**Reason.** Image rights for Ashiana's product photos aren't cleared for public commit yet.
+The roadmap's D3 default (commit 400px thumbnails with an attribution note, keep full-size
+originals gitignored) assumes that clearance; the user explicitly opted out of it for this
+phase.
+**Alternatives considered.** The roadmap default itself (commit thumbnails + attribution) —
+rejected for now, revisit before the repo goes public. Referencing images via signed URLs
+instead of committing bytes — also deferred; noted below as the likely direction.
+**Consequence for later phases.** Phase 1's E_image embeddings (`artifacts/*.npz` or
+similar) and any downstream artifact bundle that embeds pixel data must also stay out of
+version control until this is revisited — only numeric embeddings derived from images are
+safe to commit, not the images themselves or anything that could reconstruct them.
+**Revisit before the repo goes public:** either (a) commit 400px thumbnails with an
+attribution note per the original D3 default, or (b) keep images out of git and have the
+API/frontend reference them via signed URLs (e.g. from a private bucket) instead of
+committed files. Decide which at the Phase 8/9 deployment/README checkpoint.
+
+## 2026-09-11 — Some products have no clean packshot at all (single-image limitation)
+
+**Finding, not a decision.** Every scraped product has exactly one `image_url` — there was
+never a choice for the border-whiteness packshot selector to make. `artifacts/eval/packshot_report.json`
+shows a mean whiteness score of 0.88, but 15 products score 0.0. Spot-checking those: some
+are legitimate studio packshots on an off-white/grey (not pure-white) background that just
+miss the strict RGB≥235 threshold — those are fine. Others (confirmed: `0a0e7b1e-…`,
+`307318e6-…`, `5da2286f-…`) are genuine lifestyle photos — the jewelry worn on a model's
+ear/neck, no product-only shot exists for that SKU at all.
+**Why this can't be "fixed" here.** The packshot-selection step (§8 Phase 1) picks among
+multiple images per product; `data/overrides/primary_image.json` can only override *which*
+of several scraped images is used, and there's nothing to override to for these SKUs — no
+alternate image exists in the scraped data. Sourcing a different photo would mean fetching
+data Ashiana's own storefront doesn't serve for that product, which isn't something to
+fabricate (rule 7).
+**Consequence.** For these SKUs, the DINOv2 image embedding partly encodes a model's skin/hair
+rather than only the piece of jewelry, so their image-similarity neighbors may be noisier
+than the rest of the catalog. This is worth calling out honestly in the Phase 7 notebook's
+limitations section and the Phase 4 failure-case analysis, not silently smoothed over.
+
+## 2026-09-11 — MPS fallback needed for DINOv2 encoding on the MacBook Air
+
+**Decision.** `pipeline/encode_image.py` and `pipeline/image_sanity_check.py` set
+`PYTORCH_ENABLE_MPS_FALLBACK=1` before touching torch.
+**Reason.** DINOv2's position-embedding interpolation calls `aten::upsample_bicubic2d`,
+which PyTorch 2.4.1 doesn't implement for the `mps` backend
+(`NotImplementedError`). This is a known PyTorch/MPS gap
+(pytorch/pytorch#77764), not specific to our preprocessing. The documented fix is this env
+var, which runs only that one op on CPU and keeps the rest of the forward pass on MPS —
+encoding all 472 images still took ~10s.
+**Alternatives considered.** Forcing `device=cpu` for the whole model (rule 10 says use mps
+when available; would also be noticeably slower at larger catalog sizes or in Phase 2/3
+re-runs). Padding the image processor's crop size to sidestep interpolation entirely — not
+worth the extra indirection for a one-line, officially-documented fallback.

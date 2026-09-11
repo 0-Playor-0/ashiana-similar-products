@@ -8,5 +8,10 @@ dist/
 .env
 data/images/
 data/raw/*/catalog_raw.json
+
+# D3: no image-derived data committed for now (docs/DECISIONS.md).
+# Numeric embeddings (artifacts/embeddings/) are fine — they're not images.
+artifacts/thumbs/
+artifacts/eval/figures/
 .DS_Store
 *.log

@@ -10,6 +10,7 @@ tqdm==4.66.5
 
 # ingest (Phase 0)
 playwright==1.47.0
+requests==2.34.2
 
 # image pipeline (Phase 1)
 pillow==10.4.0
