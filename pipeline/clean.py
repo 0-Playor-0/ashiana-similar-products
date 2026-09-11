@@ -16,6 +16,10 @@ from pipeline.schema import Product
 TAXONOMY = yaml.safe_load((CONFIG_DIR / "taxonomy.yaml").read_text())
 SETTINGS = yaml.safe_load((CONFIG_DIR / "settings.yaml").read_text())
 
+# Phase 1 QC output (pipeline/image_classify.py); optional — clean() runs fine
+# without it (image_type stays None), so Phase 0 alone still works.
+IMAGE_TYPE_LABELS_PATH = ARTIFACTS_DIR / "eval" / "image_type_labels.json"
+
 # products found under >1 collection page keep only the first, by this
 # priority order (docs/DECISIONS.md) — the schema holds a single collection
 COLLECTION_PRIORITY = [
@@ -64,6 +68,10 @@ def clean() -> list[Product]:
     snapshot_dir, snapshot_date = _latest_snapshot_dir()
     raw = json.loads((snapshot_dir / "catalog_raw.json").read_text())
 
+    image_type_labels = {}
+    if IMAGE_TYPE_LABELS_PATH.exists():
+        image_type_labels = json.loads(IMAGE_TYPE_LABELS_PATH.read_text())
+
     synonyms = TAXONOMY["synonyms"]
     products = []
     for sku, entry in raw.items():
@@ -81,6 +89,12 @@ def clean() -> list[Product]:
             provenance["stones"] = "keyword"
         if colors:
             provenance["colors"] = "keyword"
+
+        image_type = None
+        if sku in image_type_labels:
+            label_info = image_type_labels[sku]
+            image_type = label_info["image_type"]
+            provenance["image_type"] = label_info["provenance"]
 
         image_urls = [entry["imageUrl"]] + [
             u for u in entry.get("secondaryImageUrl", []) if u
@@ -100,6 +114,7 @@ def clean() -> list[Product]:
                 price_inr=entry.get("sellingPrice"),
                 image_urls=image_urls,
                 primary_image=None,
+                image_type=image_type,
                 in_stock=entry.get("inStock"),
                 source_url=SOURCE_URL_TMPL.format(sku=sku),
                 attr_provenance=provenance,
@@ -122,10 +137,13 @@ def _write_validation_report(products: list[Product], snapshot_date: str) -> Non
     n = len(products)
     by_type: dict[str, int] = {}
     by_collection: dict[str, int] = {}
+    by_image_type: dict[str, int] = {}
     for p in products:
         by_type[p.product_type] = by_type.get(p.product_type, 0) + 1
         key = p.collection or "(none)"
         by_collection[key] = by_collection.get(key, 0) + 1
+        image_key = p.image_type or "(unclassified)"
+        by_image_type[image_key] = by_image_type.get(image_key, 0) + 1
 
     def missing_share(field: str) -> float:
         missing = sum(
@@ -155,6 +173,7 @@ def _write_validation_report(products: list[Product], snapshot_date: str) -> Non
         "n_products": n,
         "counts_by_product_type": by_type,
         "counts_by_collection": by_collection,
+        "counts_by_image_type": by_image_type,
         "missingness": {f: missing_share(f) for f in fields},
         "price_inr": {
             "min": min(prices) if prices else None,

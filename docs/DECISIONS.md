@@ -164,3 +164,54 @@ encoding all 472 images still took ~10s.
 when available; would also be noticeably slower at larger catalog sizes or in Phase 2/3
 re-runs). Padding the image processor's crop size to sidestep interpolation entirely — not
 worth the extra indirection for a one-line, officially-documented fallback.
+
+## 2026-09-11 — image_type QC labeling: method, thresholds, and calibration
+
+**Decision.** Added `pipeline/image_classify.py`, producing `image_type` (`"packshot"` |
+`"lifestyle"`) + provenance (`"heuristic"` | `"user_confirmed"`) per product. Purely
+QC/metadata (see the module docstring and Product.image_type's comment in
+`pipeline/schema.py`) — it does not touch preprocessing, encoding, or fused scoring, and
+isn't shopper-facing.
+**Method.** Reused the 5% border strip already sampled for the whiteness score
+(`pipeline/images.py._border_stats`), but classify on its **standard deviation** across
+R/G/B samples rather than a hard whiteness threshold. A plain studio backdrop — white,
+off-white, grey, or a solid color — is nearly flat regardless of its actual color, so std
+stays low; a person's face/hair or a styled scene varies a lot, so std is high.
+**Why not the whiteness score alone.** It only detects *white* backgrounds. Several
+legitimate packshots use an off-white/grey or solid-color backdrop (confirmed by
+inspection) and would score near 0 on whiteness despite being clean product-only photos —
+std doesn't have that blind spot.
+**Why not a bespoke face/skin detector or a vision-LLM call.** No proven-reliable face
+detector was already in the dependency set, and no LLM API key is configured yet at this
+point in the roadmap (D4/Phase 2 comes right after this) — reusing the existing border-stats
+pass was both cheaper and already most of the way there.
+**Thresholds** (`PACKSHOT_STD_MAX = 25`, `LIFESTYLE_STD_MIN = 70`) were calibrated by manually
+viewing images across the std range, not guessed:
+- std ≤ ~20 (e.g. a necklace+earring set at std=15, a filigree earring at std=25): confirmed
+  clean packshots even where the product's own silhouette (wide tops, long chains) pushes
+  into the border-sampling zone and adds some variance.
+- std ≈ 45 (an earring with hooks reaching near the top border): also a confirmed packshot —
+  this is what pushed `PACKSHOT_STD_MAX` down to 25 rather than higher, to keep this kind of
+  case in the ambiguous band rather than getting it wrong confidently.
+- std ≈ 55–116: confirmed lifestyle photos (worn on an ear, a full face/portrait shot).
+- One inset-thumbnail composite (a packshot with a small model-photo corner insert) landed at
+  std≈67 and would have been a false "confident lifestyle" at a lower threshold — this is why
+  `LIFESTYLE_STD_MIN` sits at 70 rather than 55–60, even though it pushes a same-std confirmed
+  lifestyle photo into "ambiguous" too. Erring toward a wider ambiguous band was the
+  deliberate choice, since ambiguous cases get a human review step and confident ones don't.
+- Two images had low std *and* low brightness (a bracelet on a black velvet display prop) —
+  confirmed these are still packshots in the sense that matters here (staged, product-only,
+  no person), which is why classification is std-only, with no brightness floor.
+**Result on the full catalog:** 364 confident packshot, 21 confident lifestyle, 87 ambiguous
+(a proposed label — whichever threshold it's closer to — is still attached to ambiguous
+items, but stays `provenance: "heuristic"` until a human confirms it).
+**Known limitation.** Border stats can't distinguish "busy but still a packshot" (multiple
+items in frame, a product silhouette that reaches the border) from "genuinely styled/worn"
+in the 25–70 std band by design — that's exactly the band that goes to manual review rather
+than being auto-labeled, and it will keep containing some real packshots alongside real
+lifestyle photos every time this is rerun on new products.
+**Ambiguous-case review:** `pipeline/image_review.py:build_ambiguous_sheet()` renders every
+ambiguous item (proposed label + std, bordered by that proposed label's color) to
+`artifacts/eval/figures/ambiguous_review.png`, indexed by
+`artifacts/eval/ambiguous_review_index.json`, for the user to confirm or correct before any
+of those 87 labels are treated as final.

@@ -68,8 +68,15 @@ def download_all(products: list[dict]) -> dict[str, list[str]]:
     return local_paths
 
 
-def _border_whiteness_score(img: Image.Image) -> float:
-    """Share of border-strip pixels with all RGB channels >= threshold."""
+def _border_stats(img: Image.Image) -> dict:
+    """Stats over the same 5% border strip: whiteness share, mean brightness, std.
+
+    `std` (population stdev of all R/G/B samples in the border) is also the
+    input to pipeline/image_classify.py's packshot-vs-lifestyle heuristic: a
+    plain studio backdrop is a nearly flat color (low std) regardless of
+    whether that color is white, off-white, grey, or a solid backdrop; a
+    person's face/hair or a styled scene is not (high std).
+    """
     rgb = img.convert("RGB")
     w, h = rgb.size
     bw = max(1, int(w * BORDER_FRACTION))
@@ -81,15 +88,37 @@ def _border_whiteness_score(img: Image.Image) -> float:
 
     total = 0
     white = 0
+    samples: list[int] = []
     for x in range(w):
         for y in list(range(0, bh)) + list(range(h - bh, h)):
+            pixel = px[x, y]
             total += 1
-            white += is_white(px[x, y])
+            white += is_white(pixel)
+            samples.extend(pixel)
     for y in range(bh, h - bh):
         for x in list(range(0, bw)) + list(range(w - bw, w)):
+            pixel = px[x, y]
             total += 1
-            white += is_white(px[x, y])
-    return white / total if total else 0.0
+            white += is_white(pixel)
+            samples.extend(pixel)
+
+    mean_brightness = sum(samples) / len(samples) if samples else 0.0
+    if samples:
+        variance = sum((s - mean_brightness) ** 2 for s in samples) / len(samples)
+        std = variance**0.5
+    else:
+        std = 0.0
+
+    return {
+        "whiteness": white / total if total else 0.0,
+        "mean_brightness": mean_brightness,
+        "std": std,
+    }
+
+
+def _border_whiteness_score(img: Image.Image) -> float:
+    """Share of border-strip pixels with all RGB channels >= threshold."""
+    return _border_stats(img)["whiteness"]
 
 
 def _pad_to_square(img: Image.Image, pad_color) -> Image.Image:
@@ -111,13 +140,18 @@ def select_packshots(local_paths: dict[str, list[str]]) -> dict[str, dict]:
     for sku, paths in tqdm(local_paths.items(), desc="scoring packshots"):
         if sku in overrides:
             chosen = str(IMAGES_DIR / sku / overrides[sku])
-            score = _border_whiteness_score(Image.open(chosen))
+            stats = _border_stats(Image.open(chosen))
         else:
-            scores = [_border_whiteness_score(Image.open(p)) for p in paths]
-            best_i = max(range(len(scores)), key=lambda i: scores[i])
+            all_stats = [_border_stats(Image.open(p)) for p in paths]
+            best_i = max(range(len(all_stats)), key=lambda i: all_stats[i]["whiteness"])
             chosen = paths[best_i]
-            score = scores[best_i]
-        results[sku] = {"primary_image": chosen, "whiteness_score": round(score, 4)}
+            stats = all_stats[best_i]
+        results[sku] = {
+            "primary_image": chosen,
+            "whiteness_score": round(stats["whiteness"], 4),
+            "border_mean_brightness": round(stats["mean_brightness"], 4),
+            "border_std": round(stats["std"], 4),
+        }
     return results
 
 
@@ -135,11 +169,17 @@ def preprocess_and_thumbnail(packshots: dict[str, dict]) -> None:
         thumb.save(THUMBS_DIR / f"{sku}.webp", "WEBP", quality=85)
 
 
+PACKSHOT_SCORES_PATH = ARTIFACTS_DIR / "eval" / "packshot_scores.json"
+
+
 def main() -> None:
     products = _load_catalog()
     local_paths = download_all(products)
     packshots = select_packshots(local_paths)
     preprocess_and_thumbnail(packshots)
+
+    PACKSHOT_SCORES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    PACKSHOT_SCORES_PATH.write_text(json.dumps(packshots, indent=2))
 
     low_score = sorted(
         ((sku, v["whiteness_score"]) for sku, v in packshots.items()),

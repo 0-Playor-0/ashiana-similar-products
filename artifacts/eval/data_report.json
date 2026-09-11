@@ -20,6 +20,10 @@
     "zircon": 6,
     "kundan": 9
   },
+  "counts_by_image_type": {
+    "packshot": 432,
+    "lifestyle": 40
+  },
   "missingness": {
     "description_raw": 0.0,
     "collection": 0.7119,

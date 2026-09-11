@@ -1,0 +1,3306 @@
+{
+  "00574893-9892-4a0e-9e6d-79e3aa54f561": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "009e44c8-d247-4514-a0da-f71537ec1569": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 50.8468,
+    "whiteness_score": 0.8396
+  },
+  "00ec5a43-af77-48a8-9bf1-db44d6a379a4": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 30.7506,
+    "whiteness_score": 0.9008
+  },
+  "01311aee-ed32-415a-87a6-841648e1f0b5": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 27.5024,
+    "whiteness_score": 0.8362
+  },
+  "0215a388-4868-473d-b912-f771f624ba0e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "02c7da87-f22c-4e98-8665-4e45659f480f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.3075,
+    "whiteness_score": 0.9749
+  },
+  "030898df-6ea1-400f-a033-25c91cbb199d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.1651,
+    "whiteness_score": 0.9995
+  },
+  "036831b3-c315-4cf9-80fe-dcd9622e63ae": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 26.1506,
+    "whiteness_score": 0.9418
+  },
+  "044e0065-dd9a-43b6-ad5f-9d7d1e531344": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.335,
+    "whiteness_score": 1.0
+  },
+  "04cddc39-7a86-4de4-a682-14ad7f2b24c8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.347,
+    "whiteness_score": 0.9999
+  },
+  "055be6ca-0f9a-41d3-93de-e48af85afac4": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 55.2167,
+    "whiteness_score": 0.3681
+  },
+  "059ee2b7-2f75-4c54-884c-03e55b78ef25": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.4922,
+    "whiteness_score": 0.9924
+  },
+  "0622d937-a493-4496-96b4-6e64fe164f4a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.5632,
+    "whiteness_score": 0.9995
+  },
+  "0648687f-ed22-4d6b-bf93-26b1d1211e77": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.4173,
+    "whiteness_score": 0.0
+  },
+  "06f7f2fc-db98-4de7-922c-02c4dcead13d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "078b89da-9eeb-49a0-a606-1bc026ade922": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "080b2c8a-6896-4854-9eee-2ce31f0aa681": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 21.4008,
+    "whiteness_score": 0.0001
+  },
+  "08bcbbe1-f36e-42e0-98b1-5e4c44ae9091": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 45.5651,
+    "whiteness_score": 0.6122
+  },
+  "090031cf-0797-430f-a7c3-89c2caac71af": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "0904cd9e-6216-4568-8a09-d25e6179808c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 8.9646,
+    "whiteness_score": 0.0177
+  },
+  "09f9d97e-a0ff-4eff-80b7-9c501967ee7d": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 116.0112,
+    "whiteness_score": 0.4631
+  },
+  "0a0e7b1e-0b9b-4269-b4d1-4aa630a9682d": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 80.7446,
+    "whiteness_score": 0.0
+  },
+  "0a1e3ed0-43d8-4174-8c24-c7c2c8bd9f4f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "0ab1b514-1c3b-4a0b-8809-8a3d2ff5e9f1": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.1603,
+    "whiteness_score": 0.9636
+  },
+  "0acf8653-5ceb-4edb-ad22-a87d6148d725": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "0b0053d9-4afb-4577-ab73-bf238bb45bb0": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 43.1769,
+    "whiteness_score": 0.8495
+  },
+  "0b33144d-4b61-4679-b3d1-0418ad3437c6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "0c4eaccd-17f2-4177-b75e-128d0bb4e7a3": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.6436,
+    "whiteness_score": 0.9997
+  },
+  "0c740c71-cb30-43c5-b7f4-d5f2ab76a95b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.7028,
+    "whiteness_score": 0.8293
+  },
+  "0deb5445-9429-4db2-815e-5c9aca7674cc": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.0912,
+    "whiteness_score": 0.9776
+  },
+  "0e2ac12a-eb6a-4a77-8940-3ed8309b46cf": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 40.0547,
+    "whiteness_score": 0.9071
+  },
+  "0f2cddc5-fec4-4085-ad39-d3556c2df61b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.9102,
+    "whiteness_score": 0.972
+  },
+  "0fa6fc6f-5acc-4fb4-a077-2ca9884e9e7b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 15.4533,
+    "whiteness_score": 0.9529
+  },
+  "106d5488-d378-47bd-8498-33c6296e708a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "11c992fb-e396-44d3-a248-1664f086d99f": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 52.991,
+    "whiteness_score": 0.0003
+  },
+  "124ff442-becc-4ddb-bb38-bb2f79dc96c8": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 27.8893,
+    "whiteness_score": 0.9264
+  },
+  "12b2c421-8561-42dd-aa55-384ed48c7a38": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 41.366,
+    "whiteness_score": 0.9334
+  },
+  "12e3e1a2-0cf6-4eed-896b-6d682f05bfb4": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 43.498,
+    "whiteness_score": 0.8709
+  },
+  "13679d4b-00a0-4b56-82c0-0bef38924ba7": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 43.8306,
+    "whiteness_score": 0.8665
+  },
+  "13a6a5c5-1d37-4a04-9a48-3de26f4a0256": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.4205,
+    "whiteness_score": 0.955
+  },
+  "14cc46b0-6b85-4627-b9fa-82e6c92bb1b2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.5835,
+    "whiteness_score": 0.9878
+  },
+  "14f8be70-bc3a-4a6b-b18e-95c1c205e381": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.4267,
+    "whiteness_score": 0.9914
+  },
+  "15942bc7-8371-478d-9d96-f83093ce7892": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0903,
+    "whiteness_score": 1.0
+  },
+  "1612f8a5-4bd1-435f-beef-25be3f7c50e6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.6406,
+    "whiteness_score": 0.9937
+  },
+  "161e1207-626c-46d1-926e-023d9f0e2aa8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "162dc3eb-7e0b-41fd-8b6a-c43c38fb7ec3": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.0299,
+    "whiteness_score": 0.9814
+  },
+  "16a5b95c-a471-4153-8319-b19f7da5472a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0497,
+    "whiteness_score": 1.0
+  },
+  "16cadefb-f209-42ac-87e0-4748f0b5855f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 22.9472,
+    "whiteness_score": 0.8672
+  },
+  "174a8dc8-9b40-48ff-9b4d-70f6b92328a8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "182d1f49-e12d-4337-8909-fe2390d3192c": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.1146,
+    "whiteness_score": 0.8885
+  },
+  "18626959-6e3b-4934-b034-6b36abb54f71": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.1351,
+    "whiteness_score": 1.0
+  },
+  "192dfb59-d992-4089-95d7-cb11818f41d5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "19325cb0-02cd-4492-9618-75034eeb5bd2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.0727,
+    "whiteness_score": 0.9935
+  },
+  "193cd7b3-ecb7-4d19-a862-2bbbc8f65777": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "19ef1bf2-0496-4292-81cb-b9b970b92ed0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "1a966b23-f552-4d89-90f3-ed359a3fd5dd": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.774,
+    "whiteness_score": 0.9981
+  },
+  "1c1772cc-2393-4ada-98da-568104a0f96d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.5813,
+    "whiteness_score": 1.0
+  },
+  "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2967,
+    "whiteness_score": 1.0
+  },
+  "1c94094e-134e-421a-b859-38070730907a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.6773,
+    "whiteness_score": 0.9628
+  },
+  "1d3a15ad-3da3-4e8d-8906-90257880cebd": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "1d4459af-8b7b-48e1-a671-1ee2a750da83": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.4403,
+    "whiteness_score": 1.0
+  },
+  "1d65e607-f627-4583-bde8-c1e3101d0361": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "1da257ec-8553-4244-b940-faca5a2e67bb": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.3099,
+    "whiteness_score": 0.9956
+  },
+  "1e5beeb0-8865-4128-912f-30fc2a381c68": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 16.0931,
+    "whiteness_score": 0.941
+  },
+  "1f0d9bd9-5ede-472d-bd6f-4f4e4c0de8d0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.7816,
+    "whiteness_score": 0.996
+  },
+  "1f0f7e73-5d82-44b3-ac91-4f5e780fab35": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 39.1581,
+    "whiteness_score": 0.924
+  },
+  "1f89d63f-a6e0-4f8a-bb6e-18972d4a8516": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.1124,
+    "whiteness_score": 1.0
+  },
+  "217f6e00-80e3-4c64-8e0c-42c8a4e73377": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.0331,
+    "whiteness_score": 0.8901
+  },
+  "223173a2-927c-42f0-a213-a027fad0089c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "227872b8-ca4c-4ebb-bd24-cc5ea5a403c2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 19.0923,
+    "whiteness_score": 0.9323
+  },
+  "22a88784-733b-4f0e-9b75-456e00b636ff": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.5522,
+    "whiteness_score": 1.0
+  },
+  "22c0aa23-bd27-44b9-b767-9c6ab79df39c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.9601,
+    "whiteness_score": 0.9931
+  },
+  "23e2aca9-920e-4dc6-93be-f1216961d23f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "24011c13-1488-4eab-8556-b343c126a818": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 40.0846,
+    "whiteness_score": 0.8755
+  },
+  "252a3fdf-620d-4713-bf32-323dd409d005": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 26.5845,
+    "whiteness_score": 0.9442
+  },
+  "25626c1a-e25e-4e50-978f-72c64a4210ad": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0829,
+    "whiteness_score": 1.0
+  },
+  "2684abee-e688-44ce-8999-e97f72a896ec": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.3358,
+    "whiteness_score": 0.9708
+  },
+  "286b0862-e8be-43bb-9c19-2d858b3be7cf": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 83.3306,
+    "whiteness_score": 0.1164
+  },
+  "28b9a9e7-451b-4ade-be22-b93333299e64": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.3736,
+    "whiteness_score": 0.9847
+  },
+  "28e78a03-7497-43c2-a4a2-133e524841c7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "2b6a4a18-6496-4837-9ada-8513aff6c154": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.8764,
+    "whiteness_score": 0.9922
+  },
+  "2ba991f2-0273-481d-8dad-a19100b5ff86": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 25.4971,
+    "whiteness_score": 0.8546
+  },
+  "2c772d8b-8eeb-41e3-a80f-6e0069f4bd93": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 26.6813,
+    "whiteness_score": 0.9434
+  },
+  "2cc6af2e-fb2f-4688-b2d7-4e492df46135": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "2ce0d0e9-1b53-4125-a062-d8af611eb045": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 22.6366,
+    "whiteness_score": 0.8926
+  },
+  "2cf83134-2684-439f-976c-4eb7563387d7": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 29.095,
+    "whiteness_score": 0.8689
+  },
+  "2d8a3dda-b3d0-4373-96d0-f6410602aaaf": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "307318e6-9733-4802-9799-c6a26c95f15c": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 88.896,
+    "whiteness_score": 0.0
+  },
+  "307f6bb7-d6da-42ee-8446-da628ae076a2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "31185356-4a3b-47b3-80d7-e413b01eec07": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "311c3545-1b94-4b18-937d-f96841924713": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 45.7441,
+    "whiteness_score": 0.8548
+  },
+  "314c97a9-00e6-436a-b44d-b5b23e91f36f": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 40.9955,
+    "whiteness_score": 0.8272
+  },
+  "31629cd2-8514-43b8-b261-f3a34423e83d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 10.343,
+    "whiteness_score": 0.9734
+  },
+  "31eb1a9e-f73b-4fb9-83fd-89ffc2cb522e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "32074064-19d4-442b-a0dd-ec81f81226aa": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 34.3875,
+    "whiteness_score": 0.8266
+  },
+  "325b5cb7-913f-4585-ac0b-846664c41cbc": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "32c7b479-a24d-43f0-ad46-9712ba621bba": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 67.413,
+    "whiteness_score": 0.0173
+  },
+  "32d40516-7e17-4c8b-94db-cb926db48099": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.5697,
+    "whiteness_score": 0.9958
+  },
+  "33ae41cf-0274-4559-9b51-71775bf5f082": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 16.3672,
+    "whiteness_score": 0.9516
+  },
+  "340f33a5-ae65-44c2-9dc6-57eacdf00594": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2016,
+    "whiteness_score": 1.0
+  },
+  "34ee2a16-7864-48ef-a72a-df4b5cac52dc": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.661,
+    "whiteness_score": 0.9918
+  },
+  "3500edb2-4133-4bb7-a174-72fa66b64882": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "360712e4-a0ce-46d1-be2f-e68d4dc9a9af": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0316,
+    "whiteness_score": 1.0
+  },
+  "376b39b6-b55e-4927-91c3-b68ff5a8ff6d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.2194,
+    "whiteness_score": 0.9992
+  },
+  "37d89dff-cfff-46a9-b4d4-2177d350e910": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.31,
+    "whiteness_score": 0.9973
+  },
+  "38d8a44a-8f42-4256-aa10-4746899c767d": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 40.8175,
+    "whiteness_score": 0.8693
+  },
+  "3990ada6-4367-4ed7-bcc5-0fe4e4fd5396": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0055,
+    "whiteness_score": 1.0
+  },
+  "3ab39bbf-f1f6-47bf-bc79-efe58728794f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.1148,
+    "whiteness_score": 1.0
+  },
+  "3ae1fbfc-c118-49fa-a587-0e96fbeec1b0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.4903,
+    "whiteness_score": 0.9885
+  },
+  "3b35999f-8dfc-472d-8c82-efa37e16bcc5": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 52.8567,
+    "whiteness_score": 0.7746
+  },
+  "3b583c60-d6df-4666-8035-5a32d29bd91e": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 95.7622,
+    "whiteness_score": 0.5281
+  },
+  "3b8f32b1-2199-41c8-9ca8-0cd1f9e9c491": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 25.8143,
+    "whiteness_score": 0.9636
+  },
+  "3c8e532d-c43d-45fa-b021-5281e12f6679": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "3e23eb2a-adb4-4443-8dd7-bd83d86afc60": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.0512,
+    "whiteness_score": 0.9995
+  },
+  "3f34cd25-c139-40ac-9147-582dc93e5513": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "3f8099a6-ae7e-48ff-95ea-dfd2c15614b6": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 36.2664,
+    "whiteness_score": 0.8601
+  },
+  "3fb6cb67-b08c-4e98-add1-0ffa73b0a81a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.1769,
+    "whiteness_score": 1.0
+  },
+  "3fc4e596-117b-40e9-94c0-2c0de73aa1fd": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 38.2604,
+    "whiteness_score": 0.0014
+  },
+  "40d6c308-e5fb-417c-a644-f6e5e99163af": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "426bc0d0-3e63-46d5-9255-48486e7fce79": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "437e3a93-cd0d-4456-9ede-71115cbe6a83": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.4104,
+    "whiteness_score": 0.9987
+  },
+  "439c3a48-9012-42ca-a246-8e153dd9a571": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.4742,
+    "whiteness_score": 1.0
+  },
+  "451a1fae-c4ad-43c9-ab31-0ff048b13c2b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.2613,
+    "whiteness_score": 0.9924
+  },
+  "4576d8d7-1a6c-4f21-8a44-8f45c5a0cfbe": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 18.5308,
+    "whiteness_score": 0.9442
+  },
+  "475e6d91-9ec1-4e8f-82ba-89c99c378c09": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.1183,
+    "whiteness_score": 0.9915
+  },
+  "47a97cc0-92ad-4433-8cdc-bf0512e5460e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.1735,
+    "whiteness_score": 1.0
+  },
+  "4830add6-afcb-4ed3-8fa7-4f1eba69881b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "48652777-5448-4d33-a5e7-b3c646b465c9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.2553,
+    "whiteness_score": 1.0
+  },
+  "49041153-12e9-4993-a1c6-e81d9f49cf3e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "49bf98f3-54d2-4f85-a83b-11b383f41d7f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.013,
+    "whiteness_score": 1.0
+  },
+  "49c0ccb2-0276-4ecc-8e9d-bdb36c131479": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "4ad8fd3b-e886-47d3-a3ec-599ed80f25a5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "4b80ff1d-f9de-42ac-b6b0-6088dc69e9ff": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.9065,
+    "whiteness_score": 0.9551
+  },
+  "4bed8d81-e8c4-4db7-99bb-f2425ba50a89": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0102,
+    "whiteness_score": 1.0
+  },
+  "4c8a73d2-f807-48b6-b679-d6f75a06e2f9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.1355,
+    "whiteness_score": 0.9885
+  },
+  "4d1ab641-8a2b-4055-9b75-6ea225f1841f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "4d772919-27e0-417c-a2d8-62f2d73ea4d3": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.2275,
+    "whiteness_score": 0.9991
+  },
+  "4dea82d0-0d16-40d9-91c6-1aa5274f2925": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.8643,
+    "whiteness_score": 0.9842
+  },
+  "4e6447c6-d011-4f32-aaeb-66d20d4e198b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 20.1636,
+    "whiteness_score": 0.9407
+  },
+  "4f2017a4-f0b3-4957-9efc-a051a1b88685": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.5609,
+    "whiteness_score": 0.9931
+  },
+  "4f2c5174-4ebd-411a-bf22-b577461f4d95": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.7127,
+    "whiteness_score": 0.9998
+  },
+  "4f4bfbe2-d232-4b80-af42-d64cf5cd9232": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.71,
+    "whiteness_score": 0.9999
+  },
+  "4fd8e6db-5f83-4b80-ba97-609dbb74b587": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 15.0134,
+    "whiteness_score": 0.9414
+  },
+  "4fe6b6d2-23e7-48cd-acba-e25a63ce1b20": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0184,
+    "whiteness_score": 1.0
+  },
+  "50d3e0ac-804c-4165-8002-35119d9ce4d6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.275,
+    "whiteness_score": 1.0
+  },
+  "51adff02-f79b-4d4c-9312-1f5e2847f758": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "51d80c35-b43b-4a35-9f57-15a4e83dceac": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.4688,
+    "whiteness_score": 0.8913
+  },
+  "52c61d96-eb80-47ae-a49f-74e867365149": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.0145,
+    "whiteness_score": 0.9994
+  },
+  "52d9a8dc-014f-47fd-9ba6-02ba2f63fd59": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "52e01d2c-f0d1-4468-98f4-794189e88141": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "536308fb-862a-4356-91e8-bf5659d1a5c1": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "54351102-70eb-4bf5-ab4c-55fdbed6a9b5": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 104.5063,
+    "whiteness_score": 0.3016
+  },
+  "546591c8-6344-40a6-8519-1ecc99b3eac6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0092,
+    "whiteness_score": 1.0
+  },
+  "549cc6fc-f795-4850-bfbd-49769aaad454": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "54a90cab-9e7e-4569-b0ef-f36b995cacbe": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 25.8679,
+    "whiteness_score": 0.8398
+  },
+  "54d77919-871e-46f5-8485-99c886b1c921": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.7687,
+    "whiteness_score": 0.9999
+  },
+  "57124daf-a76c-4c49-b363-7b5d7b97a5f4": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.9518,
+    "whiteness_score": 1.0
+  },
+  "574f44e4-67be-461b-a762-49a4be2b4e2f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "5759faf5-8ac3-4fc3-954e-97d7988f3156": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.0732,
+    "whiteness_score": 0.9996
+  },
+  "5775355d-27d3-463f-b7a4-dc136ccde027": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.5482,
+    "whiteness_score": 1.0
+  },
+  "57ecff26-69c3-4a97-856a-702f77d70a7b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.3927,
+    "whiteness_score": 0.9969
+  },
+  "5801eb4c-7795-49bf-89be-d7f78d182033": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 90.5991,
+    "whiteness_score": 0.7445
+  },
+  "585721c8-65aa-4ceb-b712-93cbe794d19f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.087,
+    "whiteness_score": 0.9923
+  },
+  "5a4d8d63-6fc4-4beb-bc8b-650436b1c70c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2042,
+    "whiteness_score": 1.0
+  },
+  "5af4eaab-86d6-43b3-aa6a-7cf708ab1678": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 34.4308,
+    "whiteness_score": 0.9221
+  },
+  "5b0588e2-8971-4f45-a83b-238e94019c18": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.0749,
+    "whiteness_score": 0.9991
+  },
+  "5bb2f708-1c72-47d5-a703-520a4961ac20": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 112.197,
+    "whiteness_score": 0.3998
+  },
+  "5c29e09c-99b8-4f5b-88a2-d90bdba9b224": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.5322,
+    "whiteness_score": 0.9998
+  },
+  "5da2286f-f7aa-4ed5-9082-08ddfd30d055": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 64.1779,
+    "whiteness_score": 0.0
+  },
+  "5daa732b-5606-42ec-b5ba-cf8e188e2f3c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.9073,
+    "whiteness_score": 0.998
+  },
+  "5dc27e3c-58d6-4030-a13e-89ec02bdaec8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.7666,
+    "whiteness_score": 0.991
+  },
+  "5e20f528-a222-4e63-a6ec-85cfda61612c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "5e5a4496-977a-4d79-aa7c-8fe70f7b0104": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "5e8c8ae2-7fb0-4058-a143-764eca2ecd48": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "5ec142c2-78a5-417b-a696-b5ff9ccac7e1": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.1292,
+    "whiteness_score": 1.0
+  },
+  "5ed15d5b-0ca2-477b-a5e0-c248a020eb2f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 18.2464,
+    "whiteness_score": 0.9704
+  },
+  "60ffa427-5047-4717-9a87-f6a9dc97fc3e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.1165,
+    "whiteness_score": 0.9813
+  },
+  "6120c39d-f76d-498b-a29d-e2cbbdb4c439": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.8053,
+    "whiteness_score": 0.9738
+  },
+  "6224aebe-3bf5-4766-82a9-90909704cb52": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "6239d817-e434-4f16-8f94-d92d721207b8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.5835,
+    "whiteness_score": 1.0
+  },
+  "623c6932-b8d4-4c48-a279-1cf6a9bc2940": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.2965,
+    "whiteness_score": 0.9674
+  },
+  "62418905-f32b-467c-91c8-5421610e84d5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.9012,
+    "whiteness_score": 0.9589
+  },
+  "63500c19-d9b2-432c-b2bc-b1b6dbb2ad14": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2133,
+    "whiteness_score": 1.0
+  },
+  "63ba4a7f-5b57-4cf4-98b3-e7766dda5ef6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.7003,
+    "whiteness_score": 0.9954
+  },
+  "64442b26-9ad1-4a41-9906-194c1890f4eb": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 44.502,
+    "whiteness_score": 0.8638
+  },
+  "64d03cb4-36d8-460b-8b81-5465acf90a99": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "669a0bb9-1550-4643-ba0f-0f6b399b0db8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.1425,
+    "whiteness_score": 0.9991
+  },
+  "6761b874-c367-4d4d-9b63-d4c39d3d03dd": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 78.8306,
+    "whiteness_score": 0.5505
+  },
+  "67977914-0b78-4593-8a0c-8b86b4a8bc8d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.2389,
+    "whiteness_score": 1.0
+  },
+  "68d8cba0-2606-4ff4-82cb-e67959b2184e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "68f00061-1356-4cad-810e-052a58dbe38a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "6922f2e3-7f7e-491a-8ad7-93d0357c36d4": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.6011,
+    "whiteness_score": 0.9937
+  },
+  "6924881b-b692-456e-9585-1cb1641c9208": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "6967ff3e-a491-4bf7-8273-87134ab24655": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0072,
+    "whiteness_score": 1.0
+  },
+  "69d1baca-638d-43ea-8306-893be2c6d948": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 7.1175,
+    "whiteness_score": 0.9939
+  },
+  "69f322e2-6395-47bd-8ea5-4455c5469cf7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.3962,
+    "whiteness_score": 0.9752
+  },
+  "6a43fcd6-64e5-4ef5-a75b-54a6f0da8fd3": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "6b44ba17-54e8-480b-9605-31707c6bb012": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 6.6439,
+    "whiteness_score": 0.9909
+  },
+  "6b7b42f7-d94d-4ab9-88ca-6a2fcebd645d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 6.3051,
+    "whiteness_score": 0.9963
+  },
+  "6bec90f9-20a0-4419-9977-358701f8f127": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "6bfa214b-10b9-4074-959d-d196eb420e14": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 23.5782,
+    "whiteness_score": 0.9559
+  },
+  "6f3ae04a-b6e3-4b7d-b5fd-c546e8dc2588": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 10.4902,
+    "whiteness_score": 0.995
+  },
+  "7064722b-69ad-47b9-b896-620481980428": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.6576,
+    "whiteness_score": 0.9972
+  },
+  "709cff04-f308-4549-8092-b91fa74b44ce": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.4494,
+    "whiteness_score": 1.0
+  },
+  "71425855-a6c0-486d-bb71-744f59859e47": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 21.7866,
+    "whiteness_score": 0.9397
+  },
+  "71458c00-16e4-45c6-b571-9bbb9989a58b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.0808,
+    "whiteness_score": 0.9915
+  },
+  "73b4f1ef-b68b-4b50-ac0f-59d26bdcf04d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "73c8da3a-4592-483d-9902-43dfc9b9c002": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "73fe1d37-f54d-4c25-928c-369bc51b3e1f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.3529,
+    "whiteness_score": 0.7628
+  },
+  "7532126a-9c61-4a30-a5c7-4515a84d530e": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 51.5804,
+    "whiteness_score": 0.0
+  },
+  "766d4947-b7fe-42a4-901b-44ce7762428f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.4167,
+    "whiteness_score": 1.0
+  },
+  "768bb1ed-bfdd-4eda-8921-ee5f47de5582": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.4176,
+    "whiteness_score": 0.997
+  },
+  "76f97fa4-9d20-4921-9c20-37d2bc45e3fd": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.3687,
+    "whiteness_score": 0.9812
+  },
+  "77e85433-89f1-4c7c-983e-2f86cca1bb54": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 34.5502,
+    "whiteness_score": 0.957
+  },
+  "78927c01-334e-46e6-a436-502081e16333": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.8436,
+    "whiteness_score": 0.9182
+  },
+  "78d2891e-2d77-4298-957c-d100887e4d25": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "7a44699b-5b74-4ff8-895a-63bb872981a2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "7ae8373d-4bed-4659-a1ce-267afec8235d": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 40.6595,
+    "whiteness_score": 0.9314
+  },
+  "7bee8a4a-7bdc-49bc-afef-c3225656d0e8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 20.2119,
+    "whiteness_score": 0.9597
+  },
+  "7bf429b2-db24-44ff-bda1-067fca93cfe8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.8355,
+    "whiteness_score": 0.9963
+  },
+  "7bf84f07-7108-40d3-85a8-8d69ba3d25d5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.2284,
+    "whiteness_score": 0.9968
+  },
+  "7c47317a-740f-4e00-a665-71ea9a39b928": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 53.0721,
+    "whiteness_score": 0.8093
+  },
+  "7eb9c7b0-d1a3-4441-a496-3c030a3b9ff7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "7fe98dcc-2fcf-4414-9cf7-23ec27148b4c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.3576,
+    "whiteness_score": 0.9998
+  },
+  "7ff00767-5f88-4724-8ec3-67b7951d33ff": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.4233,
+    "whiteness_score": 1.0
+  },
+  "800442cf-4989-4fda-81cb-86c60e7bb1e4": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.4195,
+    "whiteness_score": 1.0
+  },
+  "80d81f69-3b89-4228-bd9c-3d9e9acbc724": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 22.381,
+    "whiteness_score": 0.9644
+  },
+  "81397d54-f075-4215-8949-b93981b87a23": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 8.1816,
+    "whiteness_score": 0.9959
+  },
+  "81414854-e166-4e6e-a4e7-59d43f2f8aef": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.3905,
+    "whiteness_score": 0.9478
+  },
+  "816f2727-d5dc-431b-9f88-ef3c73bcb68f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "81bae5bc-540d-4002-920b-dd25407ff362": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.1336,
+    "whiteness_score": 1.0
+  },
+  "8222e8c1-e802-4059-8cdd-f0c2f2c583a6": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 35.12,
+    "whiteness_score": 0.941
+  },
+  "8234f6c4-4f45-453e-8e60-e12e41474b8c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0231,
+    "whiteness_score": 1.0
+  },
+  "82928aae-7baf-40bd-ab0c-8479ef3a0ef7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2694,
+    "whiteness_score": 0.9999
+  },
+  "83ec637e-180a-4da2-9a7c-60b0357e2710": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "84548f3a-d0ed-4529-b286-726d8370c849": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.7181,
+    "whiteness_score": 0.9967
+  },
+  "84d4829b-33ca-43b0-a7ee-52cd8a562ffb": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 38.9094,
+    "whiteness_score": 0.8499
+  },
+  "84e68f38-02d0-4949-b92d-dbcee5bd85f9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.174,
+    "whiteness_score": 0.9999
+  },
+  "84fec94f-b5dc-4fff-a04e-623d1e464329": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.0601,
+    "whiteness_score": 0.9977
+  },
+  "85743842-7ce2-4141-a441-41bd9871558f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0693,
+    "whiteness_score": 1.0
+  },
+  "85ad974e-bdb9-4ba6-90a4-27177ba84c91": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "85b32c00-c784-4f97-b765-dd081aaf7c06": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.6717,
+    "whiteness_score": 0.9998
+  },
+  "86e5d299-fe67-4827-b15f-dfd2d45d82ca": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.3875,
+    "whiteness_score": 1.0
+  },
+  "880d6f34-7047-47d4-82bd-3968ff6f99e6": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 66.6759,
+    "whiteness_score": 0.8277
+  },
+  "88cc2e63-9f2d-4dd3-8bd0-26e969352d9d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.9892,
+    "whiteness_score": 0.9853
+  },
+  "8963b19c-9d59-499d-abdc-1e4c5dda2e67": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 28.1752,
+    "whiteness_score": 0.8606
+  },
+  "8a41af1b-d2f5-4fdf-b2b7-0135bfc77f4c": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 44.136,
+    "whiteness_score": 0.0119
+  },
+  "8aeb93ac-179c-4303-bf39-4e726f599a7b": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 63.0771,
+    "whiteness_score": 0.0
+  },
+  "8b488d0e-69d0-4b5f-b9dc-afdb5a224cb2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "8b9cc6d8-0e17-4102-a728-9602f454de55": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "8bc04c18-6526-4ce7-b52a-71a6e82fd785": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "8c2601b0-b1cd-4a74-a10b-0deeafd2134f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.1909,
+    "whiteness_score": 0.9962
+  },
+  "8c472f34-1974-43da-aaff-7b21cdc98c63": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "8c9a97e7-f0dd-415b-bfbd-d53ff415a495": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "8d428ef1-1b46-42ee-bf3b-485877c5732a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "8d591fc9-54ff-4416-8701-adfacede63d9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 20.0608,
+    "whiteness_score": 0.9753
+  },
+  "8d990bce-e2d4-4b94-814d-eb425afd6a30": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.8653,
+    "whiteness_score": 0.9975
+  },
+  "8fad4dcf-a448-458f-9095-ff04df9b8442": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.4912,
+    "whiteness_score": 0.9771
+  },
+  "8fe67e2e-18ce-482f-ac01-d3b5580955d0": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.5131,
+    "whiteness_score": 0.8758
+  },
+  "90d2930d-9cb7-4a21-b3cf-42028193bd70": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "90dd0ead-85af-4da9-aebb-61b15928646c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 23.3761,
+    "whiteness_score": 0.9783
+  },
+  "90f1cf2e-2825-4c86-aecd-3f3b1e612681": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 101.0152,
+    "whiteness_score": 0.6155
+  },
+  "91ce53bf-19e2-4a0b-bb70-bb4c72346ecd": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 44.43,
+    "whiteness_score": 0.8342
+  },
+  "9205727c-2b42-43e9-981d-00a1885dbd94": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 22.3323,
+    "whiteness_score": 0.9698
+  },
+  "9235d67b-536d-446f-a90b-96bd071c908a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 22.0657,
+    "whiteness_score": 0.9642
+  },
+  "92f1f4de-cd75-45e5-8706-d8d040d9af0b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 23.0849,
+    "whiteness_score": 0.9536
+  },
+  "942d6978-6e43-4310-bbb7-8a6bfcd57746": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "942f09d4-fd66-4e20-b4ea-d72bf857d0e4": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 20.3957,
+    "whiteness_score": 0.927
+  },
+  "94425c91-a163-4576-aa89-61fb5341d0f1": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 83.3306,
+    "whiteness_score": 0.1164
+  },
+  "950f21e1-1c71-4ebe-841e-c4ac0c60d5ca": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 24.8742,
+    "whiteness_score": 0.9149
+  },
+  "95ee0da6-021b-48c7-acbe-bea87cb1dd3d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.9786,
+    "whiteness_score": 0.9946
+  },
+  "96705fd7-5209-4c5d-848c-abf6b90c80a4": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "96fb06ef-bcf5-42a0-8256-8bba00c2eedb": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.5948,
+    "whiteness_score": 0.9994
+  },
+  "972aaf95-ba36-4c04-8224-be91b7ff0da5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.3931,
+    "whiteness_score": 0.9999
+  },
+  "9733eea6-01d1-4a8d-87de-3440dc79a800": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "975ca5e5-ca0a-4ada-bde1-dbe8c9198beb": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0317,
+    "whiteness_score": 1.0
+  },
+  "9827ec49-ce96-4574-919d-fb545c69cc4b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2224,
+    "whiteness_score": 1.0
+  },
+  "98fb7f0a-92f6-4502-b057-c59175e7d66d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0621,
+    "whiteness_score": 1.0
+  },
+  "99e76db5-95df-466a-9d64-adb2d6ce6b22": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.6865,
+    "whiteness_score": 0.9995
+  },
+  "99f38cf9-562d-4009-a279-5a265014dcd2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.3314,
+    "whiteness_score": 0.9589
+  },
+  "9ac4d037-0116-4f7b-872d-23dcbfc02c30": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 7.5525,
+    "whiteness_score": 0.992
+  },
+  "9b6cdcda-6302-4cd0-abec-723bf1773d7e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.1757,
+    "whiteness_score": 0.9963
+  },
+  "9c2109a1-2f7a-4527-9c89-bfe70a321179": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.7813,
+    "whiteness_score": 0.9732
+  },
+  "9ccbd80d-7060-4e18-a6ec-fccf0897c590": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "9d228c3e-1a30-4117-84a1-f8316f92b588": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "9d6d06f4-00f6-4149-ace0-e571949c849e": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 71.0952,
+    "whiteness_score": 0.0
+  },
+  "9d7700c9-4f67-48c3-8f6a-f69266d1704f": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 31.8366,
+    "whiteness_score": 0.9529
+  },
+  "a0344686-fdae-4749-83d7-2921fe38ece9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0726,
+    "whiteness_score": 1.0
+  },
+  "a1792977-f396-4041-afe2-b85533bd5178": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.6606,
+    "whiteness_score": 1.0
+  },
+  "a190b2a9-1f9b-4ad6-b2e5-6e8916ea9a08": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 55.5025,
+    "whiteness_score": 0.0351
+  },
+  "a1cf3de5-7f2d-4640-abf7-474d06750c3a": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 46.6959,
+    "whiteness_score": 0.0033
+  },
+  "a2903c8d-ffd9-44a9-a17c-de90a535f5d6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.5493,
+    "whiteness_score": 0.9962
+  },
+  "a3b0480b-68f2-44ac-b357-271e52378eaa": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 31.1314,
+    "whiteness_score": 0.8626
+  },
+  "a3cd6c37-829d-426b-8e71-ab4cefc3e2b2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.9951,
+    "whiteness_score": 0.9912
+  },
+  "a3ff5d4a-e544-424c-9e21-f4040006e409": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.9351,
+    "whiteness_score": 0.9858
+  },
+  "a463394e-c253-4de7-9ba3-9aea82491f0a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 21.7857,
+    "whiteness_score": 0.9607
+  },
+  "a47c7e58-0873-4941-b92b-e3b692726b0b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "a4d8e381-0479-47f8-b231-55e34549c344": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 6.9978,
+    "whiteness_score": 0.9954
+  },
+  "a55aa3da-c2bb-4787-8a4a-3113d1251f5e": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 39.1767,
+    "whiteness_score": 0.8385
+  },
+  "a58a8c6b-1edc-4248-931e-dc8ff11f5834": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 15.0615,
+    "whiteness_score": 0.9701
+  },
+  "a5b399ee-f874-43df-b000-c9e8f42627bb": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "a620d4be-aa3b-4dd1-9297-1487d0c0bca7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.1833,
+    "whiteness_score": 0.9957
+  },
+  "a6714c6a-84f0-4f69-9577-10351bbd235e": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 30.2831,
+    "whiteness_score": 0.0013
+  },
+  "a6e1cad7-cb2d-4b92-b796-51af5ff6d41b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0723,
+    "whiteness_score": 1.0
+  },
+  "a7594258-4ccf-4897-bd3c-92b436347bbc": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 77.4291,
+    "whiteness_score": 0.0
+  },
+  "a87418be-1852-493c-91d3-cb6a33460372": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 31.1932,
+    "whiteness_score": 0.8833
+  },
+  "a8893727-7e7d-4656-93d0-4a59a2b159a8": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 91.0025,
+    "whiteness_score": 0.0217
+  },
+  "a988773d-5195-441f-8eca-652df41d6737": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "a9f72185-736f-49f2-8796-b4174601bc79": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 26.0622,
+    "whiteness_score": 0.9778
+  },
+  "aa604533-6270-4bfb-999a-8734502c1afb": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 28.9602,
+    "whiteness_score": 0.9144
+  },
+  "aaf16f64-a2ad-44ff-a322-dc9a39b790d0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 6.0687,
+    "whiteness_score": 0.9985
+  },
+  "ab5e6b28-022c-49f1-ace0-c8276f624e8d": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 37.3441,
+    "whiteness_score": 0.8107
+  },
+  "ac735ac1-5bee-4bd6-8c20-71dafe266794": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 21.3848,
+    "whiteness_score": 0.9836
+  },
+  "ad27b734-d08a-45ce-af34-3dc8e514e99d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.9618,
+    "whiteness_score": 0.998
+  },
+  "ae687e18-d6b6-4d90-8a02-a2d121a45234": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "affcff33-eed9-4d90-b1d5-c68c79b1e02d": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.7952,
+    "whiteness_score": 0.9193
+  },
+  "b07101f9-5eaa-4be8-8734-85b96b2d040a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "b1d483d5-a62a-4890-8433-8bdc652072dc": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 30.7073,
+    "whiteness_score": 0.9195
+  },
+  "b249a167-67c5-4d59-a292-4ba995330510": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 72.0165,
+    "whiteness_score": 0.0
+  },
+  "b37c039a-c7de-4e47-b011-dc325e61ad3f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.5195,
+    "whiteness_score": 1.0
+  },
+  "b3c11594-8706-4339-a27f-8c7360e3d4f3": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.2466,
+    "whiteness_score": 0.9939
+  },
+  "b4e244f4-9688-480e-8583-185dee6d110c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.7824,
+    "whiteness_score": 0.9997
+  },
+  "b53971f0-5c49-4f0a-b2b6-dcc3aa83a852": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 47.4826,
+    "whiteness_score": 0.8746
+  },
+  "b5ba94aa-c822-47f0-8d21-b5aafcfdbdf8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "b661c404-5e18-42dd-8cb7-c603237d1299": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "b6d39ac5-9c4e-4556-9b45-cbd26325527b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 6.9298,
+    "whiteness_score": 0.9952
+  },
+  "b70fa2ee-1ded-4e9f-8429-8695cb0a8bee": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 49.4444,
+    "whiteness_score": 0.7722
+  },
+  "b714e0be-f9ad-4656-b1d8-8ac1cb6f6ef2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 24.6535,
+    "whiteness_score": 0.0
+  },
+  "b858f29d-c947-441a-b65a-97dd6935957e": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 31.5371,
+    "whiteness_score": 0.4081
+  },
+  "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 27.9214,
+    "whiteness_score": 0.9049
+  },
+  "b8fee544-4d0a-479d-9b22-ad8e0d2a78ee": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 31.527,
+    "whiteness_score": 0.8635
+  },
+  "b95e2af2-6409-49c7-a48c-8121b1e02482": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 21.6912,
+    "whiteness_score": 0.8639
+  },
+  "baa829f0-456f-4c4a-bd74-e2acd6ee2774": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 34.9859,
+    "whiteness_score": 0.8995
+  },
+  "bae08f86-83bb-4bdb-b6e3-ca22c1de5384": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 29.1315,
+    "whiteness_score": 0.901
+  },
+  "bb44ec55-be14-4401-b9b9-e7fd026a1d0a": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 105.2147,
+    "whiteness_score": 0.4674
+  },
+  "bb58426a-f3fd-4aaf-a3ef-579df72d7d91": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "bb79ac2a-e591-48ef-8601-814f300e5e49": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "bb94a149-ecb9-4212-9317-4970d7ea1654": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.7001,
+    "whiteness_score": 0.995
+  },
+  "bbc30f7d-45c2-40b9-bcd0-fd1dd7468b44": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 62.5447,
+    "whiteness_score": 0.0
+  },
+  "bce993b1-a4bf-4700-89d6-f31df43ed920": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "bd09b30b-e190-411a-9f73-06a0dbea0047": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 50.7351,
+    "whiteness_score": 0.2611
+  },
+  "be980a8b-4e51-4f44-b597-6cb9660c1dd8": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 30.3208,
+    "whiteness_score": 0.9478
+  },
+  "bedb17d0-89e6-4be4-9f93-57a3d511b516": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 28.8476,
+    "whiteness_score": 0.8821
+  },
+  "bedbd345-07dd-4229-b4bc-0f6496c4e916": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "bf734b61-2252-4551-9300-911463925c30": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 10.2622,
+    "whiteness_score": 0.984
+  },
+  "c0cb7857-021c-499d-86ca-9f9f8176dbee": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 54.1795,
+    "whiteness_score": 0.0119
+  },
+  "c1de40ca-f2c4-4d1e-80aa-5b2d590c10f1": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.102,
+    "whiteness_score": 1.0
+  },
+  "c1eea980-a41e-4fe6-96b0-6791d3864cab": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c23cf7f0-c75e-42cc-bdc5-86e6e44f31ab": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c274090a-349a-4a2e-857b-647373265190": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c29bfd13-1629-4da3-b00a-ae7e229b1612": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0094,
+    "whiteness_score": 1.0
+  },
+  "c2b46489-bfaa-4189-9771-68d6f3822159": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 55.6242,
+    "whiteness_score": 0.1565
+  },
+  "c2e9cb90-08bd-462a-b88a-268201a28581": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 18.0147,
+    "whiteness_score": 0.9505
+  },
+  "c2fad551-7781-4316-9406-d1a4ec05e859": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c34d9268-c296-4f1e-94aa-55b15a706439": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c3a41b16-a727-4a77-a396-ab8e9cad17cf": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 26.1479,
+    "whiteness_score": 0.886
+  },
+  "c3f02087-51a5-41ee-88e0-66771078a14c": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 93.3034,
+    "whiteness_score": 0.5348
+  },
+  "c421f639-4d92-4539-84c9-ad5d2200da71": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 39.7314,
+    "whiteness_score": 0.0002
+  },
+  "c42b5645-8190-4e4b-a3a3-161cabfc96c5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c436fa03-b792-4582-97c6-a60a5a1a7ef6": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 28.0579,
+    "whiteness_score": 0.926
+  },
+  "c438399e-8807-48c8-9e31-b9026e0d8827": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.9358,
+    "whiteness_score": 0.9
+  },
+  "c4444965-e310-4d8e-a09e-0555273917e2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c515226b-f923-4ae9-94a9-5fd1e632cd65": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2436,
+    "whiteness_score": 1.0
+  },
+  "c59a745e-0437-42a3-a516-5baf79ffeacc": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.9583,
+    "whiteness_score": 0.9972
+  },
+  "c5cf2870-cd6c-4a66-882b-c62245ac4038": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.8383,
+    "whiteness_score": 0.9993
+  },
+  "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 27.7077,
+    "whiteness_score": 0.8907
+  },
+  "c5decccc-6101-4d2b-9b30-f710e53327d7": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 73.0015,
+    "whiteness_score": 0.0002
+  },
+  "c69f50f7-44d3-4c2e-9d83-821f8f40ee35": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 47.8432,
+    "whiteness_score": 0.824
+  },
+  "c85fbb33-3317-4a8c-a73c-bc7212c6bb2c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "c8da9ffa-13c1-4b72-8b91-7dd77b5c51c5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "cb5b75c9-f978-4c09-ba23-3276b6932ac7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.4986,
+    "whiteness_score": 1.0
+  },
+  "cb96c9e3-8fb8-4b98-9800-1832759fc571": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.0791,
+    "whiteness_score": 0.987
+  },
+  "cbb86860-9eda-4394-90c3-a0c2e7b0f095": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 16.3316,
+    "whiteness_score": 0.9198
+  },
+  "cbc28903-c4ff-4719-b0c9-e4a30fc923d3": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "cc1b0cf3-1a31-4952-977b-8d9ff3d181b2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 22.4625,
+    "whiteness_score": 0.9559
+  },
+  "ccb396a4-1342-41ba-9bfd-1bcf3205b2a4": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0943,
+    "whiteness_score": 1.0
+  },
+  "ccbbaa25-1dac-40e9-a8aa-96cc9ad6f302": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "cd47636a-ec3a-4aa7-8af1-e1313509e64d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 8.957,
+    "whiteness_score": 0.9719
+  },
+  "cdc19367-84a4-48da-9d9b-07a1cb6dd4a8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "ce90bd7a-bdc5-4d64-8cc3-eb2ae450c391": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.1165,
+    "whiteness_score": 0.9813
+  },
+  "cf1d7468-5a4e-4d24-a31e-9be0aebf4dc0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "cf4d6319-0af2-4be2-a4ce-d8588d997d82": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.1284,
+    "whiteness_score": 1.0
+  },
+  "d068b392-9138-4f66-b8df-b66362d30ff2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 16.6364,
+    "whiteness_score": 0.9614
+  },
+  "d091d681-db65-4aeb-aca1-e7e262c576d0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 21.8598,
+    "whiteness_score": 0.0738
+  },
+  "d0fbc651-4111-45f5-975e-92603dd43146": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.0789,
+    "whiteness_score": 0.8096
+  },
+  "d10beddf-fbf8-4f63-aaed-07c7d3261af4": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 73.8216,
+    "whiteness_score": 0.0
+  },
+  "d1500e0b-e8d8-4949-9de8-3ab1599463ff": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.7409,
+    "whiteness_score": 0.9953
+  },
+  "d1e33012-8970-4211-8437-37c00de796a0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 15.7699,
+    "whiteness_score": 0.9659
+  },
+  "d1ff903a-d0de-4cd6-b977-9235b5617d38": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.0799,
+    "whiteness_score": 1.0
+  },
+  "d20f15a3-101b-446d-bfa2-2fba6db14a93": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0497,
+    "whiteness_score": 1.0
+  },
+  "d2273a5b-5beb-4793-b6a4-1118dce38f24": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.3275,
+    "whiteness_score": 0.9826
+  },
+  "d28ad1fa-658d-4f07-b1d1-64f6cc9ab2f7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 21.6124,
+    "whiteness_score": 0.9116
+  },
+  "d30f4beb-cb11-40ac-bbfd-5b612ed9e447": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "d3e044d0-cc92-4fd4-a03f-c55170fbbf02": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 6.3525,
+    "whiteness_score": 0.9941
+  },
+  "d5023196-748e-45da-9929-c981353bebfc": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "d595321d-fc14-4d8b-88da-f2334919024c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "d5ac13d8-dcd3-4927-b5f7-558d77b81dd0": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 65.6055,
+    "whiteness_score": 0.0
+  },
+  "d62844d0-74ba-4acf-adbc-1de9c290e378": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "d6c4bf5e-3e9f-4daa-9d01-b22e0da85fee": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "d760afda-4827-41de-b7f0-18863372a2c3": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.6221,
+    "whiteness_score": 0.7513
+  },
+  "d76f09f5-c27e-403a-b7d5-be4df7007566": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 34.0549,
+    "whiteness_score": 0.8898
+  },
+  "d77cc09b-e07a-42be-8746-f22b6e8779ca": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 1.3172,
+    "whiteness_score": 0.999
+  },
+  "d8a815d5-4858-42b3-87bc-b81ed11781b6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0673,
+    "whiteness_score": 1.0
+  },
+  "d9492bc7-be8e-41de-a11e-026d1c0e315c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 18.259,
+    "whiteness_score": 0.9568
+  },
+  "dc2937e6-ba1c-4234-94a6-fd37a1003de9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "dc5019eb-f578-4f50-bcc5-d90f774b7b75": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 8.8114,
+    "whiteness_score": 0.9649
+  },
+  "dc640e49-f2fe-410b-be03-d80c422053d2": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "dd117d42-f5dd-4ff2-874a-b47c138e52b0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0865,
+    "whiteness_score": 1.0
+  },
+  "dd1814fc-f09e-4499-bad5-037133b56ac6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.6272,
+    "whiteness_score": 0.9979
+  },
+  "dde11258-47ef-4d0c-8ef5-fa963ecfd81f": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 29.6662,
+    "whiteness_score": 0.8936
+  },
+  "de03eb48-64cc-45af-9609-59bca9ddbb07": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.2106,
+    "whiteness_score": 0.9986
+  },
+  "de278387-63fd-4f88-9c20-40073ab7e47c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.5597,
+    "whiteness_score": 0.9698
+  },
+  "deebdbce-f9ca-46dc-bb08-6c3a282bfc57": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2329,
+    "whiteness_score": 1.0
+  },
+  "df101455-8a46-4ffa-950a-c0a96302129f": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 87.6825,
+    "whiteness_score": 0.7963
+  },
+  "df370c53-ceb5-4054-a8c7-e45771db8585": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 43.0663,
+    "whiteness_score": 0.0002
+  },
+  "df6ae3d9-6c9c-4929-bcb8-400d5e98f45d": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 34.604,
+    "whiteness_score": 0.869
+  },
+  "e0b91d31-5a73-4622-b062-33c2aae24c16": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0097,
+    "whiteness_score": 1.0
+  },
+  "e10171ee-ed23-40c1-b9fa-2b00c9e48ca8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "e2ad7930-b9ef-4215-a303-e80bd6a6783c": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 46.0698,
+    "whiteness_score": 0.8325
+  },
+  "e3a86df6-f255-4446-a48d-e2def0b3fd74": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.6566,
+    "whiteness_score": 0.989
+  },
+  "e60825b1-7efa-41ba-86a0-a2ff02615fd5": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "e6220888-8721-4bb8-a6ce-2a7d619236cc": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "e680c2df-16d8-4bf6-adef-7a9d04f1a4b8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 10.6548,
+    "whiteness_score": 0.9733
+  },
+  "e76dad8e-09ad-4daa-b937-75f00f9aa525": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0104,
+    "whiteness_score": 1.0
+  },
+  "e79c93ba-7629-4ab0-bbf8-0bf681bfb7db": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0829,
+    "whiteness_score": 1.0
+  },
+  "e7a878cd-e875-440e-9419-a63acb547749": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 24.1292,
+    "whiteness_score": 0.8992
+  },
+  "e84aa219-afbd-4223-9257-49388428092e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.2417,
+    "whiteness_score": 1.0
+  },
+  "e881503a-7c9a-4224-8957-ee790d4fef9d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 8.5386,
+    "whiteness_score": 0.986
+  },
+  "e89013f4-78e8-448b-9adc-d67ec85c92f7": {
+    "image_type": "packshot",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 33.727,
+    "whiteness_score": 0.938
+  },
+  "ea3fc5ab-6ebc-4468-a825-49711c56ea24": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.4633,
+    "whiteness_score": 0.9784
+  },
+  "ea684ec8-9651-45d5-a31a-d9b7b912025a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "eb527da3-254b-4bd8-8298-7fb7bd25fea2": {
+    "image_type": "lifestyle",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 77.0741,
+    "whiteness_score": 0.0
+  },
+  "eb5ac748-4017-4a17-88b4-1274abea07f7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "eb9c005e-661e-43e8-9955-4eac2761c69e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 6.521,
+    "whiteness_score": 0.9933
+  },
+  "ebdd57d6-3f89-4e4e-871e-5579c84ce537": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 18.1421,
+    "whiteness_score": 0.0001
+  },
+  "ec370e62-6e65-4e6b-b0bb-dda7d6ed315b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "ecb15289-9d20-45a7-8efe-7ec41882b3ce": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 14.9181,
+    "whiteness_score": 0.97
+  },
+  "eead3785-45d9-4438-a533-335948d302e8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.7066,
+    "whiteness_score": 1.0
+  },
+  "eead3df9-1770-4e25-abf6-9bc4d22ccfd4": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0106,
+    "whiteness_score": 1.0
+  },
+  "eeeee5b8-5f61-4db1-9f49-cc4eacc24c58": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "ef113412-97c9-429b-bc92-1c920681703d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.3878,
+    "whiteness_score": 0.9974
+  },
+  "f0297ca6-a822-44e6-ba08-47f57bb916f6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "f0c1bbcc-da5a-445b-bd0d-3dbf5b71ea7b": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.6516,
+    "whiteness_score": 0.9858
+  },
+  "f0e055be-f3c9-4311-96d6-e3e9fae1fa2a": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.7928,
+    "whiteness_score": 0.9974
+  },
+  "f14862fa-a55e-426a-9397-63caa60aa7d1": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 18.69,
+    "whiteness_score": 0.9834
+  },
+  "f3a4db3a-b3f5-4405-b5f0-1a47e1cfa55f": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "f4d77c12-f3cc-4d12-b5cf-b953c46eacaf": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.1057,
+    "whiteness_score": 0.9876
+  },
+  "f5034caa-e4b1-4427-a65e-17c4f6b3a0b9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "f506c04a-1c80-4669-8c5b-3a4b28be56ae": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "f5e35d9c-3067-43fe-9ab7-29a94eb90209": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "f66c0908-bb02-4a14-8b98-2291ff03e7b6": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 15.9916,
+    "whiteness_score": 0.0
+  },
+  "f66d4612-738b-4680-8594-4189c62785cf": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 13.5068,
+    "whiteness_score": 0.9872
+  },
+  "f67e2339-c365-4bf7-8011-fc8f29259fa8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.6011,
+    "whiteness_score": 0.9937
+  },
+  "f6a90726-9b4f-4062-b487-3e1272137604": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 3.3611,
+    "whiteness_score": 0.9962
+  },
+  "f6b34eea-b874-4f5d-b7e8-9b487c26ad90": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0586,
+    "whiteness_score": 1.0
+  },
+  "f6e2c1af-d633-409d-bd74-b325f288e546": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 11.0111,
+    "whiteness_score": 0.0
+  },
+  "f6fd40d5-c013-47ab-87c1-b6a4a1250021": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 12.2704,
+    "whiteness_score": 0.9891
+  },
+  "f7420cb0-e175-4d08-ada3-989654a8168e": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 9.5835,
+    "whiteness_score": 0.9878
+  },
+  "f746773b-a129-4386-aa7f-85e8698b9752": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 23.8413,
+    "whiteness_score": 0.8327
+  },
+  "f7e9dab9-3188-4ffb-95b5-1e500689748c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.3093,
+    "whiteness_score": 0.9989
+  },
+  "f810dbe8-ae09-4911-86ee-570bf3230a7c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 2.9032,
+    "whiteness_score": 0.9988
+  },
+  "f82b838f-b877-4aea-a79f-2ce47854b7f5": {
+    "image_type": "lifestyle",
+    "confident": false,
+    "provenance": "heuristic",
+    "border_std": 52.2319,
+    "whiteness_score": 0.0
+  },
+  "f89be938-9721-4d49-b182-112e01557011": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 5.3804,
+    "whiteness_score": 0.9982
+  },
+  "f8c56812-254d-4e7b-af8f-4902c42c2627": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "fa18fc5f-4a0a-4ad3-af01-643d811bf6f8": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "fc344572-27f8-42bb-b0f4-e19c2ccc4cb7": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.8726,
+    "whiteness_score": 0.9992
+  },
+  "fd6f5dbe-fe3f-41eb-8bd6-fc701462d57c": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0176,
+    "whiteness_score": 1.0
+  },
+  "fe49be3a-fa72-4026-b9c6-8dcd8ee35d1d": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 19.8768,
+    "whiteness_score": 0.954
+  },
+  "feb63623-e261-46f0-8c59-69ce091405f0": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 4.1409,
+    "whiteness_score": 0.997
+  },
+  "fed0d4c0-3b25-4dd5-b17a-bf91fcd870a9": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0,
+    "whiteness_score": 1.0
+  },
+  "feffd6cc-6b37-415b-b135-3ad1d8dcb834": {
+    "image_type": "packshot",
+    "confident": true,
+    "provenance": "heuristic",
+    "border_std": 0.0363,
+    "whiteness_score": 1.0
+  }
+}
