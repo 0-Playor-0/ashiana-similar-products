@@ -357,3 +357,51 @@ above the SDK's 10s minimum if a slow response does occur.
 instruction (verified as current/recommended per Google's docs) — but a reader following
 that default for a catalog of any real size should expect this same 20 RPD wall and may want
 to start with `gemini-2.5-flash` directly.
+
+**Superseded within the hour** — see the next entry. The full run hit the identical 20 RPD
+wall on `gemini-2.5-flash` too after 17/472 products, at which point the project moved to
+Groq entirely.
+
+## 2026-09-11 — D4 final pivot: Groq (roadmap's other LOCKED option)
+
+**Decision.** Switched providers entirely, from Gemini to Groq — the roadmap's §3 LOCKED
+line always named both ("LLM | Free tier (Gemini or Groq) through an OpenAI-compatible
+endpoint using the `openai` SDK"), so this is picking the roadmap's other pre-approved
+option, not introducing a new one. `pipeline/describe.py` now uses the `openai` SDK against
+`LLM_BASE_URL=https://api.groq.com/openai/v1`, `LLM_MODEL=openai/gpt-oss-20b`. The
+`google-genai`-based code from the two prior entries is gone; `requirements-pipeline.txt`
+and CI swap `google-genai==2.23.0` back out for `openai==3.13.0` (a major-version jump from
+the `1.47.0` originally pinned in Phase 0 — picked specifically because it resolves the
+`openai`/`httpx` `proxies`-argument incompatibility hit earlier by vendoring its own HTTP
+client as `httpx2`, sidestepping the conflict entirely rather than needing a pinned-down
+`httpx` version).
+**Why.** Continuing the full 472-product run against `gemini-2.5-flash` (previous entry)
+crashed after 17 successful calls: `429 RESOURCE_EXHAUSTED`, `quotaValue: '20'` —
+the *same* 20-requests/day free-tier cap as `gemini-3.8-flash`, just for a different model.
+Two different Gemini models, two identical 20 RPD walls: this reads as a Google Cloud
+project-level free-tier default (very plausibly the "December 2025, quotas cut 50-80%"
+change turned up during the earlier D4 research, now landing at a flat 20/day rather than
+the 500-1,500 various sources still quote), not something model selection could route
+around. At 20/day, the remaining ~455 products would take ~23 more days — incompatible with
+the roadmap's ~10-session timeline. Presented three ways forward (wait ~23 days; enable
+Google Cloud billing to lift the cap; switch to Groq) and the user chose Groq.
+**Verification (rule 12).** Checked against Groq's own docs
+(`console.groq.com/docs/models`, `.../rate-limits`, `.../structured-outputs`) on 2026-09-11:
+base URL `https://api.groq.com/openai/v1` matches what the roadmap's `.env.example` template
+had already sketched as the Groq alternative; `openai/gpt-oss-20b` is Groq's suggested model
+for JSON/structured-extraction workloads (1000 tok/s, 131K context); its listed tier shows
+30 RPM / 1,000 RPD / 8K TPM — two orders of magnitude more headroom than Gemini's 20 RPD, and
+easily enough for 472 products in one run even accounting for the 17 already spent on Gemini
+testing. Structured output on Groq goes through `response_format={"type": "json_schema",
+"json_schema": {"strict": true, "schema": ...}}` (stricter than the plain
+`{"type": "json_object"}` mode the roadmap sketched for the OpenAI path) — implemented as a
+literal JSON Schema in `pipeline/describe.py` rather than derived via
+`LLMDescriptor.model_json_schema()`, so the `required` / `additionalProperties: false`
+constraints `strict: true` needs are guaranteed exactly right rather than however Pydantic
+happens to emit them.
+**No further debugging-hygiene incidents**: the Groq key request explicitly asked the user
+to add it to `.env` directly, and no verbose/header-dumping commands were run against it.
+**Not yet independently verified**: whether the "1,000 RPD" figure I found is really this
+project's current limit rather than another stale web figure — the live 472-product run
+itself is the real test, and its outcome (documented after it completes) is the actual
+verification.

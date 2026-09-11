@@ -1,0 +1,104 @@
+{
+  "b27ae6ea7fc9804aff84e76b74cf65996a0d94656e86e5c232e5e46080a8c22b": {
+    "input": "Ashiana Pink Beads Lotus Flower Jhumki earrings for women\nAshiana's latest ethnic, trendy and stylish jhumka earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\n  \"motifs\": [\n    \"Lotus Flower\"\n  ],\n  \"style\": [\n    \"ethnic\",\n    \"trendy\",\n    \"stylish\",\n    \"jhumka\"\n  ],\n  \"finish\": [\n    \"gold color\"\n  ],\n  \"occasion\": [\n    \"Indian wear\"\n  ],\n  \"design_features\": [\n    \"jhumki earrings\",\n    \"drop earrings\"\n  ],\n  \"extracted\": {\n    \"materials\": [\n      \"Beads\"\n    ],\n    \"stones\": [],\n    \"colors\": [\n      \"Pink\",\n      \"gold\"\n    ]\n  }\n}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "ff65c79ae2655e8ebefa1bd19fc521d0aed534d168cd95d21de5511207335987": {
+    "input": "Ashiana Designer Antique Red Brass Half Bali style Leaf Earrings for Women\nThe product in display is made from brass material and is finished in an attractive maroon color. Furthermore, this product features a dangle & drop shape, cubic zirconia stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\": [\"Leaf\"], \"style\": [\"Half Bali style\"], \"finish\": [\"Antique\"], \"occasion\": [\"festive occasion wear\"], \"design_features\": [\"dangle & drop shape\"], \"extracted\": {\"materials\": [\"brass\"], \"stones\": [\"cubic zirconia\"], \"colors\": [\"Red\", \"maroon\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "15ba10eba78f83bc1a802edd4ff222ffb067e0056c16e310298d63288320f581": {
+    "input": "Ashiana Kundan Gold Brass CZ Dangle & Drop Earrings for Women (AS0885)\nThe product in display is made from brass material and is finished in an attractive gold color. Furthermore, this product features a dangle & drop shape, cubic zirconia stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\": [],\"style\": [\"dangle & drop\"],\"finish\": [\"gold finish\"],\"occasion\": [\"festive occasion wear\"],\"design_features\": [\"dangle & drop shape\"],\"extracted\": {\"materials\": [\"brass\"],\"stones\": [\"cubic zirconia\"],\"colors\": [\"gold\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "f488f552baf560d9914c4bb9ce986cf0fefa86de323d5383c2ab88e64f0c52c7": {
+    "input": "Ashiana Silver Brass CZ Unisex Brooch (AS0871)\nThe product in display is made from brass material and is finished in an attractive silver color. Furthermore, this product features a cubic zirconia stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\": [],\"style\": [],\"finish\": [\"silver\"],\"occasion\": [\"festive occasion wear\"],\"design_features\": [\"unisex\"],\"extracted\": {\"materials\": [\"brass\"],\"stones\": [\"cubic zirconia\"],\"colors\": [\"silver\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "06bf1dc2b2e4de6d6d8a8828d5e969a9372a39b0b7f6e7f824f0ee61673936d1": {
+    "input": "Ashiana Purple Beads Lotus Flower Jhumki earrings for women\nAshiana's latest ethnic, trendy and stylish jhumka earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\": [\"Lotus Flower\"], \"style\": [\"ethnic\", \"trendy\", \"stylish\", \"jhumka\"], \"finish\": [\"gold color\"], \"occasion\": [\"Indian wear\"], \"design_features\": [\"Beads\", \"Jhumki earrings\"], \"extracted\": {\"materials\": [\"Beads\"], \"stones\": [], \"colors\": [\"Purple\", \"gold\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "7a427a940151da1de2ffb6306d388b7543e0e7930a84811b590fcbb171a94c9c": {
+    "input": "Ashiana Exclusive! Ethnic American Diamond 3 flower ear cuff d7 (pair)\nAshiana's latest trendy and stylish ear cuff earring makes an undeniable statement and can dress up any outfit. Great for an Indian wear also!",
+    "output": "{\"motifs\": [\"flower\"], \"style\": [\"trendy\", \"stylish\", \"ear cuff\"], \"finish\": [], \"occasion\": [\"Indian wear\"], \"design_features\": [\"ear cuff\", \"pair\"], \"extracted\": {\"materials\": [], \"stones\": [\"American Diamond\"], \"colors\": []}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "98e8d03060f653d1a093c9f24337b9cd11c9bd083931cc9198b4e87dfb5748df": {
+    "input": "Ashiana CZ Butterfly Stud Earring for Women (Silver)\nAshiana latest trendy and stylish earring makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\": [\"Butterfly\"], \"style\": [\"trendy\", \"stylish\"], \"finish\": [], \"occasion\": [], \"design_features\": [\"Stud Earring\"], \"extracted\": {\"materials\": [\"Silver\"], \"stones\": [\"CZ\"], \"colors\": [\"Silver\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "c49a0d9783d625b39fb4e57e0118db7da15b85435dc814cee58b0be53b8b4238": {
+    "input": "Ashiana Antique Trendy American Diamond Cluster Leaf shaped Ear Cuff Earring\nGold-Plated Dangle & Drop Earrings – Key Features✨ Material: Made from high-quality gold-plated material with an attractive gold finish.💎 Design: Features a stylish dangle & drop shape adorned with sparkling American diamonds.🎉 Occasion Wear: Perfect for festive celebrations, parties, and traditional functions.💫 Versatile Style: Complements both ethnic and semi-formal outfits beautifully.🎁 Ideal Gift: A thoughtful and elegant choice for gifting on special occasions.",
+    "output": "{\"motifs\": [\"Leaf shaped\"], \"style\": [\"Ear Cuff\", \"Dangle & Drop Earrings\", \"Trendy\", \"Versatile Style\", \"ethnic\", \"semi-formal\"], \"finish\": [\"Gold-Plated\", \"gold finish\"], \"occasion\": [\"festive celebrations\", \"parties\", \"traditional functions\", \"special occasions\"], \"design_features\": [\"Cluster\", \"adorned with sparkling American diamonds\"], \"extracted\": {\"materials\": [\"gold-plated material\"], \"stones\": [\"American Diamond\"], \"colors\": [\"Gold\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "d8397b5502edc197703ed4556d934bc3f047d2c22bab96974d90f46319aafbdb": {
+    "input": "Ashiana Designer Multi-colour Cz Zircon Butterfly Flower Jewelry Set\nAshiana brings this stunning and Beautiful butterfly and flower necklace set with chandelier earrings which will make you feel like a Princess! The perfect gift!",
+    "output": "{\"motifs\": [\"butterfly\", \"flower\"], \"style\": [\"designer\"], \"finish\": [], \"occasion\": [\"gift\"], \"design_features\": [\"necklace set\", \"chandelier earrings\"], \"extracted\": {\"materials\": [], \"stones\": [\"Cz Zircon\"], \"colors\": [\"multi-colour\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "1ccd101975f720bfd86e479baac2c66b7b4d4a4acb8a56d71b0939febedeffac": {
+    "input": "Ashiana Two Birds On A Fence Collar Pin Brooch\nThis latest trendy and stylish brooch makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire!",
+    "output": "{\"motifs\": [\"Two Birds On A Fence\"], \"style\": [\"trendy\", \"stylish\"], \"finish\": [], \"occasion\": [], \"design_features\": [\"Collar Pin Brooch\"], \"extracted\": {\"materials\": [], \"stones\": [], \"colors\": []}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "390349f71cb47a364f909c445448f11171f671422252bfc352d57399812b5c78": {
+    "input": "Ashiana Designer Butterfly ear Cuff Earring\nThe product in display is made from gold plated material and is finished in an attractive gold color. Furthermore, this product features a stud shape, american diamond stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\": [\"Butterfly\"], \"style\": [\"ear Cuff\", \"stud\"], \"finish\": [\"gold plated\"], \"occasion\": [\"festive occasion wear\"], \"design_features\": [\"stud shape\", \"ear Cuff\"], \"extracted\": {\"materials\": [\"gold plated\"], \"stones\": [\"american diamond\"], \"colors\": [\"gold\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "c196f0a00e94be19dbd535f3830091a032c982decbf194a33e68a6d345e6dfc6": {
+    "input": "Ashiana Gold Peacock Pearl Embellished Collar Necklace\nThis latest trendy and stylish neckpiece makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire! For a Diva!",
+    "output": "{\"motifs\": [\"Peacock\"], \"style\": [\"trendy\", \"stylish\", \"Collar Necklace\"], \"finish\": [], \"occasion\": [], \"design_features\": [\"Pearl Embellished\", \"Collar Necklace\"], \"extracted\": {\"materials\": [\"Gold\"], \"stones\": [\"Pearl\"], \"colors\": []}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "8e5210497306adc3e6388ef7cf875f9879d7aa0ccab6493ec31a05a424753a26": {
+    "input": "Ashiana 925 sterling Silver Dangle Cubic Zirconia Stud Earring\nAshiana latest trendy and stylish solitaire earring makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\": [],\"style\": [\"trendy\",\"stylish\",\"solitaire\"],\"finish\": [],\"occasion\": [],\"design_features\": [\"dangle\",\"stud\"],\"extracted\": {\"materials\": [\"925 sterling silver\"],\"stones\": [\"cubic zirconia\"],\"colors\": []}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "829094636fa6c8796482ea1336ecc6837df006f1b09f78882a242b161cf6d352": {
+    "input": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh - Green\nBeautiful Shubh Labh Which Enhance Your Entrance or Puja room. A great Gift!",
+    "output": "{\n  \"motifs\": [\n    \"Flower\",\n    \"Shubh Labh\"\n  ],\n  \"style\": [],\n  \"finish\": [],\n  \"occasion\": [\n    \"Diwali\",\n    \"Gift\"\n  ],\n  \"design_features\": [\n    \"LED\",\n    \"Chain\"\n  ],\n  \"extracted\": {\n    \"materials\": [\n      \"Crystal\"\n    ],\n    \"stones\": [],\n    \"colors\": [\n      \"Green\"\n    ]\n  }\n}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "fa6deefb41de0b42da83760d451ab3d07bcb1bef75c472ec773ed328c2e490b6": {
+    "input": "Ashiana Traditional Blue Ambi Shape Jhumka Earrings\nAshiana's latest ethnic, trendy and stylish earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\": [\"Ambi Shape\"], \"style\": [\"Traditional\", \"ethnic\", \"trendy\", \"stylish\", \"Jhumka\"], \"finish\": [\"gold color\"], \"occasion\": [\"Indian wear\"], \"design_features\": [\"Jhumka Earrings\", \"drop earrings\"], \"extracted\": {\"materials\": [], \"stones\": [], \"colors\": [\"Blue\", \"gold\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "c13da8a59016241e25268d18b7667ba05ca5e95002610eae205ba865fbbfeeba": {
+    "input": "Ashiana Exclusive Double sided Celebrity Rainbow stud earrings\nAshiana's latest Contemporary, trendy and stylish earring makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\": [\"Rainbow\"], \"style\": [\"Contemporary\", \"trendy\", \"stylish\"], \"finish\": [], \"occasion\": [\"Indian wear\"], \"design_features\": [\"Double sided\", \"stud earrings\"], \"extracted\": {\"materials\": [], \"stones\": [], \"colors\": [\"Rainbow\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  },
+  "5df0c814cb429bc339463316f39590187f914560f9802c326bdb8c53fe9bd486": {
+    "input": "Ashiana Diwali Special! Metal and Pearl Round jardosi Hanging Door toran/Bandarwal- red\nBeautiful Toran which will enhance your entrance. The toran does not change colour even after years of use. A perfect gift!",
+    "output": "{\"motifs\": [],\"style\": [],\"finish\": [],\"occasion\": [\"Diwali Special\"],\"design_features\": [\"Hanging\",\"jardosi\"],\"extracted\": {\"materials\": [\"Metal\",\"Pearl\"],\"stones\": [],\"colors\": [\"red\"]}}",
+    "model": "gemini-2.5-flash",
+    "prompt_version": "v1"
+  }
+}

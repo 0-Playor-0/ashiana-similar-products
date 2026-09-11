@@ -19,9 +19,9 @@ transformers==4.44.2
 
 # text pipeline (Phase 2)
 sentence-transformers==3.1.1
-google-genai==2.23.0   # D4 (docs/DECISIONS.md): native SDK, not openai — new
-                        # "AQ."-prefixed Gemini keys don't work against the
-                        # OpenAI-compatible endpoint
+openai==3.13.0   # D4 final (docs/DECISIONS.md): Groq via its OpenAI-compatible
+                  # endpoint — Gemini's free tier caps at 20 requests/day on
+                  # every model tried, unworkable for a 472-product batch
 
 # metadata / eval (Phase 3-4)
 pandas==2.2.2

@@ -3,15 +3,17 @@ deterministic descriptor sentence per product (§8 Phase 2).
 
 Two independent steps, runnable separately:
   strip_boilerplate()  — no API key needed, safe to preview any time.
-  run_llm_descriptors() — needs LLM_API_KEY (D4: Gemini, see docs/DECISIONS.md).
+  run_llm_descriptors() — needs LLM_API_KEY (D4: Groq, see docs/DECISIONS.md).
 
 Both steps read/write data/catalog.jsonl in place (same pattern as
 pipeline/apply_image_review.py), plus write review artifacts under
 artifacts/eval/ for the Phase 2 checkpoint.
 
-LLM calls go through the native google-genai SDK, not the OpenAI-compat
-endpoint the roadmap originally sketched — see docs/DECISIONS.md ("D4 update:
-switched off the OpenAI-compatible endpoint") for why.
+LLM provider is Groq (roadmap §3's other LOCKED option besides Gemini),
+through the OpenAI-compatible endpoint the roadmap originally specified —
+see docs/DECISIONS.md ("D4 final pivot: Groq") for why Gemini's free tier
+didn't work out (both the OpenAI-compat key format issue and, separately, a
+hard 20-requests/day cap on every model tried).
 """
 
 import hashlib
@@ -21,10 +23,8 @@ import random
 import re
 import time
 
-import httpx
 import yaml
-from google import genai
-from google.genai import errors, types
+from openai import APIStatusError, APITimeoutError, OpenAI
 from pydantic import BaseModel, Field, ValidationError
 from tqdm import tqdm
 
@@ -39,7 +39,7 @@ PROMPT_VERSION = SETTINGS["llm"]["prompt_version"]
 TEMPERATURE = SETTINGS["llm"]["temperature"]
 MIN_INTERVAL_S = SETTINGS["llm"]["min_interval_s"]
 MAX_RETRIES = SETTINGS["llm"]["max_retries"]
-REQUEST_TIMEOUT_MS = 30_000
+REQUEST_TIMEOUT_S = 30.0
 
 DESCRIPTORS_CACHE_PATH = ARTIFACTS_DIR / "descriptors.json"
 REMOVED_BOILERPLATE_PATH = ARTIFACTS_DIR / "eval" / "removed_boilerplate.json"
@@ -176,28 +176,68 @@ def _save_cache(cache: dict) -> None:
 
 _RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 
+_RESPONSE_FORMAT = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "llm_descriptor",
+        "strict": True,
+        "schema": {
+            "type": "object",
+            "properties": {
+                "motifs": {"type": "array", "items": {"type": "string"}},
+                "style": {"type": "array", "items": {"type": "string"}},
+                "finish": {"type": "array", "items": {"type": "string"}},
+                "occasion": {"type": "array", "items": {"type": "string"}},
+                "design_features": {"type": "array", "items": {"type": "string"}},
+                "extracted": {
+                    "type": "object",
+                    "properties": {
+                        "materials": {"type": "array", "items": {"type": "string"}},
+                        "stones": {"type": "array", "items": {"type": "string"}},
+                        "colors": {"type": "array", "items": {"type": "string"}},
+                    },
+                    "required": ["materials", "stones", "colors"],
+                    "additionalProperties": False,
+                },
+            },
+            "required": [
+                "motifs",
+                "style",
+                "finish",
+                "occasion",
+                "design_features",
+                "extracted",
+            ],
+            "additionalProperties": False,
+        },
+    },
+}
 
-def _call_llm(client: genai.Client, model: str, user_input: str, retry_note: str = "") -> str:
-    contents = user_input + retry_note
-    config = types.GenerateContentConfig(
-        system_instruction=SYSTEM_PROMPT,
-        temperature=TEMPERATURE,
-        response_mime_type="application/json",
-        response_schema=LLMDescriptor,
-    )
+
+def _call_llm(client: OpenAI, model: str, user_input: str, retry_note: str = "") -> str:
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": user_input + retry_note},
+    ]
     last_err = None
     for attempt in range(MAX_RETRIES):
         try:
-            resp = client.models.generate_content(model=model, contents=contents, config=config)
-            return resp.text
-        except httpx.TimeoutException as e:
-            # A hard client-side timeout (REQUEST_TIMEOUT_MS) — always retryable.
+            resp = client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=TEMPERATURE,
+                response_format=_RESPONSE_FORMAT,
+                timeout=REQUEST_TIMEOUT_S,
+            )
+            return resp.choices[0].message.content
+        except APITimeoutError as e:
+            # A hard client-side timeout — always retryable.
             last_err = e
             time.sleep(min(2**attempt, 30))
             continue
-        except errors.APIError as e:
+        except APIStatusError as e:
             last_err = e
-            status = getattr(e, "code", None) or getattr(e, "status_code", None)
+            status = getattr(e, "status_code", None)
             if status in _RETRYABLE_STATUS or status is None:
                 time.sleep(min(2**attempt, 30))
                 continue
@@ -277,6 +317,7 @@ def _build_descriptor_sentence(descriptor: LLMDescriptor, title: str, taxonomy: 
 
 def run_llm_descriptors(products: list[Product], cleaned_descriptions: dict[str, str]) -> None:
     api_key = os.environ.get("LLM_API_KEY")
+    base_url = os.environ.get("LLM_BASE_URL")
     model = os.environ.get("LLM_MODEL")
     if not api_key:
         raise RuntimeError(
@@ -284,13 +325,11 @@ def run_llm_descriptors(products: list[Product], cleaned_descriptions: dict[str,
             "e.g. `set -a && source .env && set +a`, before running this."
         )
 
-    # Explicit per-request timeout: seen this hang indefinitely with no bytes
-    # back (both against the old OpenAI-compat path and, once, the native one
-    # too) rather than erroring — without a timeout that's unrecoverable, but
-    # with one it becomes just another retryable failure (see DECISIONS.md).
-    client = genai.Client(
-        api_key=api_key, http_options=types.HttpOptions(timeout=REQUEST_TIMEOUT_MS)
-    )
+    # Explicit per-request timeout: earlier debugging (see DECISIONS.md) found
+    # requests that hang with no bytes back rather than erroring — without a
+    # timeout that's unrecoverable, but with one it becomes just another
+    # retryable failure.
+    client = OpenAI(base_url=base_url, api_key=api_key, timeout=REQUEST_TIMEOUT_S)
     cache = _load_cache()
     synonyms = TAXONOMY["synonyms"]
 

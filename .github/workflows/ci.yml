@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install dev deps
-        run: pip install pydantic==2.13.5 pyyaml==6.0.3 ruff==0.16.7 pytest==8.4.2 google-genai==2.23.0
+        run: pip install pydantic==2.13.5 pyyaml==6.0.3 ruff==0.16.7 pytest==8.4.2 openai==3.13.0
       - name: Lint
         run: ruff check .
       - name: Test
