@@ -44,6 +44,7 @@ REQUEST_TIMEOUT_S = 30.0
 DESCRIPTORS_CACHE_PATH = ARTIFACTS_DIR / "descriptors.json"
 REMOVED_BOILERPLATE_PATH = ARTIFACTS_DIR / "eval" / "removed_boilerplate.json"
 GROUNDING_LOG_PATH = ARTIFACTS_DIR / "eval" / "grounding_log.json"
+EXTRACTION_FAILURES_PATH = ARTIFACTS_DIR / "eval" / "extraction_failures.json"
 BEFORE_AFTER_PATH = ARTIFACTS_DIR / "eval" / "descriptor_before_after.json"
 
 SYSTEM_PROMPT = (
@@ -334,6 +335,7 @@ def run_llm_descriptors(products: list[Product], cleaned_descriptions: dict[str,
     synonyms = TAXONOMY["synonyms"]
 
     grounding_log: dict[str, dict] = {}
+    extraction_failures: dict[str, str] = {}
     updated: list[Product] = []
     api_calls_made = 0
 
@@ -346,17 +348,32 @@ def run_llm_descriptors(products: list[Product], cleaned_descriptions: dict[str,
             raw_output = cache[key]["output"]
         else:
             api_calls_made += 1
-            raw_output = _call_llm(client, model, input_text)
             try:
-                LLMDescriptor.model_validate_json(_strip_json_fences(raw_output))
-            except ValidationError as e:
-                raw_output = _call_llm(
-                    client,
-                    model,
-                    input_text,
-                    retry_note=f"\n\nYour previous response was invalid: {e}. "
-                    "Return only the corrected JSON object.",
-                )
+                raw_output = _call_llm(client, model, input_text)
+                try:
+                    LLMDescriptor.model_validate_json(_strip_json_fences(raw_output))
+                except ValidationError as e:
+                    raw_output = _call_llm(
+                        client,
+                        model,
+                        input_text,
+                        retry_note=f"\n\nYour previous response was invalid: {e}. "
+                        "Return only the corrected JSON object.",
+                    )
+                    LLMDescriptor.model_validate_json(_strip_json_fences(raw_output))
+            except Exception as e:
+                # One product's content triggering a bad generation (seen: Groq's
+                # strict-schema 400 json_validate_failed) shouldn't sink the whole
+                # batch. Fall back to the taxonomy-stripped-title descriptor (same
+                # as the "LLM returned nothing usable" case) and keep going — not
+                # cached, so a future run retries this product automatically.
+                extraction_failures[p.sku] = f"{type(e).__name__}: {e}"
+                time.sleep(MIN_INTERVAL_S)
+                p.descriptor_sentence = _strip_taxonomy_words(p.title, TAXONOMY) or p.title
+                p.descriptor_attrs = None
+                updated.append(p)
+                continue
+
             cache[key] = {
                 "input": input_text,
                 "output": raw_output,
@@ -393,6 +410,17 @@ def run_llm_descriptors(products: list[Product], cleaned_descriptions: dict[str,
     GROUNDING_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     GROUNDING_LOG_PATH.write_text(json.dumps(grounding_log, indent=2, ensure_ascii=False))
     print(f"wrote {GROUNDING_LOG_PATH} ({len(grounding_log)} products had grounding issues)")
+
+    EXTRACTION_FAILURES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    EXTRACTION_FAILURES_PATH.write_text(
+        json.dumps(extraction_failures, indent=2, ensure_ascii=False)
+    )
+    if extraction_failures:
+        print(
+            f"wrote {EXTRACTION_FAILURES_PATH} "
+            f"({len(extraction_failures)} products fell back to title)"
+        )
+
     print(f"made {api_calls_made} LLM calls, {len(updated) - api_calls_made} served from cache")
 
 

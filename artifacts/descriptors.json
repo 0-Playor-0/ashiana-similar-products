@@ -100,5 +100,311 @@
     "output": "{\"motifs\": [],\"style\": [],\"finish\": [],\"occasion\": [\"Diwali Special\"],\"design_features\": [\"Hanging\",\"jardosi\"],\"extracted\": {\"materials\": [\"Metal\",\"Pearl\"],\"stones\": [],\"colors\": [\"red\"]}}",
     "model": "gemini-2.5-flash",
     "prompt_version": "v1"
+  },
+  "86a85c894fc56fec59f15cefe9f69bb5221c1f2f4a3857b4e5c9a4bb3222089d": {
+    "input": "Ashiana Pink Beads Lotus Flower Jhumki earrings for women\nAshiana's latest ethnic, trendy and stylish jhumka earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\":[\"Lotus Flower\"],\"style\":[\"ethnic\",\"trendy\",\"stylish\"],\"finish\":[\"gold\"],\"occasion\":[\"Indian wear\"],\"design_features\":[\"Pink Beads\"],\"extracted\":{\"colors\":[\"gold\",\"pink\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "94ba44890120b68d5e87963449c77483c63d8354404abaa7ca621c82307dd97f": {
+    "input": "Ashiana Designer Antique Red Brass Half Bali style Leaf Earrings for Women\nThe product in display is made from brass material and is finished in an attractive maroon color. Furthermore, this product features a dangle & drop shape, cubic zirconia stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[\"Leaf\"],\"style\":[\"Half Bali style\",\"Antique\"],\"finish\":[\"maroon\"],\"occasion\":[\"festive\"],\"design_features\":[\"dangle & drop shape\",\"versatile\"],\"extracted\":{\"colors\":[\"maroon\"],\"materials\":[\"brass\"],\"stones\":[\"cubic zirconia\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "48ca047152fa971d211ea906c04742c4f6b8c6b08d8f1926d2f67a7d242623d4": {
+    "input": "Ashiana Kundan Gold Brass CZ Dangle & Drop Earrings for Women (AS0885)\nThe product in display is made from brass material and is finished in an attractive gold color. Furthermore, this product features a dangle & drop shape, cubic zirconia stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[],\"style\":[],\"finish\":[\"gold\"],\"occasion\":[\"festive\"],\"design_features\":[\"dangle & drop shape\"],\"extracted\":{\"colors\":[\"gold\"],\"materials\":[\"brass\"],\"stones\":[\"cubic zirconia\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "ed37834a72ec24241346dd47b6ba0fb15e5ce8b0a6557605a9ea3c629361b365": {
+    "input": "Ashiana Silver Brass CZ Unisex Brooch (AS0871)\nThe product in display is made from brass material and is finished in an attractive silver color. Furthermore, this product features a cubic zirconia stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[],\"style\":[],\"finish\":[\"silver\"],\"occasion\":[\"festive occasion wear\"],\"design_features\":[\"versatility to be worn as a festive occasion wear\"],\"extracted\":{\"colors\":[\"silver\"],\"materials\":[\"brass\"],\"stones\":[\"cubic zirconia\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "47d1b6d2d1caeb1e1a5ba6edd693605b689f214dbb7377fe147a2333ae77b1c0": {
+    "input": "Ashiana Purple Beads Lotus Flower Jhumki earrings for women\nAshiana's latest ethnic, trendy and stylish jhumka earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\":[\"lotus flower\"],\"style\":[\"ethnic\",\"trendy\",\"stylish\"],\"finish\":[\"gold\"],\"occasion\":[\"Indian wear\"],\"design_features\":[\"jhumka earring\",\"latest\",\"ethnic\",\"trendy\",\"stylish\"],\"extracted\":{\"colors\":[\"gold\",\"purple\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "a311c921baa8e3298c9bf2ced05f466ce8e9c670863aed41f6ffc591e937d276": {
+    "input": "Ashiana Exclusive! Ethnic American Diamond 3 flower ear cuff d7 (pair)\nAshiana's latest trendy and stylish ear cuff earring makes an undeniable statement and can dress up any outfit. Great for an Indian wear also!",
+    "output": "{\"motifs\":[\"flower\"],\"style\":[\"Ethnic American\"],\"finish\":[],\"occasion\":[\"Indian wear\"],\"design_features\":[\"ear cuff earring\",\"trendy\",\"stylish\"],\"extracted\":{\"colors\":[],\"materials\":[],\"stones\":[\"diamond\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "7a500c32f3df1a4e71b1625d2642a5969e7f602acb5afffc8df5c1830aae87da": {
+    "input": "Ashiana CZ Butterfly Stud Earring for Women (Silver)\nAshiana latest trendy and stylish earring makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\":[\"Butterfly\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[\"Silver\"],\"occasion\":[],\"design_features\":[\"stud\"],\"extracted\":{\"colors\":[],\"materials\":[\"Silver\"],\"stones\":[\"CZ\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "eb7f1bca79482fbdf51621ceca96a6903660f61c38a0556370a7107f68025d4a": {
+    "input": "Ashiana Antique Trendy American Diamond Cluster Leaf shaped Ear Cuff Earring\nGold-Plated Dangle & Drop Earrings – Key Features✨ Material: Made from high-quality gold-plated material with an attractive gold finish.💎 Design: Features a stylish dangle & drop shape adorned with sparkling American diamonds.🎉 Occasion Wear: Perfect for festive celebrations, parties, and traditional functions.💫 Versatile Style: Complements both ethnic and semi-formal outfits beautifully.🎁 Ideal Gift: A thoughtful and elegant choice for gifting on special occasions.",
+    "output": "{\"motifs\":[\"leaf shaped\"],\"style\":[\"Antique Trendy\",\"dangle & drop shape\"],\"finish\":[\"gold finish\"],\"occasion\":[\"festive celebrations\",\"parties\",\"traditional functions\"],\"design_features\":[\"leaf shaped\",\"dangle & drop shape\",\"sparkling American diamonds\"],\"extracted\":{\"colors\":[],\"materials\":[\"gold-plated\"],\"stones\":[\"American diamonds\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "5c1af60e1c4d87c90e9d08624a7e0a2df937e6afed6102c9b8c7a6871c3baa42": {
+    "input": "Ashiana Designer Multi-colour Cz Zircon Butterfly Flower Jewelry Set\nAshiana brings this stunning and Beautiful butterfly and flower necklace set with chandelier earrings which will make you feel like a Princess! The perfect gift!",
+    "output": "{\"motifs\":[\"butterfly\",\"flower\"],\"style\":[\"designer\",\"multi-colour\"],\"finish\":[],\"occasion\":[\"gift\"],\"design_features\":[\"necklace set\",\"chandelier earrings\"],\"extracted\":{\"colors\":[\"multi-colour\"],\"materials\":[],\"stones\":[\"Cz Zircon\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "502a625f7eb7bb5f970800216932338b9eee98a0fc1046907e3fd776197c2fce": {
+    "input": "Ashiana Two Birds On A Fence Collar Pin Brooch\nThis latest trendy and stylish brooch makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire!",
+    "output": "{\"motifs\":[\"Two Birds On A Fence\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"collar pin brooch\"],\"extracted\":{\"colors\":[],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "4258798fb69bec8e29afb3d5813e3a8e2afaf82614befa2e1de00b92ef1a7f03": {
+    "input": "Ashiana Designer Butterfly ear Cuff Earring\nThe product in display is made from gold plated material and is finished in an attractive gold color. Furthermore, this product features a stud shape, american diamond stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[\"butterfly\"],\"style\":[\"ear cuff\",\"stud\"],\"finish\":[\"gold color\"],\"occasion\":[\"festive occasion wear\"],\"design_features\":[\"stud shape\",\"american diamond stone\",\"versatility to be worn as a festive occasion wear\"],\"extracted\":{\"colors\":[\"gold\"],\"materials\":[\"gold plated\"],\"stones\":[\"american diamond stone\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "cb8a78669e2d4398a25d853d2ecf101256bc2c23a2ef6419ec4ced6945faae8f": {
+    "input": "Ashiana Gold Peacock Pearl Embellished Collar Necklace\nThis latest trendy and stylish neckpiece makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire! For a Diva!",
+    "output": "{\"motifs\":[\"Peacock\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[\"gold\"],\"occasion\":[\"western attire\",\"Indian attire\"],\"design_features\":[\"pearl embellished\",\"collar necklace\"],\"extracted\":{\"colors\":[\"gold\"],\"materials\":[\"gold\"],\"stones\":[\"pearl\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "a371e284a22bfeea8df9694c5317ca71034368503e505ba6493c99773c018955": {
+    "input": "Ashiana 925 sterling Silver Dangle Cubic Zirconia Stud Earring\nAshiana latest trendy and stylish solitaire earring makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\":[\"solitaire\"],\"style\":[\"dangle\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"stud\"],\"extracted\":{\"colors\":[],\"materials\":[\"sterling silver\"],\"stones\":[\"cubic zirconia\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "e3a6364742ddaf2081b1503a28fe237ca08bd4d5f7f6a2b8d72f99f1f5c0106e": {
+    "input": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh - Green\nBeautiful Shubh Labh Which Enhance Your Entrance or Puja room. A great Gift!",
+    "output": "{\"motifs\":[\"Flower\"],\"style\":[\"Chain\"],\"finish\":[],\"occasion\":[\"Diwali\",\"Puja\"],\"design_features\":[\"LED\",\"Crystal\",\"Flower\",\"Chain\"],\"extracted\":{\"colors\":[\"Green\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "1425b53f48a03eca8c225ec6ffce3236d87449209aa5078b86356002a2c2959a": {
+    "input": "Ashiana Traditional Blue Ambi Shape Jhumka Earrings\nAshiana's latest ethnic, trendy and stylish earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\":[],\"style\":[\"ethnic\",\"trendy\",\"stylish\"],\"finish\":[\"gold\"],\"occasion\":[\"Indian wear\"],\"design_features\":[\"Traditional\",\"Blue\",\"Ambi Shape\",\"Jhumka\"],\"extracted\":{\"colors\":[\"Blue\",\"gold\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "9ebebb1c50105ad09e19d4622f5c398fcc42b0dd3c3f45218c5a26071161088a": {
+    "input": "Ashiana Exclusive Double sided Celebrity Rainbow stud earrings\nAshiana's latest Contemporary, trendy and stylish earring makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\":[\"Rainbow\"],\"style\":[\"Contemporary\",\"Trendy\",\"Stylish\"],\"finish\":[],\"occasion\":[\"Indian wear\"],\"design_features\":[\"Double sided\",\"Rainbow stud\",\"stud earrings\"],\"extracted\":{\"colors\":[\"Rainbow\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "f4b8c5e54410bd710eb710d6bb086ac87d43bd3c33b1b78acd77dcdebdd3edfd": {
+    "input": "Ashiana Diwali Special! Metal and Pearl Round jardosi Hanging Door toran/Bandarwal- red\nBeautiful Toran which will enhance your entrance. The toran does not change colour even after years of use. A perfect gift!",
+    "output": "{\"motifs\":[],\"style\":[\"Round\"],\"finish\":[],\"occasion\":[\"Diwali\"],\"design_features\":[\"Metal and Pearl\",\"Round\",\"Hanging Door toran\",\"Red\",\"Bandarwal\"],\"extracted\":{\"colors\":[\"red\"],\"materials\":[\"Metal\",\"Pearl\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "40448978c3eb3d0f5d8d4f098d16a54ed81d46cf84b6b7beba869965dfc78d08": {
+    "input": "Ashiana Elegant Rhinestone head band Gold for women\nHead gear",
+    "output": "{\"motifs\":[\"Rhinestone\"],\"style\":[\"Elegant\"],\"finish\":[\"Gold\"],\"occasion\":[],\"design_features\":[\"Elegant\",\"Rhinestone\",\"Gold\"],\"extracted\":{\"materials\":[\"Gold\"],\"stones\":[\"Rhinestone\"],\"colors\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "a6ad8c38985bff97c4bebaff0d174e85a81bb9a40e277e9e9428d621b75efb02": {
+    "input": "Ashiana Bronze Multi Tassel Skull Ear Cuff Earring (Single)\nAshiana Trendy Ear Cuff Earring – Key Features:✨ Striking Statement Piece: Bold and stylish ear cuff that adds instant glamour.🌟 Trendy & Unique Design: A modern twist on traditional earrings for a standout look.👗 Outfit Enhancer: Dresses up both casual and festive outfits effortlessly.💝 Perfect Gift for a Diva: A thoughtful and glamorous present for style lovers.💃 Ideal for All Occasions: Great for parties, weddings, or adding flair to everyday wear.",
+    "output": "{\"motifs\":[\"skull\",\"tassel\"],\"style\":[\"trendy\",\"modern\"],\"finish\":[\"bronze\"],\"occasion\":[\"parties\",\"weddings\",\"everyday wear\"],\"design_features\":[\"statement piece\",\"bold\",\"stylish\",\"trendy\",\"unique\",\"modern twist\",\"outfit enhancer\",\"gift\"],\"extracted\":{\"colors\":[\"bronze\"],\"materials\":[\"bronze\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "a8123d18969bffb75d56840649575f7384e41876aeaef4c925a5a4cd0464fac6": {
+    "input": "Ashiana Trilayer Gleam Chain for women\nAshiana Trilayer Gleam Chain necklace is a timeless and versatile accessory that adds a touch of elegance and sophistication to any ensemble. With its customizable length, high-quality materials, and stylish design, it's a must-have addition to any jewelry collection. With its adjustable length and secure closure mechanism, the necklace offers customizable wearability to suit individual preferences. Whether worn as a choker-style necklace or adjusted to a longer length for a layered effect, it provides versatility and comfort for the wearer. The Trilayer Gleam Chain necklace effortlessly transitions from day to night, making it a versatile accessory for any occasion. Whether paired with casual attire for a chic daytime look or worn with evening wear for a glamorous ensemble, this necklace adds a touch of refinement to any outfit.",
+    "output": "{\"motifs\":[],\"style\":[\"choker-style\",\"layered\"],\"finish\":[\"gleam\"],\"occasion\":[\"daytime\",\"evening\",\"any occasion\"],\"design_features\":[\"customizable length\",\"high-quality materials\",\"stylish design\",\"adjustable length\",\"secure closure mechanism\",\"versatility\",\"comfort\"],\"extracted\":{\"colors\":[],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "61ec5f9fd82ea319c41df1f9ebae16217a91e4ff426c8a8410225a1b392eff39": {
+    "input": "Ashiana Fabulous Statement Antique Bronze Carve Flower Necklace\nThis latest trendy and stylish neckpiece makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire! For a Diva.",
+    "output": "{\"motifs\":[\"Flower\"],\"style\":[\"Trendy\",\"Stylish\",\"Statement\"],\"finish\":[\"Antique Bronze\"],\"occasion\":[\"Western\",\"Indian\"],\"design_features\":[\"Carve Flower\",\"Statement\"],\"extracted\":{\"colors\":[\"Bronze\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "371aabbfa602b35adfff11f15fd22830b0a401f5feebb50f241c5e221d78cf31": {
+    "input": "Ashiana Green marcasite Petal Radiance Earring for Women\nThe Green marcasite Petal Radiance Earring is an elegant, nature-inspired stud featuring delicate petals crafted from vibrant green enamel. Each petal is shaped to evoke the beauty of freshly bloomed flowers, with a radiant shimmer that catches the light from every angle. The center of the earring is adorned with a subtle gemstone or crystal accent, adding a touch of sparkle to this organic, timeless design. Perfect for those who love nature and understated elegance, these earrings bring a fresh, vibrant touch to any look. Ideal for both everyday wear and special occasions, the Green Petal Radiance Earring is a symbol of renewal and natural beauty.",
+    "output": "{\"motifs\":[\"petals\",\"nature-inspired\",\"flowers\"],\"style\":[\"elegant\",\"understated elegance\",\"timeless\"],\"finish\":[\"radiant shimmer\"],\"occasion\":[\"everyday wear\",\"special occasions\"],\"design_features\":[\"nature-inspired stud\",\"delicate petals\",\"vibrant green enamel\",\"radiant shimmer\",\"subtle gemstone or crystal accent\"],\"extracted\":{\"colors\":[\"green\"],\"materials\":[\"enamel\",\"marcasite\"],\"stones\":[\"gemstone\",\"crystal\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "8aa87a4457d9e2529e2474577c6fea1898c4f680e6bcd93173de4f6c962ca0e4": {
+    "input": "Ashiana Blue Enamel Dangle & Drop Earrings for Women (AS0855)\nAshiana Blue Enamel Earrings: Key FeaturesStyle: Chic and appealing, designed to complement ethnic attire.Color: Features an attractive blue.Material: Crafted from enamel.Comfort: Lightweight and safe for sensitive skin.",
+    "output": "{\"motifs\":[],\"style\":[\"Chic\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"Chic and appealing, designed to complement ethnic attire\",\"Lightweight and safe for sensitive skin\",\"Dangle & Drop\"],\"extracted\":{\"colors\":[\"blue\"],\"materials\":[\"enamel\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "e8adf7a5559b32880284ff3514106e5d41ed2e53f5b1bc3e2971cb958a46f209": {
+    "input": "Ashiana Designer Gold Flower with Marble Inlay work and Pearl Tassel Ear Cuff Earring d1\nThe product in display is made from gold plated material and is finished in an attractive gold color. Furthermore, this product features a dangle & drop shape, pearl stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[\"Gold Flower\",\"Marble Inlay\",\"Pearl Tassel\"],\"style\":[],\"finish\":[\"gold color\"],\"occasion\":[\"festive occasion wear\"],\"design_features\":[\"dangle & drop shape\",\"pearl stone\",\"versatility\"],\"extracted\":{\"colors\":[\"gold color\"],\"materials\":[\"gold plated material\"],\"stones\":[\"pearl stone\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "6841838b47b573dfdced5f4abacf27f0c28d8618550dad26975d7588ba6520f4": {
+    "input": "Ashiana Sterling Silver Flower Ring hoop Earrings for Women\nElevate your style with our exquisite Sterling Silver Flower Ring Hoop Earrings. Crafted with precision and care, these elegant hoops feature delicate flower motifs that add a touch of nature-inspired beauty to any outfit. Each earring showcases a finely detailed floral design, expertly embedded on a sleek, high-quality sterling silver hoop. Perfect for both casual and formal occasions, these earrings offer a timeless charm and versatility. The lightweight design ensures comfortable wear throughout the day, while the secure latch-back closure keeps them firmly in place. Whether you're dressing up for a special event or adding a hint of sophistication to your everyday look, these Flower Ring Hoops are the ideal accessory. Material: 925 Sterling Silver Design: Intricate flower motifs on polished hoops Closure: Latch-back for secure and comfortable wear",
+    "output": "{\"motifs\":[\"flower motifs\"],\"style\":[\"elegant\"],\"finish\":[\"polished\"],\"occasion\":[\"casual\",\"formal\",\"special event\",\"everyday\"],\"design_features\":[\"delicate flower motifs\",\"finely detailed floral design\",\"sleek high-quality sterling silver hoop\",\"lightweight design\",\"secure latch-back closure\"],\"extracted\":{\"colors\":[],\"materials\":[\"925 Sterling Silver\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "ef2b9ceac97e1ac3de4bcfde2b4a038471c91abee8028089094e0b6a7db6cd5e": {
+    "input": "Ashiana Designer Blue Flower and Pearl Ear Clip Ear Cuff Earring\nThe product in display is made from crystal material and is finished in an attractive gold color. Furthermore, this product features a clip-on shape, pearl stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[\"Flower\",\"Pearl\"],\"style\":[\"Clip-on\"],\"finish\":[\"Gold\"],\"occasion\":[\"Festive\"],\"design_features\":[\"Clip-on shape\",\"Versatile\"],\"extracted\":{\"colors\":[\"Blue\"],\"materials\":[\"Crystal\"],\"stones\":[\"Pearl\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "6eaea7078dc6c791561f0c8da96a9f2ab7ba5541df529493428f18e9bdaf84f9": {
+    "input": "Ashiana Designer Ethnic Studs with Champagne Cubic Zirconia and Gold Tassels Earrings for Women\nAshiana's latest ethnic, trendy and stylish earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\":[],\"style\":[\"ethnic\",\"trendy\",\"stylish\"],\"finish\":[\"gold\"],\"occasion\":[\"Indian wear\"],\"design_features\":[\"studs\",\"tassels\",\"cubic zirconia\"],\"extracted\":{\"colors\":[\"gold\",\"champagne\"],\"materials\":[\"gold\"],\"stones\":[\"Champagne Cubic Zirconia\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "1efc96414ec54374cbc9e208dfb7ed6a4dc1e9d412447725b803e19f097e90db": {
+    "input": "Ashiana Beautiful Simple Gold Leaf Ear Cuff Earring\nAshiana's Statement Ear Cuff: Key FeaturesTrendy & Stylish: This ear cuff boasts a cutting-edge design that's sure to turn heads.Undeniable Statement: It makes a bold fashion statement, instantly elevating any look.Versatile Styling: Perfect for dressing up any outfit.Perfect Gift: An ideal present for a true Diva.",
+    "output": "{\"motifs\":[\"Gold Leaf\"],\"style\":[\"Beautiful Simple\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"Trendy & Stylish\",\"cutting-edge design\",\"Undeniable Statement\",\"Versatile Styling\"],\"extracted\":{\"colors\":[],\"materials\":[\"Gold\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "545ad1fe5712c7eedfecda448fbe5583aed81268b75e189298cd257dd7e7220a": {
+    "input": "Ashiana Connected Heart Bracelet - light blue (valentine special!)\nThis connected heart bracelet and a statement piece specially for an elegant girls and women!",
+    "output": "{\"motifs\":[\"heart\"],\"style\":[\"statement\"],\"finish\":[],\"occasion\":[\"valentine\"],\"design_features\":[\"connected heart\",\"statement piece\"],\"extracted\":{\"colors\":[\"light blue\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "1d2e1a99fa24d7585a129b501480be4d09fd43459ceb99212a1e453814ae130c": {
+    "input": "Ashiana Crystal Heart Harmony Earrings for Women\nEmbrace elegance and romance with the Crystal Heart Harmony Earrings. These exquisite earrings feature a beautifully crafted crystal heart, delicately adorned with a radiant red gemstone at its center. The heart-shaped design symbolizes love and unity, making these earrings a perfect gift for a loved one or a cherished addition to your own jewelry collection. Features: Material: High-quality crystal, ensuring durability and a luxurious shine. Design: Elegant heart shape with a vibrant red gemstone at the center, adding a touch of color and sparkle. Style: Drop earrings that dangle gracefully, offering a sophisticated and timeless look. Closure: Secure and comfortable hook closure, suitable for all-day wear. Dimensions: Perfect for special occasions such as anniversaries, birthdays, Valentine's Day, or any event where you want to add a touch of elegance and romance to your outfit.",
+    "output": "{\"motifs\":[\"heart\"],\"style\":[\"drop\"],\"finish\":[],\"occasion\":[\"anniversary\",\"birthday\",\"Valentine's Day\",\"special occasion\"],\"design_features\":[\"crystal heart\",\"red gemstone center\",\"heart-shaped design\",\"drop earrings\"],\"extracted\":{\"colors\":[\"red\"],\"materials\":[\"crystal\"],\"stones\":[\"red gemstone\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "fb0e35cf2714685ea6d62d7cf40b00f1c0d1d2b75af4b1820632b6a9fa7bbf36": {
+    "input": "Ashiana Semi Precious Green Brass CZ Dangle & Drop Earrings for Women (AS0897)\nThe product in display is made from brass material and is finished in an attractive green color. Furthermore, this product features a dangle & drop shape, cubic zirconia stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[],\"style\":[],\"finish\":[\"green\"],\"occasion\":[\"festive occasion wear\"],\"design_features\":[\"dangle & drop shape\"],\"extracted\":{\"colors\":[\"green\"],\"materials\":[\"brass\"],\"stones\":[\"cubic zirconia stone\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "8ddc03eed57ee3be344484f1767d2dc8fdffd710c2259a293adfe341a2de9636": {
+    "input": "Ashiana Exclusive! Ethnic American diamond 4 circle ear cuff with jhumka d12 (pair)\nAshiana's latest trendy and stylish ear cuff earring makes an undeniable statement and can dress up any outfit. Great for an Indian wear also!",
+    "output": "{\"motifs\":[],\"style\":[\"Ethnic American\",\"jhumka\"],\"finish\":[],\"occasion\":[\"Indian wear\"],\"design_features\":[\"trendy\",\"stylish\",\"ear cuff earring\",\"diamond 4 circle\",\"jhumka d12\"],\"extracted\":{\"colors\":[],\"materials\":[],\"stones\":[\"diamond\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "acf44748bf150dd96c42413f81c0c65056daa19ca4d996cd76b1622f5b8c837c": {
+    "input": "Ashiana Christmas Exclusive! Deer Shaped Twin Candle Stand in Gold and Silver\nAshiana Exquisite Candle Holder – Key Features:🕯️ Elegant Home Accent: Brightens up your living space with warmth and charm.✨ Visually Appealing Design: Adds a touch of sophistication to any décor.🏡 Perfect for Any Room: Ideal for living rooms, bedrooms, or cozy corners.🎁 Wonderful Gift Choice: A thoughtful and stylish present for housewarmings or festive occasions.🌟 Signature Ashiana Aesthetic: Crafted to reflect elegance and timeless appeal.",
+    "output": "{\"motifs\":[\"deer\"],\"style\":[\"elegant\",\"timeless\",\"sophisticated\"],\"finish\":[\"gold\",\"silver\"],\"occasion\":[\"housewarming\",\"festive\",\"Christmas\"],\"design_features\":[\"Elegant Home Accent\",\"Visually Appealing Design\",\"Perfect for Any Room\",\"Wonderful Gift Choice\",\"Signature Ashiana Aesthetic\",\"Twin Candle Stand\",\"Deer Shaped\"],\"extracted\":{\"colors\":[\"gold\",\"silver\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "8b9c237e615d51fedebc9c80be27d1f1cf0837d4c3ebbc73590b10903edb8e9b": {
+    "input": "Ashiana Green Stripes Cube double-side Earrings\nAshiana's latest trendy and stylish double sided earring makes an undeniable statement and can dress up any outfit. Crafted to suit a classy women!",
+    "output": "{\"motifs\":[\"Green Stripes\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"double-sided\",\"cube\"],\"extracted\":{\"colors\":[\"Green\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "54191aa8d9bec7f94ce17228b44cd115204b124b289ec6e10176e3770640f22b": {
+    "input": "Ashiana Gold Adjustable American Diamond Twin Butterfly Ring for Women\nThis latest trendy and stylish ring makes an undeniable statement and can dress up any outfit. Great for a festive wear. Perfect for a Diva!",
+    "output": "{\"motifs\":[\"Butterfly\"],\"style\":[\"Trendy\",\"Stylish\",\"Diva\"],\"finish\":[],\"occasion\":[\"Festive wear\"],\"design_features\":[\"Adjustable\",\"Undeniable statement\",\"Dress up any outfit\"],\"extracted\":{\"colors\":[],\"materials\":[\"Gold\"],\"stones\":[\"Diamond\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "178ac5f3b4bbbda76aff20532ddca1951da41fed94d3a625e98bf48b8e1c43c6": {
+    "input": "Ashiana Elegant Kundan and Gold Inlay Jewellery Set\nBeautiful and attractive necklace set which can be worn with traditional clothing. The necklace has hand carving with Kundan work and pink drops.",
+    "output": "{\"motifs\":[\"drops\"],\"style\":[\"Elegant\",\"Traditional\"],\"finish\":[],\"occasion\":[\"Traditional\"],\"design_features\":[\"hand carving\",\"Kundan work\",\"pink drops\"],\"extracted\":{\"colors\":[\"pink\"],\"materials\":[\"Gold\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "34425968b6c0fa7478151e99e3a6f25173c66d0bc14bf096cf0beeffaef355da": {
+    "input": "Ashiana Delicate Blue Feather Gemstone tassel Dangle Hook Pendant Earrings\nAshiana's latest trendy and stylish feather earrings makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\":[\"Feather\"],\"style\":[\"Trendy\",\"Stylish\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"Tassel\",\"Dangle Hook\",\"Pendant Earrings\"],\"extracted\":{\"colors\":[\"Blue\"],\"materials\":[],\"stones\":[\"Gemstone\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "196174620eea6810678ae41ddd06e247efb65341d1cea1c6b72b696c69cc46a5": {
+    "input": "Ashiana Red Brass Dangle & Drop Earrings for Women (AS0849)\nChic and appealing, these red colored earrings from ashiana will compliment your ethnic attire. Made from brass, these earrings are light in weight and safe for your sensitive skin.",
+    "output": "{\"motifs\":[],\"style\":[\"dangle\",\"drop\"],\"finish\":[],\"occasion\":[\"ethnic\"],\"design_features\":[\"chic\",\"appealing\",\"light weight\",\"safe for sensitive skin\"],\"extracted\":{\"colors\":[\"red\"],\"materials\":[\"brass\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "428f0472716d1756e95561c36460f59314ac796af9c3fe7e9cabc325c66eb6de": {
+    "input": "Ashiana Semi Precious Brass CZ Dangle & Drop Earrings for Women (AS0896)\nThe product in display is made from brass material and is finished in an attractive set of colors. Furthermore, this product features a dangle & drop shape, cubic zirconia stone and a design that renders it with the versatility to be worn as a wedding occasion wear.",
+    "output": "{\"motifs\":[],\"style\":[],\"finish\":[],\"occasion\":[\"wedding occasion wear\"],\"design_features\":[\"dangle & drop shape\"],\"extracted\":{\"colors\":[\"attractive set of colors\"],\"materials\":[\"brass\"],\"stones\":[\"cubic zirconia stone\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "eba78394e1b2f0a20f2ad94c9cd35e659bfdf7795fcf28b9f18b1deecdf4124d": {
+    "input": "Ashiana Antique Bronze Bicycle Designer Necklace Watch\nTrendy & Stylish Neckpiece – Key Features:✅ Bold Statement Design: Instantly enhances your look with a touch of glam.✅ Versatile Styling: Pairs beautifully with both Indian and Western outfits.✅ Modern Elegance: A chic blend of trend and timeless appeal.✅ Perfect for Any Occasion: Great for parties, festive events, or daily wear.✅ Lightweight & Comfortable: Designed for effortless, all-day elegance.✅ Ideal Gift Choice: A stylish and thoughtful gift for fashion-forward women.",
+    "output": "{\"motifs\":[],\"style\":[\"Trendy & Stylish\"],\"finish\":[],\"occasion\":[\"parties\",\"festive events\",\"daily wear\"],\"design_features\":[\"Bold Statement Design\",\"Versatile Styling\",\"Modern Elegance\",\"Perfect for Any Occasion\",\"Lightweight & Comfortable\",\"Ideal Gift Choice\"],\"extracted\":{\"colors\":[],\"materials\":[\"Bronze\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "50cb6d023401c3e05b995101a9491e8494cefa33dcf0aa369ea5d18987e5cdba": {
+    "input": "Ashiana Sterling Silver White Elegant Water-drop Cat's Eye Pendant and Earrings set\nThis latest trendy and stylish pendant set makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire!",
+    "output": "{\"motifs\":[\"Water-drop\",\"Cat's Eye\"],\"style\":[\"Elegant\",\"Trendy\",\"Stylish\"],\"finish\":[\"Sterling Silver White\"],\"occasion\":[\"Western attire\",\"Indian attire\"],\"design_features\":[\"latest\",\"trendy\",\"stylish\",\"elegant\",\"makes an undeniable statement\",\"dress up any outfit\"],\"extracted\":{\"colors\":[\"White\"],\"materials\":[\"Sterling Silver\"],\"stones\":[\"Cat's Eye\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "87a04e04bb90b088d3713888a866fae06176b457abf60648a199ecf9b8e5dc8e": {
+    "input": "Ashiana 92.5 Sterling Silver Pink Deer Antler Crystal Bracelet\nEmbrace the serene beauty of winter with the Sterling Silver Snowberry Bliss Bracelet. This enchanting piece features delicate pink snowberry-inspired stones, set against the sleek backdrop of polished sterling silver. The bracelet is adorned with intricate reindeer accents, symbolizing grace and resilience, making it a perfect winter accessory or a meaningful gift. Each pink stone sparkles subtly, evoking the blush of winter berries dusted in frost, while the silver reindeer charm adds a touch of seasonal magic. Crafted with attention to detail, this bracelet is not only a stunning fashion statement but also a symbol of nature’s elegance. Wear it alone for a soft, sophisticated look, or layer it with your favorite pieces for a more personalized style. Whether you’re celebrating the holidays or adding a touch of winter wonder to your wardrobe, the Snowberry Bliss Bracelet is the perfect blend of charm and luxury.",
+    "output": "{\"motifs\":[\"reindeer\",\"deer antler\"],\"style\":[\"soft\",\"sophisticated\",\"layered\",\"charm\",\"luxury\"],\"finish\":[\"polished\"],\"occasion\":[\"winter\",\"holiday\"],\"design_features\":[\"delicate pink snowberry-inspired stones\",\"polished sterling silver\",\"intricate reindeer accents\",\"silver reindeer charm\",\"soft sophisticated look\",\"layering with favorite pieces\"],\"extracted\":{\"colors\":[\"pink\"],\"materials\":[\"sterling silver\"],\"stones\":[\"pink snowberry-inspired stones\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "55928bf1d491418d7f6fe00ef0478a3abaf02b4e40ae5712ca77eb7a7b46d029": {
+    "input": "Ashiana Delicate Black Feather and gold tassel Earrings\nAshiana latest trendy and stylish feather earrings makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\":[\"feather\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"Delicate\",\"Black\",\"Feather\",\"gold tassel\"],\"extracted\":{\"colors\":[\"Black\",\"gold\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "1fb1b16dca6f4df68fd0cfefb8041f703b23c97508e5402abccb94d8491c83e4": {
+    "input": "Ashiana Black Long Bead flower Charm One Ear Cuff Earring\nThe Perfect Gift for a Diva: Key FeaturesDesign: Latest trendy and stylish ear cuff earring.Impact: Makes an undeniable statement.Versatility: Can effortlessly dress up any outfit.Gifting: An ideal gift for a \"Diva.\"",
+    "output": "{\"motifs\":[\"flower\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[],\"occasion\":[\"gift\"],\"design_features\":[\"Long Bead flower Charm\",\"Ear Cuff Earring\",\"Latest trendy and stylish ear cuff earring\"],\"extracted\":{\"colors\":[\"Black\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "d26bbb5bbfa831ef9443456e2425a61ca0166d37a1c07e3ee981feab8a446d8d": {
+    "input": "Ashiana Gold Kundan Chand Dangle Earring for women\nAshiana's latest ethnic, trendy and stylish earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "output": "{\"motifs\":[],\"style\":[\"ethnic\",\"trendy\",\"stylish\"],\"finish\":[\"gold\"],\"occasion\":[\"Indian wear\"],\"design_features\":[\"Gold\",\"Kundan Chand\",\"Dangle Earring\"],\"extracted\":{\"colors\":[\"gold\"],\"materials\":[\"Gold\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "48c9c9768ca2595cd6263ec59bafa4a48f564702e814e1f562eb62be57db154f": {
+    "input": "Ashiana Delicate Yellow Feather Gemstone tassel Dangle Hook Pendant Earrings\nAshiana's latest trendy and stylish feather earrings makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\":[\"feather\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"Delicate\",\"Yellow\",\"Feather\",\"Gemstone\",\"tassel\",\"Dangle Hook\",\"Pendant\"],\"extracted\":{\"colors\":[\"Yellow\"],\"materials\":[],\"stones\":[\"Gemstone\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "b9a11d8d1a52dcb023d6004d61e2e0627b6d92475b3466a1998d4b0fdbeb4c7e": {
+    "input": "Ashiana Beautiful Kundan Pearl Chandelier Earring\nKey Features:Versatile Design: Perfectly complements both traditional Indian attire and modern Western outfits.Lengthy & Elegant: Features a long silhouette for a graceful and eye-catching look.Sparkling Embellishments: Adorned with brilliant American diamonds.Traditional Craftsmanship: Intricate Kundan work adds a touch of classic heritage.Pearlescent Dangling: Finished with delicate pearl hangings for added charm.Mughal-Inspired Reverse: Unique and alluring gold leaf work on the back, reminiscent of exquisite Mughal era artistry.Exclusivity: A truly \"one of a kind\" statement piece.",
+    "output": "{\"motifs\":[\"Mughal-Inspired\",\"gold leaf\",\"Kundan\"],\"style\":[\"Versatile\",\"Elegant\"],\"finish\":[\"Pearlescent\",\"Gold leaf\"],\"occasion\":[],\"design_features\":[\"Versatile Design\",\"Lengthy & Elegant\",\"Sparkling Embellishments\",\"Traditional Craftsmanship\",\"Pearlescent Dangling\",\"Mughal-Inspired Reverse\",\"Exclusivity\"],\"extracted\":{\"colors\":[],\"materials\":[\"diamond\",\"pearl\",\"gold leaf\",\"gold\"],\"stones\":[\"diamond\",\"pearl\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "49ba83a4d3d3cbe14bfdd63a6b8db7583710b416e9ea4af1744496b7fe09c9d3": {
+    "input": "Ashiana Designer American Diamond Blue Ear Cuff Earring d3\nThe product in display is made from crystal material and is finished in an attractive gold color. Furthermore, this product features a clip-on shape, american diamond stone and a design that renders it with the versatility to be worn as a festive occasion wear.",
+    "output": "{\"motifs\":[\"American Diamond\"],\"style\":[\"clip-on\"],\"finish\":[\"gold\"],\"occasion\":[\"festive occasion wear\"],\"design_features\":[\"clip-on shape\"],\"extracted\":{\"colors\":[\"gold\",\"blue\"],\"materials\":[\"crystal\"],\"stones\":[\"American Diamond\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "47e53c3daa36cdf8703da915ff7f42d553f62c28787057e78327d466d5a25623": {
+    "input": "Ashiana Multi color heart earring\nAshiana latest trendy and stylish earrings makes an undeniable statement and can dress up any outfit.",
+    "output": "{\"motifs\":[\"heart\"],\"style\":[\"trendy\",\"stylish\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"multi color\",\"heart earring\",\"trendy\",\"stylish\"],\"extracted\":{\"colors\":[\"multi color\"],\"materials\":[],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "5eb9fecaacb44f35d0168070cbdf21c5caf7bf2232632d3b1941bcc0c0c3fcd6": {
+    "input": "Ashiana Multi-Color Brass Dangle & Drop Earrings for Women (AS0858)\nChic and appealing, these multi-colored earrings from ashiana will compliment your ethnic attire. Made from brass, these earrings are light in weight and safe for your sensitive skin.",
+    "output": "{\"motifs\":[],\"style\":[\"Dangle & Drop\",\"Chic\"],\"finish\":[],\"occasion\":[],\"design_features\":[\"Chic\",\"Appealing\",\"Multi-colored\",\"Light in weight\",\"Safe for sensitive skin\"],\"extracted\":{\"colors\":[],\"materials\":[\"Brass\"],\"stones\":[]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "89094cec78d75e3f5945841cab5cbd9c42bb77b20080592979b44fb549120370": {
+    "input": "Ashiana Elegant Dancing Peacock Earrings\nBeautiful and attractive studs which can be worn with traditional or modern clothing. Blue enamel work with pearl studded work.",
+    "output": "{\"motifs\":[\"peacock\"],\"style\":[\"elegant\"],\"finish\":[\"enamel\"],\"occasion\":[\"traditional\",\"modern\"],\"design_features\":[\"beautiful and attractive studs\",\"blue enamel work\",\"pearl studded work\"],\"extracted\":{\"colors\":[\"blue\"],\"materials\":[\"enamel\",\"pearl\"],\"stones\":[\"pearl\"]}}",
+    "model": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
   }
 }

@@ -405,3 +405,28 @@ to add it to `.env` directly, and no verbose/header-dumping commands were run ag
 project's current limit rather than another stale web figure — the live 472-product run
 itself is the real test, and its outcome (documented after it completes) is the actual
 verification.
+**Process note, per the user (2026-09-12):** the pivot itself was the right call, but I
+wrote and committed the Groq-facing code (new `describe.py`, `requirements-pipeline.txt`,
+CI, `.env.example`) right after the AskUserQuestion answer ("switch to Groq"), before the
+user had actually supplied a Groq key or given a further go-ahead. The user approved after
+the fact, but was explicit that provider/cost/timeline-affecting pivots like this should
+wait on their actual answer before code changes commit — picking an option in
+AskUserQuestion isn't the same as authorization to proceed. Saved as a standing feedback
+memory; applies to any future provider/cost/timeline pivot in this project, not just LLM
+providers.
+
+## 2026-09-12 — One bad generation shouldn't sink the whole descriptor batch
+
+**Decision.** `run_llm_descriptors` now catches any exception from a single product's LLM
+call/validation, logs it to `artifacts/eval/extraction_failures.json`, falls back to the
+taxonomy-stripped-title descriptor for that product (same fallback already used when the
+LLM legitimately returns everything empty), and continues — instead of the whole 472-product
+run dying on one bad product.
+**Why.** The first full Groq run crashed at product 51/472 with `400
+json_validate_failed` — Groq's strict JSON-schema mode rejected that one product's
+generation server-side (empty `failed_generation` in the error body, so the actual bad
+output isn't even visible to debug). This is a `BadRequestError`, correctly not in
+`_RETRYABLE_STATUS`, so `_call_llm` correctly gave up — the bug was that nothing one level up
+caught it, so 50 good, cached results plus the process nearly got thrown away over one
+product's content tripping the strict schema. A failed product isn't cached, so a later run
+retries it automatically rather than being permanently stuck on the fallback.
