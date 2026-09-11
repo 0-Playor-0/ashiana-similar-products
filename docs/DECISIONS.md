@@ -276,3 +276,84 @@ products; the LLM descriptor step gets slightly noisier input than an ideal boil
 stripper would produce, but the roadmap's own grounding check (every extracted term must
 appear in the input) means this can't cause hallucinated attributes — at worst it's a
 missed opportunity to shorten the prompt, not a correctness risk.
+
+## 2026-09-11 — D4 update: switched off the OpenAI-compatible endpoint
+
+**Decision.** `pipeline/describe.py` now calls Gemini through the native `google-genai` SDK
+(`genai.Client(api_key=...).models.generate_content(...)`), not
+`openai.OpenAI(base_url=...)` against `/v1beta/openai/...` as originally set up. `openai` is
+removed from `requirements-pipeline.txt`; `google-genai==2.23.0` replaces it. `LLM_BASE_URL`
+is no longer used (native SDK talks to the API directly) and was removed from `.env.example`.
+**What actually happened.** The single-product smoke test hung indefinitely against the
+OpenAI-compat endpoint (confirmed at the raw HTTP level with `curl -v`: TLS handshake
+completes, request uploads fully, then zero bytes back even after 20s+ — not a network
+block, since a plain GET to the API root returns instantly). **In the course of that debug,
+`curl -v` echoed the Authorization header — including the real API key — into this
+session's tool output.** Flagged to the user immediately; they revoked that key in AI Studio
+and issued a new one before anything else proceeded. (Lesson for future debugging in this
+project: never use `-v`/`--verbose` curl with a real `Authorization` header inline; redact
+it or check status codes without dumping headers.)
+**Root cause, per the user + verified.** Google's Gemini API keys transitioned from the old
+`AIzaSy...` format to new `AQ.`-prefixed "Auth keys" during 2026, and AI Studio now only
+issues the new format. The user correctly identified that these new keys are known to fail
+against the OpenAI-compatible endpoint while working fine against the native one.
+**Verification (rule 12).** `ai.google.dev/gemini-api/docs/openai` itself says nothing about
+key-format compatibility — this isn't (yet) documented as an official limitation. Corroborated
+instead via the Google AI Developer forum: independent reports of `AQ.`-prefixed keys
+returning `400 Multiple authentication credentials received` or `401 invalid_api_key` on the
+OpenAI-compat path while succeeding on the native path
+([discuss.ai.google.dev/t/140545](https://discuss.ai.google.dev/t/new-aq-prefix-api-keys-fail-on-openai-compatible-endpoints-with-multiple-authentication-credentials-received/140545),
+[discuss.ai.google.dev/t/176177](https://discuss.ai.google.dev/t/new-api-keys-generated-with-aq-prefix-dont-work-with-rest-endpoint/176177)).
+Then verified hands-on against the real installed `google-genai==2.23.0` package by
+introspecting it directly (`inspect.signature`, `model_fields`) rather than trusting only
+doc-summary fetches, since a fetched-and-summarized doc page can itself be wrong or stale:
+confirmed `client.models.generate_content(model=, contents=, config=GenerateContentConfig(...))`
+as the stable typed method (there's also a newer `client.interactions.create(**body)` surface
+the current docs describe, but it's loosely typed — stuck with `generate_content` since its
+config fields are directly inspectable); confirmed `GenerateContentConfig` has
+`system_instruction`, `temperature`, `response_mime_type`, and `response_schema` (accepts a
+Pydantic model directly — this is the roadmap's `response_format={"type":"json_object"}`
+equivalent, and more reliable since it's native rather than a compatibility shim, so the
+try/fallback logic the roadmap wrote for the OpenAI path is no longer needed); confirmed
+`google.genai.errors.APIError` (base of `ClientError`/`ServerError`) exposes `.code` as the
+int HTTP status, used for the retryable-status check in `_call_llm`.
+**A live smoke-test run against the new key** (3 attempts, no `-v` this time) returned two
+successes and one `503 UNAVAILABLE` ("model is currently experiencing high demand") for
+`gemini-3.8-flash` — confirms auth and the request path both work; the SDK's own
+default retry (via `tenacity`) didn't cover this particular 503, which is why `_call_llm`
+keeps its own exponential-backoff retry loop up to `max_retries` from `config/settings.yaml`.
+If 503s prove frequent across the full 472-product run, the documented fallback is
+`gemini-2.5-flash` via the `LLM_MODEL` env var — no code change needed.
+
+## 2026-09-11 — D4 final: `gemini-3.8-flash`'s free tier is 20 requests/day, switched to `gemini-2.5-flash`
+
+**Decision.** `.env`'s `LLM_MODEL` changed from `gemini-3.8-flash` to `gemini-2.5-flash`
+(`.env.example` already documented this as the fallback). No code changes — `LLM_MODEL` was
+always read from env, never hardcoded.
+**What happened.** Chasing the earlier hang (see the D4-update entry above), I added a
+client-side request timeout and tested it at increasing values against `gemini-3.8-flash`.
+At the SDK's enforced minimum (10s) the server consistently returned a clean
+`504 DEADLINE_EXCEEDED` after ~9.5s, every time (4/4) — meaning `gemini-3.8-flash` itself was
+routinely taking longer than 10s to respond, not that anything was actually hung. Testing at
+45s surfaced the real blocker: `429 RESOURCE_EXHAUSTED`, with the response body stating
+plainly — this is the API's own error message, not a third-party estimate —
+`"Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, ... quotaValue: '20'"`
+for `gemini-3.8-flash`. **20 requests per day.** My own smoke-testing across this debugging
+session had already exhausted it. Third-party sources researched for the earlier D4 entry
+(RapidDevelopers, BenchLM, etc.) reported free-tier figures like "1,500 RPD" for Flash-class
+models in general — those numbers evidently don't apply to `gemini-3.8-flash` specifically,
+Google's most capable and newest Flash model at the time, which is far more tightly
+free-tier-limited than older Flash models. Lesson: for a model this new, a live quota-exceeded
+error from the API itself is more trustworthy than aggregated web content, which is exactly
+why this got caught before wasting the whole 472-product run on 20-a-day throughput (24
+days) rather than discovering it partway through.
+**Verification before switching.** 4/4 calls to `gemini-2.5-flash` succeeded, each in
+1.3–2.3s (vs. `gemini-3.8-flash` routinely exceeding 10s) — both faster and evidently not
+anywhere near as quota-constrained. `REQUEST_TIMEOUT_MS` (`pipeline/describe.py`) stays at
+30s: comfortable margin above `gemini-2.5-flash`'s observed ~2s latency, and still safely
+above the SDK's 10s minimum if a slow response does occur.
+**Consequence.** The full 472-product descriptor run proceeds against `gemini-2.5-flash`.
+`gemini-3.8-flash` remains the config default in `.env.example` per the user's original D4
+instruction (verified as current/recommended per Google's docs) — but a reader following
+that default for a catalog of any real size should expect this same 20 RPD wall and may want
+to start with `gemini-2.5-flash` directly.

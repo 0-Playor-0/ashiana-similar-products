@@ -8,6 +8,10 @@ Two independent steps, runnable separately:
 Both steps read/write data/catalog.jsonl in place (same pattern as
 pipeline/apply_image_review.py), plus write review artifacts under
 artifacts/eval/ for the Phase 2 checkpoint.
+
+LLM calls go through the native google-genai SDK, not the OpenAI-compat
+endpoint the roadmap originally sketched — see docs/DECISIONS.md ("D4 update:
+switched off the OpenAI-compatible endpoint") for why.
 """
 
 import hashlib
@@ -17,8 +21,10 @@ import random
 import re
 import time
 
+import httpx
 import yaml
-from openai import APIError, APIStatusError, OpenAI
+from google import genai
+from google.genai import errors, types
 from pydantic import BaseModel, Field, ValidationError
 from tqdm import tqdm
 
@@ -33,6 +39,7 @@ PROMPT_VERSION = SETTINGS["llm"]["prompt_version"]
 TEMPERATURE = SETTINGS["llm"]["temperature"]
 MIN_INTERVAL_S = SETTINGS["llm"]["min_interval_s"]
 MAX_RETRIES = SETTINGS["llm"]["max_retries"]
+REQUEST_TIMEOUT_MS = 30_000
 
 DESCRIPTORS_CACHE_PATH = ARTIFACTS_DIR / "descriptors.json"
 REMOVED_BOILERPLATE_PATH = ARTIFACTS_DIR / "eval" / "removed_boilerplate.json"
@@ -42,18 +49,8 @@ BEFORE_AFTER_PATH = ARTIFACTS_DIR / "eval" / "descriptor_before_after.json"
 SYSTEM_PROMPT = (
     "You extract design attributes from a jewelry product listing. Use only "
     "information explicitly present in the input; do not infer or embellish. "
-    "If a field has no support in the input, return an empty list. Return "
-    "only a JSON object matching the schema."
+    "If a field has no support in the input, return an empty list."
 )
-
-SCHEMA_HINT = """{
-  "motifs": ["peacock", "lotus"],
-  "style": ["temple", "traditional"],
-  "finish": ["antique", "matte"],
-  "occasion": ["wedding", "festive"],
-  "design_features": ["jhumka drop", "layered", "adjustable"],
-  "extracted": {"materials": [], "stones": [], "colors": []}
-}"""
 
 
 class ExtractedAttrs(BaseModel):
@@ -177,35 +174,31 @@ def _save_cache(cache: dict) -> None:
     DESCRIPTORS_CACHE_PATH.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
 
 
-def _call_llm(client: OpenAI, model: str, user_input: str, retry_note: str = "") -> str:
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {
-            "role": "user",
-            "content": f"Schema:\n{SCHEMA_HINT}\n\nListing:\n{user_input}{retry_note}",
-        },
-    ]
+_RETRYABLE_STATUS = {429, 500, 502, 503, 504}
+
+
+def _call_llm(client: genai.Client, model: str, user_input: str, retry_note: str = "") -> str:
+    contents = user_input + retry_note
+    config = types.GenerateContentConfig(
+        system_instruction=SYSTEM_PROMPT,
+        temperature=TEMPERATURE,
+        response_mime_type="application/json",
+        response_schema=LLMDescriptor,
+    )
     last_err = None
     for attempt in range(MAX_RETRIES):
         try:
-            try:
-                resp = client.chat.completions.create(
-                    model=model,
-                    messages=messages,
-                    temperature=TEMPERATURE,
-                    response_format={"type": "json_object"},
-                )
-            except (APIError, APIStatusError):
-                resp = client.chat.completions.create(
-                    model=model,
-                    messages=messages,
-                    temperature=TEMPERATURE,
-                )
-            return resp.choices[0].message.content
-        except (APIError, APIStatusError) as e:
+            resp = client.models.generate_content(model=model, contents=contents, config=config)
+            return resp.text
+        except httpx.TimeoutException as e:
+            # A hard client-side timeout (REQUEST_TIMEOUT_MS) — always retryable.
             last_err = e
-            status = getattr(e, "status_code", None)
-            if status in (429, 500, 502, 503, 504) or status is None:
+            time.sleep(min(2**attempt, 30))
+            continue
+        except errors.APIError as e:
+            last_err = e
+            status = getattr(e, "code", None) or getattr(e, "status_code", None)
+            if status in _RETRYABLE_STATUS or status is None:
                 time.sleep(min(2**attempt, 30))
                 continue
             raise
@@ -284,7 +277,6 @@ def _build_descriptor_sentence(descriptor: LLMDescriptor, title: str, taxonomy: 
 
 def run_llm_descriptors(products: list[Product], cleaned_descriptions: dict[str, str]) -> None:
     api_key = os.environ.get("LLM_API_KEY")
-    base_url = os.environ.get("LLM_BASE_URL")
     model = os.environ.get("LLM_MODEL")
     if not api_key:
         raise RuntimeError(
@@ -292,7 +284,13 @@ def run_llm_descriptors(products: list[Product], cleaned_descriptions: dict[str,
             "e.g. `set -a && source .env && set +a`, before running this."
         )
 
-    client = OpenAI(base_url=base_url, api_key=api_key)
+    # Explicit per-request timeout: seen this hang indefinitely with no bytes
+    # back (both against the old OpenAI-compat path and, once, the native one
+    # too) rather than erroring — without a timeout that's unrecoverable, but
+    # with one it becomes just another retryable failure (see DECISIONS.md).
+    client = genai.Client(
+        api_key=api_key, http_options=types.HttpOptions(timeout=REQUEST_TIMEOUT_MS)
+    )
     cache = _load_cache()
     synonyms = TAXONOMY["synonyms"]
 
