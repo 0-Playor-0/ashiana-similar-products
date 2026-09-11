@@ -214,4 +214,65 @@ lifestyle photos every time this is rerun on new products.
 ambiguous item (proposed label + std, bordered by that proposed label's color) to
 `artifacts/eval/figures/ambiguous_review.png`, indexed by
 `artifacts/eval/ambiguous_review_index.json`, for the user to confirm or correct before any
-of those 87 labels are treated as final.
+of those 87 labels are treated as final. **Resolved 2026-09-11**: the user reviewed all 87 —
+4 corrections (indices #5, #61 → lifestyle; #35, #41 → packshot; #41 is the inset-thumbnail
+composite flagged above as a known false-positive risk, confirmed as such), the other 83
+accepted as proposed. `pipeline/apply_image_review.py` applied this: corrected items get
+provenance `user_confirmed`, the rest `heuristic_confirmed` (reviewed-and-accepted, distinct
+from never-reviewed `heuristic`). No ambiguous items remain in the current snapshot.
+
+## 2026-09-11 — D4: LLM provider = Gemini, model = gemini-3.8-flash
+
+**Decision.** `LLM_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/`,
+`LLM_MODEL=gemini-3.8-flash`, called through the `openai` SDK per the roadmap's LOCKED
+choice (§3).
+**Verification (rule 12).** Checked against Google's own docs on 2026-09-11, not assumed
+from training knowledge (my knowledge cutoff is January 2026 and the model landscape has
+moved since): `ai.google.dev/gemini-api/docs/models` lists `gemini-3.8-flash` as the current
+"New Stable" Flash-class model ("our most intelligent Flash model"); `ai.google.dev/gemini-api/docs/pricing`
+confirms it has a free tier ("Free of charge" for the Standard tier); `ai.google.dev/gemini-api/docs/openai`
+confirms the OpenAI-compatible base URL is unchanged from the roadmap's `.env.example` and
+gives `gemini-3.8-flash` as its own example model ID for that endpoint.
+**What I could not verify.** Google no longer publishes a static free-tier RPM/RPD/TPM table
+— `ai.google.dev/gemini-api/docs/rate-limits` explicitly says limits are per-project and
+viewable only in each user's own AI Studio console, which I don't have access to. Kept the
+roadmap's conservative default (`min_interval_s: 7.0`, ~8.5 requests/minute) rather than
+tuning it against a number I can't confirm; the user can tighten or loosen it once they see
+their own project's actual limits in AI Studio.
+**Also unverified: JSON mode support.** The docs describe Gemini's own "structured output"
+(schema-based) rather than confirming OpenAI's `response_format={"type": "json_object"}` is
+honored through the compatibility layer. `pipeline/describe.py` implements exactly the
+fallback the roadmap already specifies for this case: try `response_format` first, and on
+failure fall back to prompt-instructed JSON-only output with code-fence stripping — so this
+works either way rather than depending on an unconfirmed feature.
+**Fallback if this model gives trouble.** Swapping to `gemini-2.5-flash` (also confirmed free
+of charge, longer track record) needs only an env var change, no code change — the model ID
+is never hardcoded outside `.env`.
+
+## 2026-09-11 — Boilerplate stripping catches almost nothing at the 20% threshold
+
+**Finding, not a decision.** `pipeline/describe.py:strip_boilerplate()` at the roadmap's
+default `boilerplate_min_share: 0.2` removes exactly one sentence ("Perfect gift for a
+Diva!", 26.9% of products). This is real, not a bug — verified by inspecting the actual
+sentence-frequency table.
+**What I fixed.** The initial version caught nothing at all, because Ashiana's templated
+copy ("This latest trendy and stylish EARRING makes an undeniable statement…") substitutes
+the product-type word per listing, so each product type's variant fell under its own key and
+never reached 20% share individually. Added `_PRODUCT_NOUN_RE` to `_normalize_sentence()`,
+collapsing earring/necklace/ring/bracelet/etc. to a placeholder before frequency-counting (and
+before the boilerplate-match check used to build the cleaned text, so both stay consistent).
+This is built from nouns actually observed recurring in the scraped descriptions, not
+guessed.
+**What's still short of the threshold even after that fix.** The "makes an undeniable
+statement" template still splits three ways after noun-collapsing — "this latest trendy and
+stylish ITEM makes…" (7.4%), "ashiana's latest trendy and stylish ITEM ITEM makes…" (5.1%,
+a double-ITEM case like "ear cuff earring"), "ashiana latest trendy and stylish ITEM
+makes…" (4.0%, missing the possessive apostrophe) — three variants of the same template,
+summing to 16.5%, still under 20% even combined. Chasing this further (apostrophe
+normalization, collapsing consecutive ITEM tokens) would be tuning the heuristic to hit a
+target number rather than reflecting a real pattern, so it stops here.
+**Consequence.** Phase 2's "cleaned description" is nearly identical to the raw one for most
+products; the LLM descriptor step gets slightly noisier input than an ideal boilerplate
+stripper would produce, but the roadmap's own grounding check (every extracted term must
+appear in the input) means this can't cause hallucinated attributes — at worst it's a
+missed opportunity to shorten the prompt, not a correctness risk.

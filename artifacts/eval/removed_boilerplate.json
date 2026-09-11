@@ -1,0 +1,12 @@
+{
+  "boilerplate_min_share": 0.2,
+  "n_products": 472,
+  "removed_sentences": [
+    {
+      "template": "perfect gift for a diva!",
+      "example": "Perfect gift for a Diva!",
+      "n_products": 127,
+      "share": 0.2691
+    }
+  ]
+}
