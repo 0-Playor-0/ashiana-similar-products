@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+.env
+data/images/
+data/raw/*/catalog_raw.json
+.DS_Store
+*.log

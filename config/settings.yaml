@@ -1,0 +1,44 @@
+catalog:
+  source_url: "https://www.ashianayouronestopshop.com"
+  # Site category names in scope, per D2 (jewelry + home decor + hair accessories)
+  # and the Phase-0 scope checkpoint (Brooch in, Candles/Key Chain/Rakhi/SCARF out).
+  include_site_categories:
+    - Bracelet
+    - Brooch
+    - Earrings
+    - Hair accessories
+    - Home Decor
+    - Necklace and Jewellery Sets
+    - Rings
+
+scraping:
+  rate_limit_s: 1.0            # minimum delay between requests
+  user_agent: "AshianaSimilarProductsBot/0.1 (+educational project; contact: playxzor@gmail.com)"
+  snapshot_dir: data/raw
+
+images:
+  pad_color: [255, 255, 255]
+  model_size: 224
+  thumb_size: 400
+  device: auto            # auto → mps | cuda | cpu
+
+text:
+  boilerplate_min_share: 0.2    # a sentence in ≥20% of products counts as boilerplate
+
+llm:
+  prompt_version: v1
+  temperature: 0
+  min_interval_s: 7.0
+  max_retries: 4
+
+metadata:
+  field_weights: {collection: 0.25, materials: 0.20, stones: 0.20, price: 0.20, colors: 0.10, product_type: 0.05}
+  price_tau: 0.6931             # ln 2 → a 2x price ratio gives similarity e^-1 ≈ 0.37
+
+fusion:
+  default_weights: {image: 0.5, text: 0.2, meta: 0.3}
+  k_default: 6
+  k_max: 12
+
+reasons:
+  z_threshold: 1.0              # a signal counts as "strong" when z ≥ 1

@@ -1,0 +1,102 @@
+# Normalization tables used by pipeline/clean.py.
+#
+# `product_type_map` / `collection_map` translate the site's own category and
+# collection names into our normalized vocabulary (Product.product_type /
+# Product.collection in pipeline/schema.py).
+#
+# `materials_vocab` / `stones_vocab` / `colors_vocab` are the term lists
+# clean.py matches against title+description for keyword attribute extraction
+# (§6). They were built by frequency-scanning the scraped catalog text
+# (data/raw/2026-09-11), not guessed — see docs/DECISIONS.md.
+#
+# The *_similarity tables (Phase 3, D5) are a separate, later concern: how
+# similar two vocabulary values are to each other. They stay empty here.
+
+product_type_map:
+  Bracelet: bangle_bracelet
+  Brooch: brooch
+  Earrings: earrings
+  Hair accessories: hair_accessory
+  Home Decor: home_decor
+  Necklace and Jewellery Sets: necklace_jewelry_set
+  Rings: ring
+
+collection_map:
+  Antique Jewellery: antique
+  Kundan Jewellery: kundan
+  Zircon Jewellery: zircon
+  Crystal Jewellery: crystal
+  Oxidised Jewellery: oxidised
+  Contemporary Jewellery: contemporary
+  92.5 Sterling Silver: sterling_silver
+
+synonyms:
+  cz: zircon
+  cubic zirconia: zircon
+  american diamond: zircon
+  ad: zircon
+  oxidized: oxidised
+  jhumki: jhumka
+  gold plated: gold_plated
+  gold-plated: gold_plated
+  rose gold: rose_gold_plated
+  rose gold plated: rose_gold_plated
+  sterling silver: sterling_silver
+  stainless steel: stainless_steel
+  multicolour: multi
+  multicolor: multi
+  multi colour: multi
+  multi-colour: multi
+
+# matched as whole phrases first (longest first), then single words, against
+# lowercased title+description; a hit fills Product.materials with
+# provenance="keyword" (only when the field is still empty after any
+# source-provided value — see clean.py)
+materials_vocab:
+  - sterling_silver
+  - gold_plated
+  - rose_gold_plated
+  - gold
+  - silver
+  - oxidised
+  - brass
+  - alloy
+  - rhodium
+  - platinum
+  - stainless_steel
+
+stones_vocab:
+  - zircon
+  - pearl
+  - crystal
+  - kundan
+  - diamond
+  - ruby
+  - sapphire
+  - emerald
+  - opal
+  - jade
+  - moonstone
+  - onyx
+  - rhinestone
+  - gemstone
+
+colors_vocab:
+  - gold
+  - silver
+  - black
+  - white
+  - red
+  - blue
+  - green
+  - pink
+  - purple
+  - yellow
+  - orange
+  - maroon
+  - multi
+
+# --- Phase 3 (D5) — proposed at that checkpoint, not filled in yet ---
+product_type_similarity: {}
+collection_similarity: {}
+material_similarity: {}

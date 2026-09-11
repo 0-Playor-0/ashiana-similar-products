@@ -1,0 +1,39 @@
+{
+  "snapshot_date": "2026-09-11",
+  "n_products": 472,
+  "counts_by_product_type": {
+    "earrings": 338,
+    "brooch": 9,
+    "necklace_jewelry_set": 78,
+    "home_decor": 10,
+    "hair_accessory": 17,
+    "bangle_bracelet": 10,
+    "ring": 10
+  },
+  "counts_by_collection": {
+    "(none)": 336,
+    "sterling_silver": 45,
+    "antique": 10,
+    "crystal": 9,
+    "contemporary": 50,
+    "oxidised": 7,
+    "zircon": 6,
+    "kundan": 9
+  },
+  "missingness": {
+    "description_raw": 0.0,
+    "collection": 0.7119,
+    "materials": 0.3347,
+    "stones": 0.2076,
+    "colors": 0.1314,
+    "price_inr": 0.0,
+    "in_stock": 0.0
+  },
+  "price_inr": {
+    "min": 175.0,
+    "median": 850.0,
+    "max": 5500.0
+  },
+  "product_types_below_k_plus_1": [],
+  "k_default": 6
+}

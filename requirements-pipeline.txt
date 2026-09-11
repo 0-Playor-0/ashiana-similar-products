@@ -1,0 +1,28 @@
+# Offline pipeline dependencies. Pinned per project rule 9.
+# NOTE (rule 12): versions below were current as of Sept 2026 research; re-verify against
+# each project's PyPI page before a fresh install if this file is more than a few months old.
+
+# core / shared
+numpy==1.26.4
+pydantic==2.13.5
+pyyaml==6.0.3
+tqdm==4.66.5
+
+# ingest (Phase 0)
+playwright==1.47.0
+
+# image pipeline (Phase 1)
+pillow==10.4.0
+torch==2.4.1
+transformers==4.44.2
+
+# text pipeline (Phase 2)
+sentence-transformers==3.1.1
+openai==1.47.0
+
+# metadata / eval (Phase 3-4)
+pandas==2.2.2
+
+# dev tooling
+ruff==0.16.7
+pytest==8.4.2
