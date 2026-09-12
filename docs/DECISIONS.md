@@ -457,3 +457,33 @@ failed SKUs (they were correctly never cached) without re-spending tokens on the
 already succeeded. The Phase 2 checkpoint (before/after table, grounding log, etc.) is
 generated after this retry run, not before — the pre-fix 47% fallback rate was never
 presented as a finished checkpoint.
+
+## 2026-09-12 — D5 taxonomy similarity tables: proposed, pending approval
+
+**Decision (proposal, not yet approved).** Filled in `product_type_similarity`,
+`collection_similarity`, and `material_similarity` in `config/taxonomy.yaml`, per §8 Phase 3.
+Built from the actual catalog distribution (`artifacts/eval/data_report.json`), not
+guessed-from-nothing: product_type counts (earrings 338 down to brooch 9), collection counts
+(contemporary 50 down to zircon 6, with 336/472 products carrying no collection tag at all),
+and the canonical `materials_vocab` list from Phase 0.
+**`home_decor` gets no listed pairs, deliberately.** Under the LOCKED "substitutes"
+definition (§1), a candle stand is never something a shopper would buy *instead of* a ring —
+so `product_type_similarity` should never let it backfill a jewelry query's fallback, or vice
+versa. Leaving it out of the table (unlisted pairs = 0, per the roadmap's own rule) is the
+correct way to express that, not an oversight.
+**Kept the roadmap's own worked example values verbatim** (`gold_plated|rose_gold_plated:
+0.7`, `gold_plated|silver: 0.2` — §8 Phase 3's sample snippet) and built the rest of
+`material_similarity` consistently around them.
+**Found, not fixed:** the LLM-descriptor materials/stones/colors backfill
+(`pipeline/describe.py`, still running in a separate session as of this entry) writes
+whatever free-form wording the model used ("Metal", "Bronze", "gun metal", "crystals", ...)
+directly into `Product.materials`/`stones`/`colors` without normalizing against
+`materials_vocab`/`stones_vocab`/`colors_vocab` the way the Phase 0 keyword step does. This
+doesn't break anything — Gower similarity already treats an unlisted value as 0 similarity to
+everything, which is the documented, correct fallback — it just means those specific
+products get less richly compared on metadata than ones with a canonical value. Left
+unfixed here since `pipeline/describe.py` was explicitly out of scope for this pass (another
+session was actively using it); worth a follow-up normalization pass in Phase 3 proper or a
+Phase 2 revisit.
+**Not yet approved** — presented to the user alongside three other Phase 3/4/6 scaffolding
+pieces done in the same pass; this entry records the reasoning regardless of the outcome.

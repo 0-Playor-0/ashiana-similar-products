@@ -9,8 +9,10 @@
 # (§6). They were built by frequency-scanning the scraped catalog text
 # (data/raw/2026-09-11), not guessed — see docs/DECISIONS.md.
 #
-# The *_similarity tables (Phase 3, D5) are a separate, later concern: how
-# similar two vocabulary values are to each other. They stay empty here.
+# The *_similarity tables (Phase 3, D5) say how similar two vocabulary values
+# are to each other (0..1, symmetric, unlisted pairs = 0, self = 1 — §8 Phase
+# 3). PROPOSED below from the catalog's actual distribution as of 2026-09-12
+# (data_report.json), pending user approval — see docs/DECISIONS.md.
 
 product_type_map:
   Bracelet: bangle_bracelet
@@ -96,7 +98,62 @@ colors_vocab:
   - maroon
   - multi
 
-# --- Phase 3 (D5) — proposed at that checkpoint, not filled in yet ---
-product_type_similarity: {}
-collection_similarity: {}
-material_similarity: {}
+# --- Phase 3 (D5 PROPOSAL — pending user approval, not final) ---
+#
+# Catalog counts by product_type (data_report.json, 2026-09-12): earrings 338,
+# necklace_jewelry_set 78, hair_accessory 17, bangle_bracelet 10, home_decor 10,
+# ring 10, brooch 9.
+#
+# home_decor deliberately has no listed pairs (similarity 0 with everything,
+# including itself only via the self=1 rule) — under this project's LOCKED
+# "substitutes" definition (§1: something a shopper would buy *instead of*
+# this item), a candle stand is never a substitute for a ring, so it should
+# never backfill the fallback for a jewelry query, and jewelry should never
+# backfill for it either.
+product_type_similarity:
+  earrings|hair_accessory: 0.3      # both worn near the head/ear
+  earrings|brooch: 0.2              # both small pinned/clipped decorative pieces
+  earrings|necklace_jewelry_set: 0.3  # frequently sold and worn as matching sets
+  necklace_jewelry_set|brooch: 0.3    # both chest/neckline-area pieces
+  necklace_jewelry_set|bangle_bracelet: 0.3  # both often bought as part of a set
+  bangle_bracelet|ring: 0.5         # both hand/wrist adornment, closest cross-type pair
+  brooch|hair_accessory: 0.2        # both small pinned/clipped accent pieces
+
+# Catalog counts by collection: contemporary 50, sterling_silver 45, antique 10,
+# crystal 9, kundan 9, oxidised 7, zircon 6. 336/472 products have no collection
+# tag at all (§ Phase 0 data_report.json) — collection_similarity only ever
+# applies to the ~29% that do.
+collection_similarity:
+  antique|oxidised: 0.6       # both an aged/vintage metal aesthetic
+  antique|kundan: 0.4         # kundan pieces are frequently styled antique-traditional
+  zircon|crystal: 0.6         # both faceted, sparkly stone-forward pieces
+  zircon|contemporary: 0.3
+  crystal|contemporary: 0.3
+  sterling_silver|oxidised: 0.4   # oxidised finish is commonly applied over sterling silver
+  sterling_silver|contemporary: 0.3
+  kundan|zircon: 0.2          # both stone-set, different design tradition
+
+# Canonical values only (materials_vocab above) — the LLM-descriptor backfill
+# (pipeline/describe.py, when keyword extraction left a field empty) has
+# started introducing free-form values straight from the model's own wording
+# ("Metal", "Bronze", "gun metal", "crystals", ...) that were never run through
+# materials_vocab normalization. Gower similarity treats any unlisted value as
+# 0 similarity to everything (correct per the roadmap's own missing-value
+# handling), so this isn't broken, just less richly compared for those
+# specific products — noted in DECISIONS.md as a follow-up, not fixed here
+# (pipeline/describe.py is explicitly out of scope for this pass).
+material_similarity:
+  gold_plated|rose_gold_plated: 0.7   # roadmap's own worked example (§8 Phase 3)
+  gold_plated|silver: 0.2             # roadmap's own worked example (§8 Phase 3)
+  gold_plated|gold: 0.8               # same visual finish, different construction
+  gold|rose_gold_plated: 0.5          # same family, warmer/cooler tone difference
+  silver|sterling_silver: 0.8         # sterling silver *is* silver, just an alloy purity claim
+  silver|rhodium: 0.6                 # rhodium plating is usually applied over silver-look base
+  silver|platinum: 0.5                # visually similar white metals
+  silver|stainless_steel: 0.5         # visually similar white metals
+  platinum|rhodium: 0.6               # both premium white-metal finishes
+  brass|alloy: 0.5                    # both common base metals for plated pieces
+  brass|gold_plated: 0.3              # brass is the frequent base metal under gold plating
+  oxidised|silver: 0.3                # oxidising is usually applied to silver, but darkens it
+  oxidised|brass: 0.3
+  stainless_steel|alloy: 0.4
