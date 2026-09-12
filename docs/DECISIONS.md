@@ -430,3 +430,30 @@ output isn't even visible to debug). This is a `BadRequestError`, correctly not 
 caught it, so 50 good, cached results plus the process nearly got thrown away over one
 product's content tripping the strict schema. A failed product isn't cached, so a later run
 retries it automatically rather than being permanently stuck on the fallback.
+
+## 2026-09-12 — Rate-limit backoff was far too short for Groq's TPD window
+
+**Finding + decision.** The first complete (non-crashing) 472-product run — after the
+per-product resilience fix above — finished with **223/472 (47%) falling back to the
+title-only descriptor**, all with the identical error: `RateLimitError: 429 ... on tokens
+per day (TPD): Limit 200000, Used 199061 ... Please try again in 4m33.888s`. That "try again
+in ~5 minutes" is the tell: Groq's TPD limit is a rolling window that clears within minutes,
+not a hard once-a-day reset — but `_call_llm`'s backoff was capped at `min(2**attempt, 30)`
+seconds over `MAX_RETRIES=4` tries, so it gave up in under 2 minutes and my new per-product
+catch (previous entry) quietly treated every one of those as a permanent failure.
+**Fix.** Added `_parse_retry_after()`, which reads the exact wait Groq's own error message
+specifies ("try again in 4m33.888s") and sleeps that long (+2s buffer, capped at
+`RATE_LIMIT_MAX_WAIT_S = 360s`) instead of guessing with exponential backoff. Rate limits
+also get their own retry budget, `RATE_LIMIT_MAX_RETRIES = 8`, separate from and larger than
+`MAX_RETRIES` (4, still used for genuinely-transient errors like 500/502/503 and timeouts,
+where a real wait time isn't given and short exponential backoff is the right call).
+**Why this happened at all.** 472 products × roughly 1,500-2,000 tokens/request is close to
+900K tokens for a full run — several times the 200K TPD ceiling — so hitting this limit
+repeatedly over a multi-hour run was never avoidable, only how gracefully to handle it.
+Properly honoring the suggested wait turns "permanent failure, silently worse descriptor"
+into "the run takes longer but actually finishes with real descriptors."
+**Consequence.** Re-running `pipeline.describe` after this fix retries exactly the 223
+failed SKUs (they were correctly never cached) without re-spending tokens on the 249 that
+already succeeded. The Phase 2 checkpoint (before/after table, grounding log, etc.) is
+generated after this retry run, not before — the pre-fix 47% fallback rate was never
+presented as a finished checkpoint.

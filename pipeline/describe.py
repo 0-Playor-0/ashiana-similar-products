@@ -215,13 +215,37 @@ _RESPONSE_FORMAT = {
 }
 
 
+_RETRY_AFTER_RE = re.compile(r"try again in (?:(\d+)m)?([\d.]+)s", re.IGNORECASE)
+# Groq's TPD (tokens-per-day) 429 is a rolling window, not a hard daily reset —
+# its own error message says e.g. "try again in 4m33s". A handful of seconds
+# of exponential backoff can't clear that; give rate limits their own, much
+# longer retry budget instead of MAX_RETRIES' short one (see DECISIONS.md —
+# the first two full-catalog runs treated this as a permanent per-product
+# failure and silently fell back to a worse descriptor for ~half the catalog).
+RATE_LIMIT_MAX_RETRIES = 8
+RATE_LIMIT_MAX_WAIT_S = 360.0
+
+
+def _parse_retry_after(message: str) -> float | None:
+    m = _RETRY_AFTER_RE.search(message)
+    if not m:
+        return None
+    minutes = float(m.group(1) or 0)
+    seconds = float(m.group(2))
+    return minutes * 60 + seconds
+
+
 def _call_llm(client: OpenAI, model: str, user_input: str, retry_note: str = "") -> str:
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": user_input + retry_note},
     ]
     last_err = None
-    for attempt in range(MAX_RETRIES):
+    rate_limit_attempts = 0
+    # Bounded by MAX_RETRIES for ordinary transient errors, but rate limits get
+    # their own larger budget (RATE_LIMIT_MAX_RETRIES) tracked separately below
+    # — so the outer loop must be sized for the worst case of both.
+    for attempt in range(MAX_RETRIES + RATE_LIMIT_MAX_RETRIES):
         try:
             resp = client.chat.completions.create(
                 model=model,
@@ -239,6 +263,11 @@ def _call_llm(client: OpenAI, model: str, user_input: str, retry_note: str = "")
         except APIStatusError as e:
             last_err = e
             status = getattr(e, "status_code", None)
+            if status == 429 and rate_limit_attempts < RATE_LIMIT_MAX_RETRIES:
+                rate_limit_attempts += 1
+                wait = _parse_retry_after(str(e)) or min(2**attempt, 30)
+                time.sleep(min(wait + 2, RATE_LIMIT_MAX_WAIT_S))
+                continue
             if status in _RETRYABLE_STATUS or status is None:
                 time.sleep(min(2**attempt, 30))
                 continue
