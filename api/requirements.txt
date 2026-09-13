@@ -1,0 +1,12 @@
+# API-only dependencies. Deliberately separate from requirements-pipeline.txt
+# (rule 5): the API must never import torch/transformers/sentence_transformers,
+# and installing only this file must be enough to run it. Pinned per rule 9,
+# versions verified against PyPI as of Sept 2026 (rule 12).
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+pydantic==2.13.5
+numpy==1.26.4
+pyyaml==6.0.3
+
+# test-only (TestClient needs an HTTP client backend)
+httpx==0.28.1

@@ -588,3 +588,46 @@ estimate look stable and directionally sensible (image-heavy fusion > either bas
 metadata-only > random), but the CIs for several methods overlap, so the results support "the
 fused model outperforms both baselines and image signal is doing most of the work," not
 fine-grained claims like "0.8189 is definitively better than 0.8191."
+
+## 2026-09-13 — Phase 5 API: implementation notes and minor interpretations
+
+**Ranking logic stays out of `api/`.** `api/app/service.py` orchestrates `core.fusion` /
+`core.filters` / `core.reasons` the same way `pipeline/recommend.py` does for the offline
+preview, but as a separate implementation rather than a shared import — the API has its own
+`api/requirements.txt` (fastapi, uvicorn, pydantic, numpy, pyyaml, httpx) and must not gain any
+transitive coupling to the pipeline package or its heavy dependencies (rule 5). `core/` is the
+only shared import between them, per rule 4.
+**Versions** (`api/requirements.txt`, verified against PyPI on 2026-09-13, rule 12):
+fastapi==0.141.1, uvicorn[standard]==0.52.4, httpx==0.28.1 (TestClient's HTTP backend, test-only).
+pydantic/numpy/pyyaml reuse the same pins already verified in `requirements-pipeline.txt`.
+**API tests live in `tests/api/`, not `api/tests/`** (§5's literal repo diagram shows the
+latter). `pyproject.toml`'s `[tool.pytest.ini_options]` already sets `testpaths = ["tests"]` so
+a single `pytest` invocation covers core + api + pipeline together (matching §11's CI
+description); putting api tests under the tree pytest already discovers avoids a second test
+command. The empty `api/tests/` scaffold directory was removed.
+**`/products/{sku}/similar` weight defaulting is per-parameter, not all-or-nothing.** Any of
+`w_image`/`w_text`/`w_meta` omitted from the query string falls back individually to that
+signal's value in `manifest.json`'s `default_weights` — not just when all three are absent. A
+slider UI that only sends the weight the user actually moved (rather than always sending all
+three) gets sane behavior either way.
+**`ProductDetail` = `ProductSummary` + `descriptor_sentence` + `materials`/`stones`/`colors`/
+`in_stock`/`attr_provenance`.** §9 only says "summary + descriptor + normalized metadata";
+this is the concrete field list that phrase maps to in `pipeline/schema.py`'s `Product` model.
+**`/categories`' collection counts exclude products with no `collection` tag** (336/472 in the
+full catalog, per `taxonomy.yaml`'s own note) rather than reporting a `null`/`"uncategorized"`
+bucket — a category filter dropdown has no use for a "no collection" option that isn't
+filterable the same way a real collection name is.
+**`functools.lru_cache` is keyed by `(sku, rounded weights, k, same_category, max_price_ratio)`**
+per §9, with weights rounded to 3 decimals. `service.configure()` also calls
+`_cached_similar.cache_clear()` — the spec doesn't ask for this, but without it a process that
+reloads its bundle (or a test that swaps in a different fixture bundle) could serve a stale
+cache entry for a tuple key that now means something different against the new bundle. Belt and
+suspenders since the bundle is meant to be static for a process's lifetime in production, but
+free and correct to include.
+**Measured acceptance numbers** (local, MacBook Air, real 472-product bundle, `uvicorn` with no
+`--reload`): RSS ~64-72MB after startup (budget: 250MB), `/similar` p95 latency ~2.5ms over 200
+requests with randomized skus/weights (budget: 20ms), p99 ~9ms, max ~15ms. `/docs` renders.
+**Found and fixed in passing:** `.github/workflows/ci.yml` never installed `numpy`, so `pytest`
+in CI would have failed on any test importing `core/` (which needs it) — install now runs
+`pip install -r api/requirements.txt` (covers numpy plus the new api test deps) instead of a
+hand-picked, previously incomplete package list.
