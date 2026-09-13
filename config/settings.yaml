@@ -36,7 +36,13 @@ metadata:
   price_tau: 0.6931             # ln 2 → a 2x price ratio gives similarity e^-1 ≈ 0.37
 
 fusion:
-  default_weights: {image: 0.5, text: 0.2, meta: 0.3}
+  # Phase 4 (§8, docs/DECISIONS.md): tuned via grid search + leave-one-query-out
+  # validation on the 25-query labeled set, 2026-09-14. Was 0.5/0.2/0.3 (roadmap
+  # default) before tuning. image_only alone scored nearly as high as any fused
+  # setting (NDCG@5 0.819 vs fused_default's 0.766) — DINOv2 is doing most of the
+  # work on this catalog, hence the heavy image weight. See report.json's
+  # weight_tuning block for the full grid and the flat-region selection reasoning.
+  default_weights: {image: 0.6, text: 0.1, meta: 0.3}
   k_default: 6
   k_max: 12
 

@@ -1,0 +1,344 @@
+{
+  "n_queries": 25,
+  "k": 5,
+  "labels_summary": {
+    "total": 595,
+    "by_value": {
+      "0": 372,
+      "1": 159,
+      "2": 64
+    }
+  },
+  "methods": {
+    "image_only": {
+      "ndcg_at_5": {
+        "mean": 0.8190930324661271,
+        "ci_low": 0.6853598230562071,
+        "ci_high": 0.9309782298547418
+      },
+      "p_at_5": {
+        "mean": 0.632,
+        "ci_low": 0.5038,
+        "ci_high": 0.76
+      }
+    },
+    "text_only": {
+      "ndcg_at_5": {
+        "mean": 0.6412348636754281,
+        "ci_low": 0.5021331145884546,
+        "ci_high": 0.7718663486002161
+      },
+      "p_at_5": {
+        "mean": 0.512,
+        "ci_low": 0.384,
+        "ci_high": 0.64
+      }
+    },
+    "meta_only": {
+      "ndcg_at_5": {
+        "mean": 0.5626171526379673,
+        "ci_low": 0.4378437252546107,
+        "ci_high": 0.6884422385155722
+      },
+      "p_at_5": {
+        "mean": 0.4,
+        "ci_low": 0.29600000000000004,
+        "ci_high": 0.512
+      }
+    },
+    "fused_default": {
+      "ndcg_at_5": {
+        "mean": 0.7656605259403229,
+        "ci_low": 0.6324562227804993,
+        "ci_high": 0.8829167559712695
+      },
+      "p_at_5": {
+        "mean": 0.6559999999999999,
+        "ci_low": 0.52,
+        "ci_high": 0.784
+      }
+    },
+    "same_type_nearest_price": {
+      "ndcg_at_5": {
+        "mean": 0.6179652579844944,
+        "ci_low": 0.4850809993035506,
+        "ci_high": 0.7383914942893084
+      },
+      "p_at_5": {
+        "mean": 0.376,
+        "ci_low": 0.272,
+        "ci_high": 0.496
+      }
+    },
+    "random_within_type": {
+      "ndcg_at_5": {
+        "mean": 0.35100347104193164,
+        "ci_low": 0.2392704224178211,
+        "ci_high": 0.47302974456416436
+      },
+      "p_at_5": {
+        "mean": 0.2168799999999999,
+        "ci_low": 0.11725199999999998,
+        "ci_high": 0.3283719999999997
+      }
+    },
+    "fused_tuned": {
+      "ndcg_at_5": {
+        "mean": 0.8189011239425319,
+        "ci_low": 0.6817151996153734,
+        "ci_high": 0.935015654878378
+      },
+      "p_at_5": {
+        "mean": 0.648,
+        "ci_low": 0.512,
+        "ci_high": 0.7760000000000001
+      }
+    }
+  },
+  "fused_vs_baseline": {
+    "fused_default_ndcg_at_5": 0.7656605259403229,
+    "same_type_nearest_price_ndcg_at_5": 0.6179652579844944,
+    "fused_beats_baseline": true,
+    "note": "fused (default weights) beats the same-type + nearest-price baseline on NDCG@5."
+  },
+  "weight_tuning": {
+    "grid_step": 0.1,
+    "n_grid_points": 66,
+    "best_single_point": {
+      "weights": [
+        0.9,
+        0.0,
+        0.1
+      ],
+      "mean_ndcg_at_5": 0.8288222529702256
+    },
+    "tolerance_se": 0.06531070087316981,
+    "plateau_size": 20,
+    "chosen_weights": {
+      "image": 0.6,
+      "text": 0.1,
+      "meta": 0.3
+    },
+    "chosen_weights_mean_ndcg_at_5": 0.8189011239425318,
+    "leave_one_query_out_ndcg_at_5": {
+      "mean": 0.7627818582060197,
+      "ci_low": 0.6338770037681782,
+      "ci_high": 0.8760230717800304
+    }
+  },
+  "proxies": {
+    "held_out_attribute_agreement": 0.38088235294117645,
+    "cross_signal_agreement_jaccard5": 0.1668684422921711,
+    "coverage": {
+      "share": 0.9322033898305084,
+      "n_unique_recommended": 440,
+      "n_catalog": 472
+    },
+    "hubness": {
+      "mean_indegree": 5.0,
+      "std_indegree": 3.986205025895504,
+      "skewness": 1.5518711359680872,
+      "top_hubs": [
+        {
+          "sku": "2b6a4a18-6496-4837-9ada-8513aff6c154",
+          "title": "Ashiana Red flower Chandbali for Women",
+          "count": 29
+        },
+        {
+          "sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+          "title": "Ashiana Ethnic Mulicolour Cubic Zirconia and Pearl Long Chandbali Earrings for Women",
+          "count": 22
+        },
+        {
+          "sku": "b661c404-5e18-42dd-8cb7-c603237d1299",
+          "title": "Ashiana Designer Antique Red Cubic Zirconia Chandbali Tassels Earrings For Women",
+          "count": 21
+        },
+        {
+          "sku": "3ae1fbfc-c118-49fa-a587-0e96fbeec1b0",
+          "title": "Ashiana Beautiful Hollow Flower Pendant Necklace Chain",
+          "count": 20
+        },
+        {
+          "sku": "030898df-6ea1-400f-a033-25c91cbb199d",
+          "title": "Ashiana CZ Butterfly Stud Earring for Women (Silver)",
+          "count": 19
+        }
+      ]
+    },
+    "diversity_mean_intra_list_similarity": 0.6949808637974626,
+    "price_sanity_median_ratio": 1.146131805157593,
+    "image_augmentation_robustness": {
+      "hits": 10,
+      "n_samples": 10
+    }
+  },
+  "failure_cases": [
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "query_title": "Ashiana Two Birds On A Fence Collar Pin Brooch",
+      "ndcg_at_5": 0.0,
+      "top5": [
+        {
+          "sku": "8963b19c-9d59-499d-abdc-1e4c5dda2e67",
+          "title": "Ashiana Silver Brass CZ Unisex Brooch (AS0875)",
+          "label": 0
+        },
+        {
+          "sku": "7bf429b2-db24-44ff-bda1-067fca93cfe8",
+          "title": "Ashiana multi colour brooch",
+          "label": 0
+        },
+        {
+          "sku": "e7a878cd-e875-440e-9419-a63acb547749",
+          "title": "Ashiana Silver Brass CZ Unisex Brooch (AS0877)",
+          "label": 0
+        },
+        {
+          "sku": "b8fee544-4d0a-479d-9b22-ad8e0d2a78ee",
+          "title": "Ashiana Silver Brass CZ Unisex Brooch (AS0874)",
+          "label": 0
+        },
+        {
+          "sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+          "title": "Ashiana Metallic Brass CZ Unisex Brooch (AS0880)",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "query_title": "Ashiana Cubic Zirconia Multi Colour Elastic Hair Band",
+      "ndcg_at_5": 0.0,
+      "top5": [
+        {
+          "sku": "f4d77c12-f3cc-4d12-b5cf-b953c46eacaf",
+          "title": "Ashiana Circle Star Hair Band",
+          "label": 0
+        },
+        {
+          "sku": "c436fa03-b792-4582-97c6-a60a5a1a7ef6",
+          "title": "Ashiana Radiant Gemstone Centerpiece Maang tikka for women",
+          "label": 0
+        },
+        {
+          "sku": "4dea82d0-0d16-40d9-91c6-1aa5274f2925",
+          "title": "Ashiana Green stone studded Golden mangtikka for women",
+          "label": 0
+        },
+        {
+          "sku": "25626c1a-e25e-4e50-978f-72c64a4210ad",
+          "title": "Ashiana Gold Non-Precious Metal Butterfly Hairpin/Side Clip for Women (Pair) 2 pc",
+          "label": 0
+        },
+        {
+          "sku": "98fb7f0a-92f6-4502-b057-c59175e7d66d",
+          "title": "Ashiana Gold Non-Precious Metal Leaf Hair Pin for Women - Pair",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "query_title": "Ashiana Diwali Special! Traditional Unique Designer Crystal Box",
+      "ndcg_at_5": 0.0,
+      "top5": [
+        {
+          "sku": "5801eb4c-7795-49bf-89be-d7f78d182033",
+          "title": "Ashiana Diwali Special! German Silver Duck Bowl Set - Small",
+          "label": 0
+        },
+        {
+          "sku": "73fe1d37-f54d-4c25-928c-369bc51b3e1f",
+          "title": "Ashiana Diwali Special! Toran bandhanwar with Tissue Flowers",
+          "label": 0
+        },
+        {
+          "sku": "0648687f-ed22-4d6b-bf93-26b1d1211e77",
+          "title": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh - Green",
+          "label": 0
+        },
+        {
+          "sku": "3fc4e596-117b-40e9-94c0-2c0de73aa1fd",
+          "title": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh with Ganesha - Green (1 Pair)",
+          "label": 0
+        },
+        {
+          "sku": "b714e0be-f9ad-4656-b1d8-8ac1cb6f6ef2",
+          "title": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh with Ganesha - Red (1 Pair)",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "query_title": "Ashiana Butterfly Hollow Ring Chain Bracelet Gold for girls and women",
+      "ndcg_at_5": 0.6509209298071326,
+      "top5": [
+        {
+          "sku": "0c740c71-cb30-43c5-b7f4-d5f2ab76a95b",
+          "title": "Ashiana Connected Heart Bracelet - light blue (valentine special!)",
+          "label": 0
+        },
+        {
+          "sku": "546591c8-6344-40a6-8519-1ecc99b3eac6",
+          "title": "Ashiana Multi-Colour Drops Swiss Cubic Zirconia 18K Rose Gold plated Bracelet",
+          "label": 1
+        },
+        {
+          "sku": "4d772919-27e0-417c-a2d8-62f2d73ea4d3",
+          "title": "Ashiana fish scale gold and silver cuff bracelet kada (free size)",
+          "label": 0
+        },
+        {
+          "sku": "a58a8c6b-1edc-4248-931e-dc8ff11f5834",
+          "title": "Ashiana ColorBloom Crystal Hand Cuff Bracelet",
+          "label": 1
+        },
+        {
+          "sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+          "title": "Ashiana Antique stone studded Boho Vintage Multicolour Bracelet",
+          "label": 0
+        }
+      ]
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "query_title": "Ashiana Diwali Special! LED Pearl and Multi Colour Cylindrical Dome Hanging (Single)",
+      "ndcg_at_5": 0.7606395682357036,
+      "top5": [
+        {
+          "sku": "73fe1d37-f54d-4c25-928c-369bc51b3e1f",
+          "title": "Ashiana Diwali Special! Toran bandhanwar with Tissue Flowers",
+          "label": 0
+        },
+        {
+          "sku": "080b2c8a-6896-4854-9eee-2ce31f0aa681",
+          "title": "Ashiana Diwali Special! Metal and Pearl Round jardosi Hanging Door toran/Bandarwal- red",
+          "label": 1
+        },
+        {
+          "sku": "3fc4e596-117b-40e9-94c0-2c0de73aa1fd",
+          "title": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh with Ganesha - Green (1 Pair)",
+          "label": 1
+        },
+        {
+          "sku": "b714e0be-f9ad-4656-b1d8-8ac1cb6f6ef2",
+          "title": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh with Ganesha - Red (1 Pair)",
+          "label": 1
+        },
+        {
+          "sku": "0648687f-ed22-4d6b-bf93-26b1d1211e77",
+          "title": "Ashiana Diwali Special! LED Crystal Flower Chain Shubh Labh - Green",
+          "label": 1
+        }
+      ]
+    }
+  ],
+  "methodology_notes": [
+    "NDCG@5/P@5 use graded relevance (labels 0/1/2 as gains) over the 25 stratified queries labeled per docs/LABELING_GUIDE.md, with 95% bootstrap CIs (1000 resamples over queries).",
+    "Only the original 6-source label pool (image-only/text-only/meta-only/fused-default/random-within-type-seed-0/same-type-nearest-price, top-8 each) was hand-labeled. Any candidate outside that pool — which fused-tuned and 99/100 of random-within-type's seeds can surface — is scored as relevance 0 (standard pooled-IR-evaluation convention), not re-labeled. This is a real limitation: fused-tuned and the random baseline's off-seed-0 scores are conservative lower bounds, not exact.",
+    "Weight tuning selects the centroid of the grid points within one standard error of the best point (not the single best point), then snaps to the nearest 0.1-grid weight, per the roadmap's 'prefer a flat region' instruction. leave_one_query_out_ndcg_at_5 re-runs that full selection procedure per held-out query so it isn't overfit to all 25.",
+    "Proxies (coverage/hubness/diversity/price-sanity/cross-signal agreement/held-out attribute agreement) run over the full 472-product catalog, not just the 25 labeled queries — they don't need labels."
+  ]
+}
