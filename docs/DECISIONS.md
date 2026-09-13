@@ -499,3 +499,92 @@ requirement), extracted it to `~/.local/node-v22/` (fully in user space), and sy
 `node`/`npm`/`npx` into `/opt/homebrew/bin/` (already on PATH, writable without sudo — same
 place `pip3`/`git` already live on this machine) so they persist across every shell command,
 not just the one that set up `$PATH`.
+
+## 2026-09-14 — evaluate.py bug: `yaml.safe_dump()` stripped every comment from settings.yaml
+
+**Found.** The first `pipeline.evaluate` run wrote the tuned `fusion.default_weights` back to
+`config/settings.yaml` by loading the file with `yaml.safe_load()`, mutating the dict, and
+writing it back with `yaml.safe_dump()`. PyYAML's dumper has no concept of comments — it
+round-trips the data, not the file — so every explanatory comment in the file (the D2 scope
+note, the `field_weights` breakdown, the price_tau reasoning, etc.) was silently deleted on
+first run.
+**Fix.** Restored the comments by hand, then replaced the write-back with a targeted regex
+substitution (`re.sub(r"^  default_weights:.*$", new_line, text, count=1,
+flags=re.MULTILINE)`) that rewrites only the `default_weights` line and leaves the rest of
+the file — including every comment — untouched. Verified by diffing `settings.yaml` after a
+full rerun: only that one line changes.
+**Consequence.** `artifacts/manifest.json` is plain JSON with no comments to lose, so its
+write-back (`json.dumps(manifest, indent=2)` after a dict update) was never affected — only
+the YAML file needed the regex approach.
+
+## 2026-09-14 — evaluate.py bug: `fused_default` silently collapsed into `fused_tuned`
+
+**Found.** On a rerun of `pipeline.evaluate`, the `fused_default` and `fused_tuned` rows in
+the ablation table came out identical (both 0.8189 NDCG@5). Root cause: `method_ranking()`'s
+`fused_default` branch called `recommend(bundle, query_sku)` with no explicit weights, which
+falls back to reading `bundle.manifest["default_weights"]` — but by the time `main()` reaches
+the ablation table on a *second* run, that manifest value is no longer the roadmap default
+0.5/0.2/0.3, it's whatever the *previous* run's weight tuning already wrote back (0.6/0.1/0.3).
+So "fused_default" was quietly measuring the previous run's tuned weights against themselves,
+which is meaningless as a baseline and made the "does fused beat baseline" comparison
+untrustworthy on every run after the first.
+**Fix.** Added a frozen module-level constant, `ROADMAP_DEFAULT_WEIGHTS = {"image": 0.5,
+"text": 0.2, "meta": 0.3}`, and threaded it explicitly through every place that needs "the
+pre-tuning roadmap default" rather than reading the mutable manifest: `method_ranking()`'s
+`fused_default` branch, `compute_proxies()` (now takes an explicit `weights` argument used for
+`fused_top5`/diversity/hubness/price-sanity), and `failure_cases()` (now also takes an
+explicit `weights` argument, and is called from `main()` with `tuned_weights` against
+`fused_tuned`'s per-query NDCG — the failure cases should surface what the *shipped* model
+struggles with, not the pre-tuning default). Verified by a clean rerun: `fused_default` NDCG@5
+is back to 0.7657, distinct from `fused_tuned`'s 0.8189, and stable across repeated reruns
+since it no longer depends on manifest state left over from a prior run.
+**Also relabeled** a few stale comments/chart titles in `compute_proxies`/`chart_hubness` that
+still said "fused-default" after the function started taking explicit tuned weights — they
+now say "fused (tuned weights)" to match what's actually being computed.
+
+## 2026-09-14 — Phase 4 evaluation results (checkpoint)
+
+**Headline.** Fused (default weights, 0.5/0.2/0.3) beats the same-type + nearest-price
+baseline on NDCG@5: 0.7657 vs 0.6180. After weight tuning (flat-region grid search +
+leave-one-query-out validation over the 25 labeled queries), fused (tuned weights,
+0.6/0.1/0.3) reaches 0.8189, with a leave-one-query-out NDCG@5 of 0.7628 — close to the
+in-sample number, so the tuning doesn't look overfit to the 25 queries.
+**Image signal dominates.** `image_only` alone (DINOv2-small) scores 0.8191 NDCG@5 — almost
+identical to the fully tuned fused model, and well above `text_only` (0.6412) and `meta_only`
+(0.5626). The grid search converged on a heavy image weight (0.6) and light text weight (0.1)
+for exactly this reason: on this catalog, packshot photography carries most of the
+substitutability signal, and the LLM-derived text descriptors and Gower metadata add real but
+smaller marginal value on top of it. This is reported plainly rather than treated as a
+surprise to explain away — a handcrafted-jewelry catalog where visual style (motif, stone
+color, finish) is the primary axis shoppers substitute on is exactly the kind of catalog where
+this would be expected.
+**Weight tuning: chose a flat region, not the single best grid point**, per the roadmap's
+explicit instruction — the centroid of grid points within one standard error of the best
+point, snapped to the nearest 0.1 grid weight. The chosen point (0.6/0.1/0.3) sits in a
+20-point plateau (out of 66 grid points total), meaning many nearby weight settings perform
+about as well — the model isn't sensitive to small weight perturbations around this point,
+which is the property flat-region selection was meant to surface.
+**Proxies** (full 472-product catalog, using tuned weights): coverage 93.2% (440/472 products
+appear in at least one top-5), mean in-degree 5.0 with a right-skewed hub distribution
+(skewness 1.55 — a handful of generically-appealing products like the red-flower Chandbali
+earrings appear in ~20-29 other products' top-5s), mean intra-list diversity 0.695, median
+query/rec price ratio 1.15 (recs skew slightly pricier, not alarmingly), held-out attribute
+agreement (meta-zeroed, top-5 vs. query's own collection tag) 38.1%, cross-signal agreement
+(Jaccard@5, image-only vs. text-only) 16.7% — the two signals agree on which products are
+similar far less often than either alone would suggest, consistent with them capturing
+different kinds of similarity (visual vs. described-attribute) rather than being redundant.
+**Failure cases** (5 lowest-NDCG queries under the tuned model, `report.json`'s
+`failure_cases`): three score exactly 0 NDCG@5 — a collar pin brooch, a CZ multicolour
+elasticated bracelet, and a Diwali-special item — where none of the top-5 fused recommendations
+were labeled relevant by the human labeler. These sit in thin, mostly-unlabeled regions of the
+catalog (brooches are only 9 products total; "Diwali Special" items lean toward seasonal/
+novelty framing that the taxonomy and descriptors don't capture); per the pooling-bias
+methodology note, an unlabeled top-5 candidate scores as relevance 0 by convention rather than
+being a confirmed miss, so these are worth spot-checking by eye before concluding the model
+is actually wrong on them, not just that the label pool didn't reach that deep.
+**Limitation, stated plainly per instruction.** With only 25 labeled queries, all NDCG/P@5
+numbers carry wide bootstrap CIs (e.g. fused_tuned: [0.68, 0.94]) — method rankings by point
+estimate look stable and directionally sensible (image-heavy fusion > either baseline >
+metadata-only > random), but the CIs for several methods overlap, so the results support "the
+fused model outperforms both baselines and image signal is doing most of the work," not
+fine-grained claims like "0.8189 is definitively better than 0.8191."
