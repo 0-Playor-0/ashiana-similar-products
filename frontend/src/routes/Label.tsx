@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { resolveThumbUrl } from "../api/client";
 import { seededShuffle } from "../lib/shuffle";
 import { buildLabelRecords, type LabelMap } from "../lib/labels";
 import type {
@@ -50,7 +51,7 @@ function ProductCard({
   return (
     <div className={`card card--${role}`}>
       <img
-        src={`/thumbs/${product.sku}.webp`}
+        src={resolveThumbUrl(`/thumbs/${product.sku}.webp`)}
         alt={product.title}
         className="card__image"
       />
