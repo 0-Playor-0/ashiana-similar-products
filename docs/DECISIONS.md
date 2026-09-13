@@ -729,3 +729,52 @@ routes the Lighthouse-accessibility acceptance criterion covers) surfaced two la
 violations (`landmark-one-main`, `region`) that predate this session's work and are unrelated to
 color. Left alone — not a regression from this change, and `/label` is a dev-only tool behind
 `VITE_ENABLE_LABELING`, not part of the graded UI surface.
+
+## 2026-09-14 — Phase 7 notebook: the image-availability problem, and other things verified rather than assumed
+
+**The core problem the roadmap's own spec runs into: D3 means no product photos exist on a
+fresh clone.** `data/images/` and `artifacts/thumbs/` are both gitignored (D3), and so —
+less obviously — are three of the eval figures that embed actual photography
+(`packshots.png`, `image_neighbors.png`, `ambiguous_review.png`). Phase 7 asks for "sample
+packshots," "pad-vs-crop before/after," and "neighbor grids per signal" — all of which need
+real product images. On a fresh Colab clone, none of those files exist. **Fix:** every image
+the notebook shows is fetched live, at run time, from the product's own `image_urls` entry
+(a committed, factual catalog field — not image bytes) via a `fetch_image()` helper that
+falls back to a plain placeholder on any fetch failure rather than raising, so a flaky
+external host can never break "Run all." Verified this actually works, not just assumed:
+executed the notebook end-to-end locally (installed `nbformat`/`nbclient`/`ipykernel` into
+the dev venv for this — not added to `requirements-pipeline.txt`, they're not needed to *use*
+the notebook) and confirmed the rendered PNG outputs were real high-entropy photo grids
+(100–280KB) rather than flat placeholder squares (~2KB). The committed `.ipynb` itself still
+carries **zero outputs** — executing it locally to verify was for my own confidence, but
+baking those outputs (with embedded fetched photo bytes) into the committed file would
+itself violate D3's "no image-derived data committed" rule.
+**The pad-vs-crop demo needed a non-square image to mean anything**, and a single random
+pick came up square on the first attempt (all three panels identical, no visible
+difference). Fixed by searching a handful of random candidates for one with aspect ratio
+≥ 1.2 before giving up. The resulting demo actually shows what the roadmap describes:
+center-cropping visibly truncates the piece's edges; padding doesn't.
+**Verified the `LLM_API_KEY` gating for real, both directions** — the exact thing asked for.
+With no key set (Colab-secrets check and `os.environ` both empty), the optional rerun cell
+skips cleanly and every other cell still runs off the committed cache. With a real key
+sourced from `.env`, the cell actually ran `pipeline.describe.run_llm_descriptors` against
+the live Groq API: 467/472 products were cache hits as expected, but **5 real API calls
+were made, not zero** — those are the products that already permanently fall back to a
+taxonomy-stripped title (`extraction_failures.json`) and so never had a valid cached
+extraction to hit; they retry by design on every run. The notebook's markdown originally
+claimed "zero new API calls," which this test proved wrong before it shipped — corrected to
+describe the actual verified behavior instead. This test run also rewrote
+`data/catalog.jsonl`, `artifacts/eval/grounding_log.json`, and
+`artifacts/eval/extraction_failures.json` as a side effect (the same files
+`pipeline.describe.main()` always writes) — reverted via `git checkout` immediately after
+confirming the cell didn't crash, and the notebook's markdown now says plainly that running
+this optional cell rewrites those files on disk.
+**Ruff lints notebooks too** (it has native Jupyter support) — `ruff check .` already covers
+`notebooks/` with no CI changes needed. Fixed all 33 findings it raised (mostly E501 from
+long f-strings in print/table-building code, one E741 ambiguous single-letter variable, a
+few `zip()` calls missing `strict=True` per the project's existing convention in
+`pipeline/evaluate.py`) rather than leaving the new notebook as the one unlinted corner of
+the repo.
+**Every number in §6/§7 (evaluation, failure cases) is loaded from the committed
+`artifacts/eval/report.json`, not recomputed** — same instruction as the evaluate.py work
+itself: reuse the real Phase 4 output.
