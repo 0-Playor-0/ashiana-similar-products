@@ -1,0 +1,42 @@
+# Render Blueprint (§8 Phase 8). Syntax verified against Render's current docs
+# (render.com/docs/blueprint-spec, docs/redirects-rewrites, docs/python-version)
+# on 2026-09-14, not copied from the roadmap's sketch unverified (rule 12) —
+# the sketch turned out to already match current syntax, confirmed rather than
+# assumed. Two notable things Render deprecated since the roadmap was written,
+# neither used here: the `env` field (renamed `runtime`) and boolean
+# `autoDeploy` (replaced by `autoDeployTrigger`).
+#
+# Service URLs are Render's default `https://<name>.onrender.com` pattern —
+# predictable from the `name` fields below, so FRONTEND_ORIGINS and
+# VITE_API_BASE_URL are set directly rather than left for manual dashboard
+# entry. If a name collision ever forces Render to assign a different host,
+# these two values need updating to match.
+
+services:
+  - type: web
+    name: ashiana-recs-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r api/requirements.txt
+    startCommand: uvicorn api.app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.10"
+      - key: FRONTEND_ORIGINS
+        value: https://ashiana-recs-ui.onrender.com
+
+  - type: web
+    name: ashiana-recs-ui
+    runtime: static
+    plan: free
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://ashiana-recs-api.onrender.com
