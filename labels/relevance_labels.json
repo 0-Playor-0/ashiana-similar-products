@@ -1,0 +1,5964 @@
+{
+  "labels": [
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "8d591fc9-54ff-4416-8701-adfacede63d9",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.463Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "78d2891e-2d77-4298-957c-d100887e4d25",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "9ccbd80d-7060-4e18-a6ec-fccf0897c590",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "d1e33012-8970-4211-8437-37c00de796a0",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "df101455-8a46-4ffa-950a-c0a96302129f",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "1f0f7e73-5d82-44b3-ac91-4f5e780fab35",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "6224aebe-3bf5-4766-82a9-90909704cb52",
+      "label": 2,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "e881503a-7c9a-4224-8957-ee790d4fef9d",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "cf1d7468-5a4e-4d24-a31e-9be0aebf4dc0",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "193cd7b3-ecb7-4d19-a862-2bbbc8f65777",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "a620d4be-aa3b-4dd1-9297-1487d0c0bca7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "6924881b-b692-456e-9585-1cb1641c9208",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "8234f6c4-4f45-453e-8e60-e12e41474b8c",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "fd6f5dbe-fe3f-41eb-8bd6-fc701462d57c",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "2d8a3dda-b3d0-4373-96d0-f6410602aaaf",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "2cf83134-2684-439f-976c-4eb7563387d7",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "4ad8fd3b-e886-47d3-a3ec-599ed80f25a5",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "106d5488-d378-47bd-8498-33c6296e708a",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "768bb1ed-bfdd-4eda-8921-ee5f47de5582",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "5b0588e2-8971-4f45-a83b-238e94019c18",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "2b6a4a18-6496-4837-9ada-8513aff6c154",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "ccbbaa25-1dac-40e9-a8aa-96cc9ad6f302",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "6761b874-c367-4d4d-9b63-d4c39d3d03dd",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "31629cd2-8514-43b8-b261-f3a34423e83d",
+      "label": 2,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "1c1772cc-2393-4ada-98da-568104a0f96d",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "aa604533-6270-4bfb-999a-8734502c1afb",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "942f09d4-fd66-4e20-b4ea-d72bf857d0e4",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "8b9cc6d8-0e17-4102-a728-9602f454de55",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "c59a745e-0437-42a3-a516-5baf79ffeacc",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "99f38cf9-562d-4009-a279-5a265014dcd2",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "800442cf-4989-4fda-81cb-86c60e7bb1e4",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "02c7da87-f22c-4e98-8665-4e45659f480f",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "c23cf7f0-c75e-42cc-bdc5-86e6e44f31ab",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "f82b838f-b877-4aea-a79f-2ce47854b7f5",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "37d89dff-cfff-46a9-b4d4-2177d350e910",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "c85fbb33-3317-4a8c-a73c-bc7212c6bb2c",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "8a41af1b-d2f5-4fdf-b2b7-0135bfc77f4c",
+      "label": 0,
+      "sources": [
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "71458c00-16e4-45c6-b571-9bbb9989a58b",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "6239d817-e434-4f16-8f94-d92d721207b8",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "11c992fb-e396-44d3-a248-1664f086d99f",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "candidate_sku": "5a4d8d63-6fc4-4beb-bc8b-650436b1c70c",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "0fa6fc6f-5acc-4fb4-a077-2ca9884e9e7b",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "3fc4e596-117b-40e9-94c0-2c0de73aa1fd",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "0648687f-ed22-4d6b-bf93-26b1d1211e77",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "5801eb4c-7795-49bf-89be-d7f78d182033",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "080b2c8a-6896-4854-9eee-2ce31f0aa681",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "73fe1d37-f54d-4c25-928c-369bc51b3e1f",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "90f1cf2e-2825-4c86-aecd-3f3b1e612681",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "candidate_sku": "b714e0be-f9ad-4656-b1d8-8ac1cb6f6ef2",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "8963b19c-9d59-499d-abdc-1e4c5dda2e67",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "7bf429b2-db24-44ff-bda1-067fca93cfe8",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "e7a878cd-e875-440e-9419-a63acb547749",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "a5b399ee-f874-43df-b000-c9e8f42627bb",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "b8fee544-4d0a-479d-9b22-ad8e0d2a78ee",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "d0fbc651-4111-45f5-975e-92603dd43146",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "candidate_sku": "01311aee-ed32-415a-87a6-841648e1f0b5",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "52d9a8dc-014f-47fd-9ba6-02ba2f63fd59",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "3c8e532d-c43d-45fa-b021-5281e12f6679",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "label": 1,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "3b8f32b1-2199-41c8-9ca8-0cd1f9e9c491",
+      "label": 2,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "4576d8d7-1a6c-4f21-8a44-8f45c5a0cfbe",
+      "label": 2,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "972aaf95-ba36-4c04-8224-be91b7ff0da5",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "314c97a9-00e6-436a-b44d-b5b23e91f36f",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "a620d4be-aa3b-4dd1-9297-1487d0c0bca7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "2ce0d0e9-1b53-4125-a062-d8af611eb045",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "7c47317a-740f-4e00-a665-71ea9a39b928",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "c23cf7f0-c75e-42cc-bdc5-86e6e44f31ab",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "c1eea980-a41e-4fe6-96b0-6791d3864cab",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "aa604533-6270-4bfb-999a-8734502c1afb",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "54d77919-871e-46f5-8485-99c886b1c921",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "83ec637e-180a-4da2-9a7c-60b0357e2710",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "d8a815d5-4858-42b3-87bc-b81ed11781b6",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "9ccbd80d-7060-4e18-a6ec-fccf0897c590",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "b3c11594-8706-4339-a27f-8c7360e3d4f3",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "a87418be-1852-493c-91d3-cb6a33460372",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "82928aae-7baf-40bd-ab0c-8479ef3a0ef7",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "574f44e4-67be-461b-a762-49a4be2b4e2f",
+      "label": 2,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "bb79ac2a-e591-48ef-8601-814f300e5e49",
+      "label": 2,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.464Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "78d2891e-2d77-4298-957c-d100887e4d25",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "4ad8fd3b-e886-47d3-a3ec-599ed80f25a5",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "c69f50f7-44d3-4c2e-9d83-821f8f40ee35",
+      "label": 2,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "4830add6-afcb-4ed3-8fa7-4f1eba69881b",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "030898df-6ea1-400f-a033-25c91cbb199d",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "6761b874-c367-4d4d-9b63-d4c39d3d03dd",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "13679d4b-00a0-4b56-82c0-0bef38924ba7",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "6bec90f9-20a0-4419-9977-358701f8f127",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 2,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "4d1ab641-8a2b-4055-9b75-6ea225f1841f",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "325b5cb7-913f-4585-ac0b-846664c41cbc",
+      "label": 2,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "candidate_sku": "800442cf-4989-4fda-81cb-86c60e7bb1e4",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "bb94a149-ecb9-4212-9317-4970d7ea1654",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "d20f15a3-101b-446d-bfa2-2fba6db14a93",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "50d3e0ac-804c-4165-8002-35119d9ce4d6",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "9ac4d037-0116-4f7b-872d-23dcbfc02c30",
+      "label": 2,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "a1cf3de5-7f2d-4640-abf7-474d06750c3a",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "044e0065-dd9a-43b6-ad5f-9d7d1e531344",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "81bae5bc-540d-4002-920b-dd25407ff362",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "6bfa214b-10b9-4074-959d-d196eb420e14",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "aaf16f64-a2ad-44ff-a322-dc9a39b790d0",
+      "label": 2,
+      "sources": [
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "09f9d97e-a0ff-4eff-80b7-9c501967ee7d",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "124ff442-becc-4ddb-bb38-bb2f79dc96c8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "80d81f69-3b89-4228-bd9c-3d9e9acbc724",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "3ae1fbfc-c118-49fa-a587-0e96fbeec1b0",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "451a1fae-c4ad-43c9-ab31-0ff048b13c2b",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "a3cd6c37-829d-426b-8e71-ab4cefc3e2b2",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "4fd8e6db-5f83-4b80-ba97-609dbb74b587",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "ad27b734-d08a-45ce-af34-3dc8e514e99d",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "f0c1bbcc-da5a-445b-bd0d-3dbf5b71ea7b",
+      "label": 2,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "0904cd9e-6216-4568-8a09-d25e6179808c",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "5bb2f708-1c72-47d5-a703-520a4961ac20",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "c2b46489-bfaa-4189-9771-68d6f3822159",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "9b6cdcda-6302-4cd0-abec-723bf1773d7e",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "a190b2a9-1f9b-4ad6-b2e5-6e8916ea9a08",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "2c772d8b-8eeb-41e3-a80f-6e0069f4bd93",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "d068b392-9138-4f66-b8df-b66362d30ff2",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "8aeb93ac-179c-4303-bf39-4e726f599a7b",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "cbc28903-c4ff-4719-b0c9-e4a30fc923d3",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "candidate_sku": "7532126a-9c61-4a30-a5c7-4515a84d530e",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "14f8be70-bc3a-4a6b-b18e-95c1c205e381",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "4f2c5174-4ebd-411a-bf22-b577461f4d95",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "546591c8-6344-40a6-8519-1ecc99b3eac6",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "ebdd57d6-3f89-4e4e-871e-5579c84ce537",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "4d772919-27e0-417c-a2d8-62f2d73ea4d3",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "0c740c71-cb30-43c5-b7f4-d5f2ab76a95b",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "a58a8c6b-1edc-4248-931e-dc8ff11f5834",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "candidate_sku": "7eb9c7b0-d1a3-4441-a496-3c030a3b9ff7",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "08bcbbe1-f36e-42e0-98b1-5e4c44ae9091",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "78927c01-334e-46e6-a436-502081e16333",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "4dea82d0-0d16-40d9-91c6-1aa5274f2925",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "439c3a48-9012-42ca-a246-8e153dd9a571",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "67977914-0b78-4593-8a0c-8b86b4a8bc8d",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "c436fa03-b792-4582-97c6-a60a5a1a7ef6",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "f4d77c12-f3cc-4d12-b5cf-b953c46eacaf",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "f0e055be-f3c9-4311-96d6-e3e9fae1fa2a",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "e79c93ba-7629-4ab0-bbf8-0bf681bfb7db",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "98fb7f0a-92f6-4502-b057-c59175e7d66d",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "96fb06ef-bcf5-42a0-8256-8bba00c2eedb",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "e3a86df6-f255-4446-a48d-e2def0b3fd74",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "880d6f34-7047-47d4-82bd-3968ff6f99e6",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "candidate_sku": "25626c1a-e25e-4e50-978f-72c64a4210ad",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "d1500e0b-e8d8-4949-9de8-3ab1599463ff",
+      "label": 0,
+      "sources": [
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "124ff442-becc-4ddb-bb38-bb2f79dc96c8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "80d81f69-3b89-4228-bd9c-3d9e9acbc724",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "a3cd6c37-829d-426b-8e71-ab4cefc3e2b2",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "227872b8-ca4c-4ebb-bd24-cc5ea5a403c2",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "6922f2e3-7f7e-491a-8ad7-93d0357c36d4",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "81bae5bc-540d-4002-920b-dd25407ff362",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "ecb15289-9d20-45a7-8efe-7ec41882b3ce",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "3ae1fbfc-c118-49fa-a587-0e96fbeec1b0",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "c2b46489-bfaa-4189-9771-68d6f3822159",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "14cc46b0-6b85-4627-b9fa-82e6c92bb1b2",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "a190b2a9-1f9b-4ad6-b2e5-6e8916ea9a08",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "2c772d8b-8eeb-41e3-a80f-6e0069f4bd93",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "7532126a-9c61-4a30-a5c7-4515a84d530e",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "f7420cb0-e175-4d08-ada3-989654a8168e",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "60ffa427-5047-4717-9a87-f6a9dc97fc3e",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "aaf16f64-a2ad-44ff-a322-dc9a39b790d0",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "0a1e3ed0-43d8-4174-8c24-c7c2c8bd9f4f",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "d068b392-9138-4f66-b8df-b66362d30ff2",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "6120c39d-f76d-498b-a29d-e2cbbdb4c439",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "4b80ff1d-f9de-42ac-b6b0-6088dc69e9ff",
+      "label": 2,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "f67e2339-c365-4bf7-8011-fc8f29259fa8",
+      "candidate_sku": "ce90bd7a-bdc5-4d64-8cc3-eb2ae450c391",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "78927c01-334e-46e6-a436-502081e16333",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "08bcbbe1-f36e-42e0-98b1-5e4c44ae9091",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "49bf98f3-54d2-4f85-a83b-11b383f41d7f",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "a0344686-fdae-4749-83d7-2921fe38ece9",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "c436fa03-b792-4582-97c6-a60a5a1a7ef6",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "98fb7f0a-92f6-4502-b057-c59175e7d66d",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "439c3a48-9012-42ca-a246-8e153dd9a571",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "f0e055be-f3c9-4311-96d6-e3e9fae1fa2a",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "f4d77c12-f3cc-4d12-b5cf-b953c46eacaf",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "67977914-0b78-4593-8a0c-8b86b4a8bc8d",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "e79c93ba-7629-4ab0-bbf8-0bf681bfb7db",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "e3a86df6-f255-4446-a48d-e2def0b3fd74",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "880d6f34-7047-47d4-82bd-3968ff6f99e6",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "96fb06ef-bcf5-42a0-8256-8bba00c2eedb",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "25626c1a-e25e-4e50-978f-72c64a4210ad",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "4c8a73d2-f807-48b6-b679-d6f75a06e2f9",
+      "candidate_sku": "4dea82d0-0d16-40d9-91c6-1aa5274f2925",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "1e5beeb0-8865-4128-912f-30fc2a381c68",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "22c0aa23-bd27-44b9-b767-9c6ab79df39c",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "be980a8b-4e51-4f44-b597-6cb9660c1dd8",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "2d8a3dda-b3d0-4373-96d0-f6410602aaaf",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "3e23eb2a-adb4-4443-8dd7-bd83d86afc60",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "9ccbd80d-7060-4e18-a6ec-fccf0897c590",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "bb58426a-f3fd-4aaf-a3ef-579df72d7d91",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "0b0053d9-4afb-4577-ab73-bf238bb45bb0",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "cb5b75c9-f978-4c09-ba23-3276b6932ac7",
+      "label": 2,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "b5ba94aa-c822-47f0-8d21-b5aafcfdbdf8",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "4fe6b6d2-23e7-48cd-acba-e25a63ce1b20",
+      "label": 2,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "8d990bce-e2d4-4b94-814d-eb425afd6a30",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.465Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "c1de40ca-f2c4-4d1e-80aa-5b2d590c10f1",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "162dc3eb-7e0b-41fd-8b6a-c43c38fb7ec3",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "52e01d2c-f0d1-4468-98f4-794189e88141",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "3ab39bbf-f1f6-47bf-bc79-efe58728794f",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "32d40516-7e17-4c8b-94db-cb926db48099",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "aa604533-6270-4bfb-999a-8734502c1afb",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "090031cf-0797-430f-a7c3-89c2caac71af",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "5da2286f-f7aa-4ed5-9082-08ddfd30d055",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "99e76db5-95df-466a-9d64-adb2d6ce6b22",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "c34d9268-c296-4f1e-94aa-55b15a706439",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "e881503a-7c9a-4224-8957-ee790d4fef9d",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "bedbd345-07dd-4229-b4bc-0f6496c4e916",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "1da257ec-8553-4244-b940-faca5a2e67bb",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "12b2c421-8561-42dd-aa55-384ed48c7a38",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "85b32c00-c784-4f97-b765-dd081aaf7c06",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "6761b874-c367-4d4d-9b63-d4c39d3d03dd",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "48652777-5448-4d33-a5e7-b3c646b465c9",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "a620d4be-aa3b-4dd1-9297-1487d0c0bca7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "4f2017a4-f0b3-4957-9efc-a051a1b88685",
+      "label": 1,
+      "sources": [
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "0c4eaccd-17f2-4177-b75e-128d0bb4e7a3",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "6924881b-b692-456e-9585-1cb1641c9208",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "d2273a5b-5beb-4793-b6a4-1118dce38f24",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "52c61d96-eb80-47ae-a49f-74e867365149",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "6a43fcd6-64e5-4ef5-a75b-54a6f0da8fd3",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "eb5ac748-4017-4a17-88b4-1274abea07f7",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "161e1207-626c-46d1-926e-023d9f0e2aa8",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "cf1d7468-5a4e-4d24-a31e-9be0aebf4dc0",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "b858f29d-c947-441a-b65a-97dd6935957e",
+      "label": 2,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "23e2aca9-920e-4dc6-93be-f1216961d23f",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "4f4bfbe2-d232-4b80-af42-d64cf5cd9232",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "0b0053d9-4afb-4577-ab73-bf238bb45bb0",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "0deb5445-9429-4db2-815e-5c9aca7674cc",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "69f322e2-6395-47bd-8ea5-4455c5469cf7",
+      "label": 1,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "f6a90726-9b4f-4062-b487-3e1272137604",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "1c1772cc-2393-4ada-98da-568104a0f96d",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "affcff33-eed9-4d90-b1d5-c68c79b1e02d",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "ccbbaa25-1dac-40e9-a8aa-96cc9ad6f302",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "a6e1cad7-cb2d-4b92-b796-51af5ff6d41b",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "52e01d2c-f0d1-4468-98f4-794189e88141",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "7bf84f07-7108-40d3-85a8-8d69ba3d25d5",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "2b6a4a18-6496-4837-9ada-8513aff6c154",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "1d65e607-f627-4583-bde8-c1e3101d0361",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "64442b26-9ad1-4a41-9906-194c1890f4eb",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "32d40516-7e17-4c8b-94db-cb926db48099",
+      "label": 2,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "5e20f528-a222-4e63-a6ec-85cfda61612c",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "c421f639-4d92-4539-84c9-ad5d2200da71",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "96705fd7-5209-4c5d-848c-abf6b90c80a4",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "e881503a-7c9a-4224-8957-ee790d4fef9d",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c0cb7857-021c-499d-86ca-9f9f8176dbee",
+      "candidate_sku": "feffd6cc-6b37-415b-b135-3ad1d8dcb834",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "a5b399ee-f874-43df-b000-c9e8f42627bb",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "d0fbc651-4111-45f5-975e-92603dd43146",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "b8fee544-4d0a-479d-9b22-ad8e0d2a78ee",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "01311aee-ed32-415a-87a6-841648e1f0b5",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "7bf429b2-db24-44ff-bda1-067fca93cfe8",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "e7a878cd-e875-440e-9419-a63acb547749",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "8963b19c-9d59-499d-abdc-1e4c5dda2e67",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "04cddc39-7a86-4de4-a682-14ad7f2b24c8",
+      "candidate_sku": "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "b714e0be-f9ad-4656-b1d8-8ac1cb6f6ef2",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "3fc4e596-117b-40e9-94c0-2c0de73aa1fd",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "0fa6fc6f-5acc-4fb4-a077-2ca9884e9e7b",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "0648687f-ed22-4d6b-bf93-26b1d1211e77",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "080b2c8a-6896-4854-9eee-2ce31f0aa681",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "50883ecb-aaaf-4af6-ab3e-c0c935bd2aa7",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "73fe1d37-f54d-4c25-928c-369bc51b3e1f",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "90f1cf2e-2825-4c86-aecd-3f3b1e612681",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "f66c0908-bb02-4a14-8b98-2291ff03e7b6",
+      "candidate_sku": "5801eb4c-7795-49bf-89be-d7f78d182033",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "c59a745e-0437-42a3-a516-5baf79ffeacc",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "19ef1bf2-0496-4292-81cb-b9b970b92ed0",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "090031cf-0797-430f-a7c3-89c2caac71af",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "f6e2c1af-d633-409d-bd74-b325f288e546",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "5da2286f-f7aa-4ed5-9082-08ddfd30d055",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "162dc3eb-7e0b-41fd-8b6a-c43c38fb7ec3",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "b07101f9-5eaa-4be8-8734-85b96b2d040a",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "be980a8b-4e51-4f44-b597-6cb9660c1dd8",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "cb5b75c9-f978-4c09-ba23-3276b6932ac7",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "c4444965-e310-4d8e-a09e-0555273917e2",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "bae08f86-83bb-4bdb-b6e3-ca22c1de5384",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "9ccbd80d-7060-4e18-a6ec-fccf0897c590",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "4f4bfbe2-d232-4b80-af42-d64cf5cd9232",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "8d990bce-e2d4-4b94-814d-eb425afd6a30",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "a620d4be-aa3b-4dd1-9297-1487d0c0bca7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "1f0f7e73-5d82-44b3-ac91-4f5e780fab35",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "22c0aa23-bd27-44b9-b767-9c6ab79df39c",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "4f2017a4-f0b3-4957-9efc-a051a1b88685",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "3500edb2-4133-4bb7-a174-72fa66b64882",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "3ab39bbf-f1f6-47bf-bc79-efe58728794f",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "12b2c421-8561-42dd-aa55-384ed48c7a38",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "e881503a-7c9a-4224-8957-ee790d4fef9d",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "5dc27e3c-58d6-4030-a13e-89ec02bdaec8",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "86e5d299-fe67-4827-b15f-dfd2d45d82ca",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "2cc6af2e-fb2f-4688-b2d7-4e492df46135",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "6924881b-b692-456e-9585-1cb1641c9208",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "9235d67b-536d-446f-a90b-96bd071c908a",
+      "candidate_sku": "aa604533-6270-4bfb-999a-8734502c1afb",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "14f8be70-bc3a-4a6b-b18e-95c1c205e381",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "7eb9c7b0-d1a3-4441-a496-3c030a3b9ff7",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "a58a8c6b-1edc-4248-931e-dc8ff11f5834",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "4f2c5174-4ebd-411a-bf22-b577461f4d95",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "ebdd57d6-3f89-4e4e-871e-5579c84ce537",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "546591c8-6344-40a6-8519-1ecc99b3eac6",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "4d772919-27e0-417c-a2d8-62f2d73ea4d3",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "22a88784-733b-4f0e-9b75-456e00b636ff",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "bd09b30b-e190-411a-9f73-06a0dbea0047",
+      "candidate_sku": "0c740c71-cb30-43c5-b7f4-d5f2ab76a95b",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "d20f15a3-101b-446d-bfa2-2fba6db14a93",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "bb94a149-ecb9-4212-9317-4970d7ea1654",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "a3ff5d4a-e544-424c-9e21-f4040006e409",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "24011c13-1488-4eab-8556-b343c126a818",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "a1cf3de5-7f2d-4640-abf7-474d06750c3a",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "9d7700c9-4f67-48c3-8f6a-f69266d1704f",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "label": 0,
+      "sources": [
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "9ac4d037-0116-4f7b-872d-23dcbfc02c30",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "9205727c-2b42-43e9-981d-00a1885dbd94",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "8fad4dcf-a448-458f-9095-ff04df9b8442",
+      "label": 2,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "1c94094e-134e-421a-b859-38070730907a",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "df370c53-ceb5-4054-a8c7-e45771db8585",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "9b6cdcda-6302-4cd0-abec-723bf1773d7e",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "81397d54-f075-4215-8949-b93981b87a23",
+      "label": 2,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "76f97fa4-9d20-4921-9c20-37d2bc45e3fd",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "88cc2e63-9f2d-4dd3-8bd0-26e969352d9d",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "044e0065-dd9a-43b6-ad5f-9d7d1e531344",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "124ff442-becc-4ddb-bb38-bb2f79dc96c8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "ecb15289-9d20-45a7-8efe-7ec41882b3ce",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "a190b2a9-1f9b-4ad6-b2e5-6e8916ea9a08",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "19325cb0-02cd-4492-9618-75034eeb5bd2",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "c2b46489-bfaa-4189-9771-68d6f3822159",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "f0c1bbcc-da5a-445b-bd0d-3dbf5b71ea7b",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "451a1fae-c4ad-43c9-ab31-0ff048b13c2b",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "4b80ff1d-f9de-42ac-b6b0-6088dc69e9ff",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "a3cd6c37-829d-426b-8e71-ab4cefc3e2b2",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "0904cd9e-6216-4568-8a09-d25e6179808c",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "d091d681-db65-4aeb-aca1-e7e262c576d0",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "ad27b734-d08a-45ce-af34-3dc8e514e99d",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "3ae1fbfc-c118-49fa-a587-0e96fbeec1b0",
+      "label": 2,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "8aeb93ac-179c-4303-bf39-4e726f599a7b",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "623c6932-b8d4-4c48-a279-1cf6a9bc2940",
+      "candidate_sku": "60ffa427-5047-4717-9a87-f6a9dc97fc3e",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "0b33144d-4b61-4679-b3d1-0418ad3437c6",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "7a44699b-5b74-4ff8-895a-63bb872981a2",
+      "label": 2,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "4576d8d7-1a6c-4f21-8a44-8f45c5a0cfbe",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "4bed8d81-e8c4-4db7-99bb-f2425ba50a89",
+      "label": 2,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "78d2891e-2d77-4298-957c-d100887e4d25",
+      "label": 2,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "a988773d-5195-441f-8eca-652df41d6737",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "34ee2a16-7864-48ef-a72a-df4b5cac52dc",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "4d1ab641-8a2b-4055-9b75-6ea225f1841f",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "51d80c35-b43b-4a35-9f57-15a4e83dceac",
+      "label": 2,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "426bc0d0-3e63-46d5-9255-48486e7fce79",
+      "label": 1,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "fed0d4c0-3b25-4dd5-b17a-bf91fcd870a9",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "3b8f32b1-2199-41c8-9ca8-0cd1f9e9c491",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "b4e244f4-9688-480e-8583-185dee6d110c",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "e10171ee-ed23-40c1-b9fa-2b00c9e48ca8",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "1d65e607-f627-4583-bde8-c1e3101d0361",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "182d1f49-e12d-4337-8909-fe2390d3192c",
+      "label": 2,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "06f7f2fc-db98-4de7-922c-02c4dcead13d",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.466Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "4ad8fd3b-e886-47d3-a3ec-599ed80f25a5",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "cdc19367-84a4-48da-9d9b-07a1cb6dd4a8",
+      "label": 2,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "193cd7b3-ecb7-4d19-a862-2bbbc8f65777",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "8234f6c4-4f45-453e-8e60-e12e41474b8c",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "c23cf7f0-c75e-42cc-bdc5-86e6e44f31ab",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "82928aae-7baf-40bd-ab0c-8479ef3a0ef7",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "ea3fc5ab-6ebc-4468-a825-49711c56ea24",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "de278387-63fd-4f88-9c20-40073ab7e47c",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "311c3545-1b94-4b18-937d-f96841924713",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "161e1207-626c-46d1-926e-023d9f0e2aa8",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "candidate_sku": "942d6978-6e43-4310-bbb7-8a6bfcd57746",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "51d80c35-b43b-4a35-9f57-15a4e83dceac",
+      "label": 2,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "7c47317a-740f-4e00-a665-71ea9a39b928",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "2b6a4a18-6496-4837-9ada-8513aff6c154",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "942d6978-6e43-4310-bbb7-8a6bfcd57746",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "4ad8fd3b-e886-47d3-a3ec-599ed80f25a5",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "f6a90726-9b4f-4062-b487-3e1272137604",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "ccbbaa25-1dac-40e9-a8aa-96cc9ad6f302",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "9ccbd80d-7060-4e18-a6ec-fccf0897c590",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "311c3545-1b94-4b18-937d-f96841924713",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "32074064-19d4-442b-a0dd-ec81f81226aa",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "182d1f49-e12d-4337-8909-fe2390d3192c",
+      "label": 2,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "c2fad551-7781-4316-9406-d1a4ec05e859",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "030898df-6ea1-400f-a033-25c91cbb199d",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "6f3ae04a-b6e3-4b7d-b5fd-c546e8dc2588",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "c23cf7f0-c75e-42cc-bdc5-86e6e44f31ab",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "4d1ab641-8a2b-4055-9b75-6ea225f1841f",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "8fe67e2e-18ce-482f-ac01-d3b5580955d0",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "12e3e1a2-0cf6-4eed-896b-6d682f05bfb4",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "1f0f7e73-5d82-44b3-ac91-4f5e780fab35",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "e2ad7930-b9ef-4215-a303-e80bd6a6783c",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "52d9a8dc-014f-47fd-9ba6-02ba2f63fd59",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "c69f50f7-44d3-4c2e-9d83-821f8f40ee35",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "6a43fcd6-64e5-4ef5-a75b-54a6f0da8fd3",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "82928aae-7baf-40bd-ab0c-8479ef3a0ef7",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "3b35999f-8dfc-472d-8c82-efa37e16bcc5",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "307318e6-9733-4802-9799-c6a26c95f15c",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "cc1b0cf3-1a31-4952-977b-8d9ff3d181b2",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "3c8e532d-c43d-45fa-b021-5281e12f6679",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "d6c4bf5e-3e9f-4daa-9d01-b22e0da85fee",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "252a3fdf-620d-4713-bf32-323dd409d005",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "972aaf95-ba36-4c04-8224-be91b7ff0da5",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460",
+      "candidate_sku": "b70fa2ee-1ded-4e9f-8429-8695cb0a8bee",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "5ec142c2-78a5-417b-a696-b5ff9ccac7e1",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "4ad8fd3b-e886-47d3-a3ec-599ed80f25a5",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "a47c7e58-0873-4941-b92b-e3b692726b0b",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "90dd0ead-85af-4da9-aebb-61b15928646c",
+      "label": 2,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "d8a815d5-4858-42b3-87bc-b81ed11781b6",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "a4d8e381-0479-47f8-b231-55e34549c344",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "8fe67e2e-18ce-482f-ac01-d3b5580955d0",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "ea3fc5ab-6ebc-4468-a825-49711c56ea24",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "972aaf95-ba36-4c04-8224-be91b7ff0da5",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "bb58426a-f3fd-4aaf-a3ef-579df72d7d91",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "12e3e1a2-0cf6-4eed-896b-6d682f05bfb4",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "e2ad7930-b9ef-4215-a303-e80bd6a6783c",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "38d8a44a-8f42-4256-aa10-4746899c767d",
+      "label": 1,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "2cf83134-2684-439f-976c-4eb7563387d7",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "a620d4be-aa3b-4dd1-9297-1487d0c0bca7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "32074064-19d4-442b-a0dd-ec81f81226aa",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "8222e8c1-e802-4059-8cdd-f0c2f2c583a6",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "8234f6c4-4f45-453e-8e60-e12e41474b8c",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "84e68f38-02d0-4949-b92d-dbcee5bd85f9",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "182d1f49-e12d-4337-8909-fe2390d3192c",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "0a0e7b1e-0b9b-4269-b4d1-4aa630a9682d",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "585721c8-65aa-4ceb-b712-93cbe794d19f",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "b70fa2ee-1ded-4e9f-8429-8695cb0a8bee",
+      "label": 1,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "a2903c8d-ffd9-44a9-a17c-de90a535f5d6",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "311c3545-1b94-4b18-937d-f96841924713",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "aa604533-6270-4bfb-999a-8734502c1afb",
+      "label": 1,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "c69f50f7-44d3-4c2e-9d83-821f8f40ee35",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "candidate_sku": "bae08f86-83bb-4bdb-b6e3-ca22c1de5384",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "6761b874-c367-4d4d-9b63-d4c39d3d03dd",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "c4444965-e310-4d8e-a09e-0555273917e2",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "5da2286f-f7aa-4ed5-9082-08ddfd30d055",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "ccb396a4-1342-41ba-9bfd-1bcf3205b2a4",
+      "label": 2,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "4f2017a4-f0b3-4957-9efc-a051a1b88685",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "162dc3eb-7e0b-41fd-8b6a-c43c38fb7ec3",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "975ca5e5-ca0a-4ada-bde1-dbe8c9198beb",
+      "label": 2,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "9c2109a1-2f7a-4527-9c89-bfe70a321179",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "92f1f4de-cd75-45e5-8706-d8d040d9af0b",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "15942bc7-8371-478d-9d96-f83093ce7892",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "52e01d2c-f0d1-4468-98f4-794189e88141",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "dd117d42-f5dd-4ff2-874a-b47c138e52b0",
+      "label": 2,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "311c3545-1b94-4b18-937d-f96841924713",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "a55aa3da-c2bb-4787-8a4a-3113d1251f5e",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "7064722b-69ad-47b9-b896-620481980428",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "4ad8fd3b-e886-47d3-a3ec-599ed80f25a5",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "22c0aa23-bd27-44b9-b767-9c6ab79df39c",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "e89013f4-78e8-448b-9adc-d67ec85c92f7",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "12b2c421-8561-42dd-aa55-384ed48c7a38",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "a8893727-7e7d-4656-93d0-4a59a2b159a8",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "c274090a-349a-4a2e-857b-647373265190",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "aa604533-6270-4bfb-999a-8734502c1afb",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "eead3df9-1770-4e25-abf6-9bc4d22ccfd4",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "8234f6c4-4f45-453e-8e60-e12e41474b8c",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "e6220888-8721-4bb8-a6ce-2a7d619236cc",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "a9f72185-736f-49f2-8796-b4174601bc79",
+      "candidate_sku": "090031cf-0797-430f-a7c3-89c2caac71af",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "bb94a149-ecb9-4212-9317-4970d7ea1654",
+      "label": 1,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "6b44ba17-54e8-480b-9605-31707c6bb012",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "a3ff5d4a-e544-424c-9e21-f4040006e409",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "7532126a-9c61-4a30-a5c7-4515a84d530e",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "ad27b734-d08a-45ce-af34-3dc8e514e99d",
+      "label": 0,
+      "sources": [
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "1c94094e-134e-421a-b859-38070730907a",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "81bae5bc-540d-4002-920b-dd25407ff362",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "aaf16f64-a2ad-44ff-a322-dc9a39b790d0",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "227872b8-ca4c-4ebb-bd24-cc5ea5a403c2",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "88cc2e63-9f2d-4dd3-8bd0-26e969352d9d",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "d76f09f5-c27e-403a-b7d5-be4df7007566",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "8aeb93ac-179c-4303-bf39-4e726f599a7b",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "044e0065-dd9a-43b6-ad5f-9d7d1e531344",
+      "label": 2,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "a3cd6c37-829d-426b-8e71-ab4cefc3e2b2",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "2c772d8b-8eeb-41e3-a80f-6e0069f4bd93",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "50d3e0ac-804c-4165-8002-35119d9ce4d6",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "d10beddf-fbf8-4f63-aaed-07c7d3261af4",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "451a1fae-c4ad-43c9-ab31-0ff048b13c2b",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "9ac4d037-0116-4f7b-872d-23dcbfc02c30",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "7bee8a4a-7bdc-49bc-afef-c3225656d0e8",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "a1cf3de5-7f2d-4640-abf7-474d06750c3a",
+      "label": 0,
+      "sources": [
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "d20f15a3-101b-446d-bfa2-2fba6db14a93",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "0904cd9e-6216-4568-8a09-d25e6179808c",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "9205727c-2b42-43e9-981d-00a1885dbd94",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "19325cb0-02cd-4492-9618-75034eeb5bd2",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "d091d681-db65-4aeb-aca1-e7e262c576d0",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "124ff442-becc-4ddb-bb38-bb2f79dc96c8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "c3a41b16-a727-4a77-a396-ab8e9cad17cf",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "df6ae3d9-6c9c-4929-bcb8-400d5e98f45d",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "df370c53-ceb5-4054-a8c7-e45771db8585",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "3ae1fbfc-c118-49fa-a587-0e96fbeec1b0",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "4fd8e6db-5f83-4b80-ba97-609dbb74b587",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ae8373d-4bed-4659-a1ce-267afec8235d",
+      "candidate_sku": "81397d54-f075-4215-8949-b93981b87a23",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "768bb1ed-bfdd-4eda-8921-ee5f47de5582",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "307318e6-9733-4802-9799-c6a26c95f15c",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "86e5d299-fe67-4827-b15f-dfd2d45d82ca",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "aa604533-6270-4bfb-999a-8734502c1afb",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "669a0bb9-1550-4643-ba0f-0f6b399b0db8",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "4576d8d7-1a6c-4f21-8a44-8f45c5a0cfbe",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "9827ec49-ce96-4574-919d-fb545c69cc4b",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "0622d937-a493-4496-96b4-6e64fe164f4a",
+      "label": 1,
+      "sources": [
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "d1ff903a-d0de-4cd6-b977-9235b5617d38",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "c29bfd13-1629-4da3-b00a-ae7e229b1612",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "84fec94f-b5dc-4fff-a04e-623d1e464329",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "1f0d9bd9-5ede-472d-bd6f-4f4e4c0de8d0",
+      "label": 0,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "5759faf5-8ac3-4fc3-954e-97d7988f3156",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "fa18fc5f-4a0a-4ad3-af01-643d811bf6f8",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "eeeee5b8-5f61-4db1-9f49-cc4eacc24c58",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "c5decccc-6101-4d2b-9b30-f710e53327d7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "eb9c005e-661e-43e8-9955-4eac2761c69e",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "b4e244f4-9688-480e-8583-185dee6d110c",
+      "label": 1,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "54d77919-871e-46f5-8485-99c886b1c921",
+      "label": 0,
+      "sources": [
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "9ccbd80d-7060-4e18-a6ec-fccf0897c590",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "3b8f32b1-2199-41c8-9ca8-0cd1f9e9c491",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "63ba4a7f-5b57-4cf4-98b3-e7766dda5ef6",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "800442cf-4989-4fda-81cb-86c60e7bb1e4",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "e60825b1-7efa-41ba-86a0-a2ff02615fd5",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "0f2cddc5-fec4-4085-ad39-d3556c2df61b",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "deebdbce-f9ca-46dc-bb08-6c3a282bfc57",
+      "label": 1,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "182d1f49-e12d-4337-8909-fe2390d3192c",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "a620d4be-aa3b-4dd1-9297-1487d0c0bca7",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "0acf8653-5ceb-4edb-ad22-a87d6148d725",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "34ee2a16-7864-48ef-a72a-df4b5cac52dc",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "73c8da3a-4592-483d-9902-43dfc9b9c002",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "16a5b95c-a471-4153-8319-b19f7da5472a",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "7ff00767-5f88-4724-8ec3-67b7951d33ff",
+      "candidate_sku": "3500edb2-4133-4bb7-a174-72fa66b64882",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "6b44ba17-54e8-480b-9605-31707c6bb012",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "62418905-f32b-467c-91c8-5421610e84d5",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "de03eb48-64cc-45af-9609-59bca9ddbb07",
+      "label": 1,
+      "sources": [
+        "text_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "81397d54-f075-4215-8949-b93981b87a23",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "9ac4d037-0116-4f7b-872d-23dcbfc02c30",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "5daa732b-5606-42ec-b5ba-cf8e188e2f3c",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "cb96c9e3-8fb8-4b98-9800-1832759fc571",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "3b583c60-d6df-4666-8035-5a32d29bd91e",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "4fd8e6db-5f83-4b80-ba97-609dbb74b587",
+      "label": 0,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "451a1fae-c4ad-43c9-ab31-0ff048b13c2b",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "d20f15a3-101b-446d-bfa2-2fba6db14a93",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "ad27b734-d08a-45ce-af34-3dc8e514e99d",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "3ae1fbfc-c118-49fa-a587-0e96fbeec1b0",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "76f97fa4-9d20-4921-9c20-37d2bc45e3fd",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "0904cd9e-6216-4568-8a09-d25e6179808c",
+      "label": 0,
+      "sources": [
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "d091d681-db65-4aeb-aca1-e7e262c576d0",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "059ee2b7-2f75-4c54-884c-03e55b78ef25",
+      "label": 2,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.467Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "77e85433-89f1-4c7c-983e-2f86cca1bb54",
+      "label": 0,
+      "sources": [
+        "meta_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "bb94a149-ecb9-4212-9317-4970d7ea1654",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "a3ff5d4a-e544-424c-9e21-f4040006e409",
+      "label": 0,
+      "sources": [
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "a1cf3de5-7f2d-4640-abf7-474d06750c3a",
+      "label": 0,
+      "sources": [
+        "text_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "124ff442-becc-4ddb-bb38-bb2f79dc96c8",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "7bee8a4a-7bdc-49bc-afef-c3225656d0e8",
+      "label": 1,
+      "sources": [
+        "image_only"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "437e3a93-cd0d-4456-9ede-71115cbe6a83",
+      "candidate_sku": "7532126a-9c61-4a30-a5c7-4515a84d530e",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "c85fbb33-3317-4a8c-a73c-bc7212c6bb2c",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "5a4d8d63-6fc4-4beb-bc8b-650436b1c70c",
+      "label": 0,
+      "sources": [
+        "image_only",
+        "text_only",
+        "fused_default",
+        "random_within_type"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.468Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "11c992fb-e396-44d3-a248-1664f086d99f",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.469Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "5e8c8ae2-7fb0-4058-a143-764eca2ecd48",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.469Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "37d89dff-cfff-46a9-b4d4-2177d350e910",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.469Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "f82b838f-b877-4aea-a79f-2ce47854b7f5",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.469Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "6239d817-e434-4f16-8f94-d92d721207b8",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.469Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "8a41af1b-d2f5-4fdf-b2b7-0135bfc77f4c",
+      "label": 0,
+      "sources": [
+        "meta_only",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.469Z"
+    },
+    {
+      "query_sku": "1c8c6ba6-78df-4e0a-b9c4-756272a7fdb6",
+      "candidate_sku": "71458c00-16e4-45c6-b571-9bbb9989a58b",
+      "label": 1,
+      "sources": [
+        "image_only",
+        "text_only",
+        "meta_only",
+        "fused_default",
+        "random_within_type",
+        "same_type_nearest_price"
+      ],
+      "labeled_at": "2026-09-13T16:22:42.469Z"
+    }
+  ]
+}

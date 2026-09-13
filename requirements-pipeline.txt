@@ -24,7 +24,9 @@ openai==3.13.0   # D4 final (docs/DECISIONS.md): Groq via its OpenAI-compatible
                   # every model tried, unworkable for a 472-product batch
 
 # metadata / eval (Phase 3-4)
-pandas==2.2.2
+# (pandas dropped — metadata_sim.py and evaluate.py turned out not to need
+# it; plain numpy/dicts were enough. See DECISIONS.md.)
+matplotlib==3.9.2
 
 # dev tooling
 ruff==0.16.7

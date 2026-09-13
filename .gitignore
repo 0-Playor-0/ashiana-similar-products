@@ -11,7 +11,15 @@ data/raw/*/catalog_raw.json
 
 # D3: no image-derived data committed for now (docs/DECISIONS.md).
 # Numeric embeddings (artifacts/embeddings/) are fine — they're not images.
+# artifacts/eval/figures/ itself is NOT blanket-ignored (revisited Phase 4,
+# per the note left in Phase 1's DECISIONS.md entry) — it holds both actual
+# product photography (gitignored below, one pattern per such file) and pure
+# data charts (matplotlib plots, no photos) that are fine to commit.
 artifacts/thumbs/
-artifacts/eval/figures/
+artifacts/eval/figures/packshots.png
+artifacts/eval/figures/image_neighbors.png
+artifacts/eval/figures/ambiguous_review.png
+artifacts/eval/figures/recommendations_full.html
+artifacts/eval/figures/recommendations_sample.html
 .DS_Store
 *.log
