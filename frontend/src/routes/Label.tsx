@@ -170,6 +170,7 @@ export default function Label() {
       ref={containerRef}
       onKeyDown={handleKeyDown}
     >
+      <h1 className="srOnly">Relevance labeling tool</h1>
       <div className="label-progress">
         Query {queryIdx + 1}/{orderedQueries.length} · candidate {candidateIdx + 1}/
         {currentCandidates.length} · {completedTasks}/{totalTasks} total

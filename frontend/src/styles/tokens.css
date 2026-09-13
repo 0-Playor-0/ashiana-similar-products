@@ -1,21 +1,83 @@
-/* Design tokens (D6, docs/DESIGN.md pass 2 — provisionally approved,
-   final sign-off pending a live UI review). Shared across the whole app;
+/* Design tokens (D6, docs/DESIGN.md pass 2 — provisionally approved to
+   build against; final visual sign-off is still pending a live review,
+   not a rubber stamp on the written spec). Shared across the whole app;
    the dev-only /label route uses a small subset for baseline consistency,
    not the full "shopper" card/hairline treatment. */
 
 :root {
-  --color-ground: #241c17; /* Smoked Bronze */
-  --color-surface: #fbf7f0; /* Card Ivory */
-  --color-accent-gold: #c9a55c; /* Antique Gold — fill/accent only, never text on light */
-  --color-accent-silver: #8a8d8c; /* Oxidised Silver — dark-ground text/accents only */
-  --color-accent-ice: #b7dee0; /* Zircon Ice — focus ring, meta signal */
-  --color-accent-garnet: #7a2e2e; /* Garnet — discount badges only */
+  /* Colors (docs/DESIGN.md "Colors" table — verified WCAG contrast pairs
+     are in that table's comments, not re-derived here) */
+  --color-ground: #241c17; /* Smoked Bronze: page ground + body text on light surfaces */
+  --color-surface: #fbf7f0; /* Card Ivory: card background + text on dark surfaces */
+  --color-accent-gold: #c9a55c; /* Antique Gold: fill/accent only, never text on light */
+  --color-accent-silver: #8a8d8c; /* Oxidised Silver: text on dark only (5.0:1); non-text on light */
+  --color-accent-ice: #b7dee0; /* Zircon Ice: focus ring; "meta" signal */
+  --color-accent-garnet: #7a2e2e; /* Garnet: discount/sale badges only */
 
   --text-on-dark: var(--color-surface);
   --text-on-light: var(--color-ground);
 
+  /* Signal colors (inspector contribution bar + reason chips) */
+  --signal-image: var(--color-accent-gold);
+  --signal-text: var(--color-accent-silver);
+  --signal-meta: var(--color-accent-ice);
+
+  /* Typography */
   --font-display: "Fraunces", Georgia, serif;
   --font-ui: "Inter", -apple-system, "Segoe UI", sans-serif;
 
+  --text-display-size: 40px;
+  --text-display-line: 1.1;
+  --text-display-weight: 600;
+
+  --text-h1-size: 28px;
+  --text-h1-line: 1.2;
+  --text-h1-weight: 500;
+
+  --text-h2-size: 20px;
+  --text-h2-line: 1.3;
+  --text-h2-weight: 500;
+
+  --text-body-size: 15px;
+  --text-body-line: 1.5;
+  --text-body-weight: 400;
+
+  --text-small-size: 13px;
+  --text-small-line: 1.4;
+  --text-small-weight: 400;
+
+  --text-micro-size: 11px;
+  --text-micro-line: 1.3;
+  --text-micro-weight: 500;
+
+  /* Spacing scale (not itself part of D6's named token list, but needed
+     to build a consistent layout system from it) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Card treatment (docs/DESIGN.md "Card treatment") */
   --radius-card: 4px;
+  --card-border: 1px solid var(--color-accent-gold);
+  --card-bg: var(--color-surface);
+
+  /* Accessibility tokens (docs/DESIGN.md "Accessibility tokens") */
+  --focus-ring-color: var(--color-accent-ice);
+  --focus-ring-width: 2px;
+  --focus-ring-offset-light: 1px solid var(--color-ground);
+  --focus-ring-offset-dark: 1px solid var(--color-surface);
+
+  --motion-duration: 0.35s;
+  --motion-easing: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-duration: 0s;
+  }
 }

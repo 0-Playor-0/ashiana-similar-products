@@ -1,0 +1,31 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-6) var(--space-4);
+  max-width: 480px;
+}
+
+.message {
+  margin: 0;
+  color: var(--text-on-dark);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-line);
+}
+
+.action {
+  appearance: none;
+  border: 1px solid var(--color-accent-gold);
+  border-radius: var(--radius-card);
+  background: transparent;
+  color: var(--color-accent-gold);
+  font-size: var(--text-small-size);
+  font-weight: 500;
+  padding: var(--space-2) var(--space-4);
+  cursor: pointer;
+}
+
+.action:hover {
+  background: color-mix(in srgb, var(--color-accent-gold) 12%, transparent);
+}

@@ -1,0 +1,71 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  background: color-mix(in srgb, var(--color-surface) 6%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 35%, transparent);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+}
+
+.heading {
+  font-family: var(--font-ui);
+  font-size: var(--text-small-size);
+  font-weight: 600;
+  text-transform: none;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.sliderRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.sliderLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-small-size);
+}
+
+.sliderReadout {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.7;
+}
+
+.slider {
+  width: 100%;
+  accent-color: var(--color-accent-gold);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  font-size: var(--text-small-size);
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.priceInput {
+  width: 70px;
+  appearance: none;
+  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 50%, transparent);
+  border-radius: 2px;
+  background: transparent;
+  color: var(--text-on-dark);
+  padding: 2px var(--space-2);
+  font-size: var(--text-small-size);
+}
+
+.hint {
+  margin: 0;
+  font-size: var(--text-micro-size);
+  opacity: 0.65;
+}

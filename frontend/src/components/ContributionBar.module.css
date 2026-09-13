@@ -1,0 +1,43 @@
+.bar {
+  display: flex;
+  height: 6px;
+  width: 100%;
+}
+
+.segment {
+  position: relative;
+  height: 100%;
+  border: none;
+  padding: 0;
+  cursor: default;
+  appearance: none;
+}
+
+.segment:focus-visible {
+  outline: 2px solid var(--focus-ring-color);
+  outline-offset: -2px;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-ground);
+  color: var(--text-on-dark);
+  border: 1px solid var(--color-accent-gold);
+  border-radius: 2px;
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--text-micro-size);
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.segment:hover .tooltip,
+.segment:focus-visible .tooltip {
+  opacity: 1;
+  visibility: visible;
+}

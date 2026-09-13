@@ -631,3 +631,53 @@ requests with randomized skus/weights (budget: 20ms), p99 ~9ms, max ~15ms. `/doc
 in CI would have failed on any test importing `core/` (which needs it) — install now runs
 `pip install -r api/requirements.txt` (covers numpy plus the new api test deps) instead of a
 hand-picked, previously incomplete package list.
+
+## 2026-09-14 — Phase 6 frontend: build notes
+
+**Stack additions.** `recharts@3.10.1` (hubness chart, under-the-hood only) and `motion@13.2.0`
+(FLIP reorder animation), versions verified against the npm registry (rule 12). Reused the
+Phase 4 `/label` scaffold's Vite/React/TS setup rather than re-scaffolding, per instruction —
+`react-router-dom`/`@tanstack/react-query` were already pinned there.
+**Code-split `/under-the-hood` and `/label`** via `React.lazy` — Recharts alone is ~360KB
+minified, and the demo's main path (catalog → product page) shouldn't pay for a dependency it
+never uses. Brought the main bundle from 797KB down to 429KB.
+**Weight defaults come from `/version`, not a hardcoded guess.** The inspector's sliders seed
+from `manifest.json`'s tuned `default_weights` (0.6/0.1/0.3) when the URL doesn't already
+specify `wi`/`wt`/`wm`, mirroring exactly what the API itself falls back to per-parameter when
+a weight is omitted (`api/app/main.py`'s `similar()`) — so the initial slider position always
+matches what the first request actually used.
+**Per-signal weight defaulting, not all-or-nothing**, extended to the frontend to match the
+API's own behavior (already logged as a Phase 5 decision): a URL with only `wi` set still
+seeds `wt`/`wm` from the URL if present, or from `/version`'s defaults otherwise — never from
+an arbitrary zero.
+**Contribution bar segment widths are a display simplification.** `breakdown[signal].contribution`
+(`weight × z`) can be negative; the three-segment bar shows each signal's share of the *positive*
+contributions only (so widths stay non-negative and sum to 100%), while the tooltip (hover or
+focus) always shows the real cosine/z/contribution numbers, negative or not. This is a rendering
+choice, not a ranking change — the actual ranking always uses the real (possibly negative) core
+fusion math server-side.
+**A real bug found via manual testing, fixed:** the initial `QueryClient` default (`retry: 5`
+unconditionally) retried *every* failed query, including a 404 for an unknown SKU — a
+permanent, deterministic failure — for a good 30+ seconds before finally showing the error
+state. Fixed with a `retry` function that gives up immediately on any 4xx `ApiError` and only
+backs off generously (up to 5 attempts, capped at 10s) for network errors / 5xx / timeouts,
+which are the actual cold-start scenario this generous retry policy exists for.
+**Accessibility verification.** Ran axe-core (the same engine Lighthouse's accessibility
+category is built on) against `/`, `/p/:sku`, and `/under-the-hood` in a real browser against
+the live local API — 0 violations on all three after one fix: the catalog page had no `<h1>`
+(the header's "Similar pieces — a prototype for Ashiana" is a site brand link, not a per-page
+heading). Added a visually-hidden `<h1>` per page (`.srOnly` utility in `index.css`) rather
+than a second visible heading, to satisfy the "one main heading per page" a11y rule without
+changing the approved visual design.
+**Manual click-through against the live local API** (not just unit tests) confirmed: cold-start
+banner appears within 3s when the API is down and disappears once it's back (tested by actually
+stopping/restarting the uvicorn process mid-session); catalog empty state + "Clear filters";
+404 product page with a specific message; weight-slider changes debounce to one request and
+reorder the grid with the FLIP animation; the fallback badge renders correctly (verified by
+temporarily raising `k` past a thin category's same-type count, then reverting); 360px mobile
+layout; visible keyboard focus on links, chips, and contribution-bar segments.
+**Design sign-off status, unchanged from the D6 entry:** the token system and layout are
+implemented exactly as specified in `docs/DESIGN.md` pass 2, but that was a provisional
+approval to build against — final visual sign-off is still pending a live review, per explicit
+instruction not to treat the written spec as the final word once there's a working UI to look
+at.
