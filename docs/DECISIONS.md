@@ -778,3 +778,56 @@ the repo.
 **Every number in §6/§7 (evaluation, failure cases) is loaded from the committed
 `artifacts/eval/report.json`, not recomputed** — same instruction as the evaluate.py work
 itself: reuse the real Phase 4 output.
+
+## 2026-09-14 — Phase 8 deployment: two more real bugs found via actual deploy attempts
+
+Continuing the render.yaml saga (previous two entries: the static-site `plan` field, then
+`NODE_VERSION`) — the real Render build log surfaced the actual root cause of the UI's
+build failure, and getting both services live surfaced a second, separate bug in the API.
+
+**Bug 1 — `frontend/public/thumbs` was a symlink committed to git, pointing at the
+D3-gitignored `artifacts/thumbs/` folder.** It never existed on Render's fresh clone, and
+Vite's `public/` copy step fails trying to `stat` a dangling symlink:
+`ENOENT: no such file or directory, stat '.../frontend/public/thumbs'`. The shopper-facing
+app (`ProductCard.tsx`, `ProductPage.tsx`) was already correct — both resolve the API's
+relative `thumb_url` against `API_BASE_URL` via `resolveThumbUrl()`, added back in Phase 6.
+Only the dev-only `/label` tool had a raw `/thumbs/{sku}.webp` path depending on the
+symlink; fixed to use the same helper. Removed the symlink entirely — verified by a clean
+`npm ci` + build with it gone (the exact fresh-clone condition that broke on Render).
+`frontend/public/data/{catalog,label_pool}.json` symlinks are untouched: their targets are
+real committed files, not gitignored, so they were never broken the same way.
+
+**Bug 2 — with the build fixed and both services deployed, the live UI showed broken-image
+icons everywhere.** `/thumbs/{sku}.webp` on the deployed API was returning 500, not a
+missing-file 404. Root cause, found by reproducing locally against a genuinely missing
+directory rather than guessing: `StaticFiles(check_dir=False)` only skips Starlette's
+one-time *startup* directory check. A separate, always-on `check_config()` runs on the
+*first real request* and raises an unconditional `RuntimeError` (→ 500) if the directory is
+still missing then — `check_dir` doesn't gate that second check at all. The API's own
+comment ("a missing directory shouldn't crash startup, individual thumb requests just
+404") was only half-verified — the startup half was true, the per-request half never
+actually was, because `artifacts/thumbs/` always happened to exist locally during every
+prior test. Fixed by creating the directory eagerly (`mkdir(parents=True, exist_ok=True)`)
+right before the mount, so `check_config()`'s `os.stat` always finds a real (possibly
+empty) directory and individual missing files fall through to StaticFiles' normal,
+already-correct missing-file handling. Added a regression test
+(`tests/api/test_thumbs_missing_dir.py`) that reproduces the exact condition — a subprocess
+with its own fresh `ARTIFACTS_DIR` that never had a `thumbs/` subdirectory — since the
+shared `tests/api/conftest.py` fixture bundle always pre-creates one and so could never
+have caught this.
+
+**Consequence, not yet resolved — flagged for the user rather than decided unilaterally:**
+even with bug 2 fixed, the deployed production API has *no* thumbnail files to serve at
+all (the offline image pipeline never runs on Render; `artifacts/thumbs/` is gitignored
+per D3 and was never committed). Every `/thumbs/{sku}.webp` request now correctly 404s
+instead of 500ing, but the live demo still shows zero real product photos anywhere. D3's
+own text anticipated revisiting this "before the repo goes public" — arguably now, since
+the deployed site is itself a live public URL even though the GitHub repo is still
+private — but changing that policy has real image-rights implications only the user
+should decide, so this wasn't done unprompted.
+
+**CORS, verified against the live deployed API directly** (not just read back from
+render.yaml): both a preflight `OPTIONS` and an actual `GET` from
+`https://ashiana-recs-ui.onrender.com` get `access-control-allow-origin` back correctly; a
+request with `Origin: https://evil-example.com` gets no such header. Checked both the
+allow and the deny case, not just that CORS didn't error.

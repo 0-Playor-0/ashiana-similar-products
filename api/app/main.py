@@ -69,9 +69,18 @@ class CachedStaticFiles(StaticFiles):
         return response
 
 
-# check_dir=False: artifacts/thumbs/ is gitignored (D3, docs/DECISIONS.md) and
-# may not exist on a fresh checkout before `make build` runs — a missing
-# directory shouldn't crash startup, individual thumb requests just 404.
+# artifacts/thumbs/ is gitignored (D3, docs/DECISIONS.md) and may not exist
+# on a fresh checkout before `make build` runs. check_dir=False only skips
+# StaticFiles' one-time *startup* check — Starlette also runs a separate,
+# always-on check_config() on the first real request that raises an
+# unconditional RuntimeError (-> 500, not 404) if the directory is still
+# missing then, regardless of check_dir (found via an actual deploy with no
+# thumbs/ at all, not assumed — see docs/DECISIONS.md). Creating the
+# directory eagerly, even empty, sidesteps that check entirely: an existing-
+# but-empty directory correctly 404s per missing file via StaticFiles'
+# normal lookup_path, which is what "individual thumb requests just 404"
+# actually requires.
+(ARTIFACTS_DIR / "thumbs").mkdir(parents=True, exist_ok=True)
 app.mount(
     "/thumbs",
     CachedStaticFiles(directory=ARTIFACTS_DIR / "thumbs", check_dir=False),
