@@ -831,3 +831,33 @@ render.yaml): both a preflight `OPTIONS` and an actual `GET` from
 `https://ashiana-recs-ui.onrender.com` get `access-control-allow-origin` back correctly; a
 request with `Origin: https://evil-example.com` gets no such header. Checked both the
 allow and the deny case, not just that CORS didn't error.
+
+## 2026-09-14 — D3 resolved: live deployment stays imageless, deliberately
+
+**Decision.** The consequence flagged above is resolved, not left open: `artifacts/thumbs/`
+stays gitignored and is **not** committed or otherwise published to the live deployment.
+There's no explicit written permission from Ashiana to redistribute their product
+photography, and this is a public internship submission — the risk isn't worth taking for
+a nicer-looking demo. D1's answer (scrape the public site) covers using the catalog data
+(titles, prices, types, descriptions) for this project; it was never a grant of rights to
+republish the photos themselves, and D3's original gitignore decision already drew exactly
+that line — this just confirms it holds under real-world pressure to "make the deploy
+look good," rather than quietly eroding under that pressure.
+**Consequence, explicit:** broken product-image icons on
+`https://ashiana-recs-ui.onrender.com` are a **known, deliberate limitation**, not a bug —
+every other part of the live deployment (API, ranking logic, category fallback, weight
+fusion, CORS, evaluation numbers served via `/eval/report`) is real and fully functional
+against the real 472-product catalog. The live deployment is proof that the *architecture*
+works end-to-end in production, not a fully-populated visual demo.
+**Consequence for Phase 9's demo video:** it must be recorded **locally** (`make api` +
+`make ui`, where `artifacts/thumbs/` exists because the full pipeline has actually run),
+not against the live URLs — the whole point of a demo video is to show the shopper-facing
+experience working with real product photography, which the live deployment cannot do by
+design. The live URLs remain worth showing separately in the video (or in the README) as
+evidence of a real production deployment, just not as the source of the product-photo
+footage.
+**Visibility for reviewers:** a plain-text note lives right under the live links at the top
+of `README.md` (so anyone clicking through sees it before they wonder why images are
+broken) and again in the README's Limitations section with the full reasoning; a shorter
+version is also left as a comment in `render.yaml` next to the API service definition, for
+anyone reading the deploy config directly.

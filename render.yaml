@@ -1,38 +1,16 @@
 # Render Blueprint (§8 Phase 8). Syntax verified against Render's current docs
-# (render.com/docs/blueprint-spec, docs/redirects-rewrites, docs/python-version,
-# docs/compute-plans) on 2026-09-14, not copied from the roadmap's sketch
-# unverified (rule 12). Two notable things Render deprecated since the
-# roadmap was written, neither used here: the `env` field (renamed
-# `runtime`) and boolean `autoDeploy` (replaced by `autoDeployTrigger`).
-#
-# One thing the first verification pass missed, caught by an actual deploy
-# attempt failing with "services[1].plan — no such plan free for service
-# type web": a static site (type: web, runtime: static) doesn't accept a
-# `plan` field at all — static hosting has no compute tiers to choose from,
-# so any `plan` value on it is invalid, not just "free". `plan: free` stays
-# on the real (Python) web service, where it's genuinely valid — confirmed
-# directly against docs/compute-plans, not just inferred from the error.
+# (blueprint-spec, redirects-rewrites, python-version, compute-plans,
+# node-version) rather than trusting the roadmap's sketch unverified (rule
+# 12). Full debugging history for every issue actually hit while deploying
+# this — the static site's `plan` field, `NODE_VERSION`, a symlink that
+# broke the build, and a 500-vs-404 bug in the API's /thumbs route — is in
+# docs/DECISIONS.md, not repeated here as file-comment archaeology.
 #
 # Service URLs are Render's default `https://<name>.onrender.com` pattern —
 # predictable from the `name` fields below, so FRONTEND_ORIGINS and
 # VITE_API_BASE_URL are set directly rather than left for manual dashboard
 # entry. If a name collision ever forces Render to assign a different host,
 # these two values need updating to match.
-#
-# The UI's plan+build passed validation but then failed at the actual build/
-# deploy stage. Investigated and ruled out, not just assumed: `npm ci && npm
-# run build` reproduced clean locally with an isolated node_modules on both
-# Node 22.23.2 and Node 24.14.1 (Render's current unpinned default, per
-# docs/node-version) — no failure either way, and `rootDir` + a bare
-# `staticPublishPath: dist` matches a confirmed working real-world Render
-# deployment with the identical monorepo layout (not just the ambiguous
-# phrasing on docs/blueprint-spec vs docs/monorepo-support, which
-# contradict each other on whether staticPublishPath is repo-root- or
-# rootDir-relative). Pinned NODE_VERSION to the same 22.23.2 this project
-# has been built and tested against throughout, matching that same working
-# example's own explicit pin — the strongest fix the local evidence
-# supports, though it wasn't possible to reproduce the actual failure to
-# confirm it's the root cause; see the live build log for that.
 
 services:
   - type: web
@@ -42,6 +20,13 @@ services:
     buildCommand: pip install -r api/requirements.txt
     startCommand: uvicorn api.app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
+    # D3 (docs/DECISIONS.md): artifacts/thumbs/ is deliberately gitignored —
+    # no written permission from Ashiana to redistribute their product
+    # photography, and this is a public internship submission. This service
+    # never has any thumbnail files to serve, by design: /thumbs/{sku}.webp
+    # 404s cleanly for every SKU. Everything else here (ranking, fusion,
+    # category fallback, evaluation) is real and fully functional against
+    # the actual 472-product catalog — only the photos are absent.
     envVars:
       - key: PYTHON_VERSION
         value: "3.11.10"
