@@ -1,0 +1,18 @@
+{
+  "bundle_version": "2026-09-13T11:52:39Z-587e3352",
+  "catalog_hash": "587e335222be09b7c9aff7c9400e90e613e32b18021a723459b6504aee056df2",
+  "taxonomy_hash": "fbe280933a8fefa4e45a53c2f77e043bf55d80e8537e32a24db14b464b82b2dd",
+  "n_items": 472,
+  "git_commit": "f8293f0911d0d61e4f3616d300ba4ee8b598944e",
+  "models": {
+    "image": "facebook/dinov2-small",
+    "text": "BAAI/bge-small-en-v1.5",
+    "llm": "openai/gpt-oss-20b",
+    "prompt_version": "v1"
+  },
+  "default_weights": {
+    "image": 0.5,
+    "text": 0.2,
+    "meta": 0.3
+  }
+}
