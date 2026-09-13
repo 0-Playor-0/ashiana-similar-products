@@ -1,0 +1,7 @@
+{
+  "8a41af1b-d2f5-4fdf-b2b7-0135bfc77f4c": "APIConnectionError: Connection error.",
+  "8aeb93ac-179c-4303-bf39-4e726f599a7b": "APIConnectionError: Connection error.",
+  "8b9cc6d8-0e17-4102-a728-9602f454de55": "APIConnectionError: Connection error.",
+  "d091d681-db65-4aeb-aca1-e7e262c576d0": "BadRequestError: Error code: 400 - {'error': {'message': \"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}",
+  "f0e055be-f3c9-4311-96d6-e3e9fae1fa2a": "APIConnectionError: Connection error."
+}

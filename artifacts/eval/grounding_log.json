@@ -1,0 +1,2376 @@
+{
+  "009e44c8-d247-4514-a0da-f71537ec1569": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatile"
+      }
+    ]
+  },
+  "02c7da87-f22c-4e98-8665-4e45659f480f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      }
+    ]
+  },
+  "059ee2b7-2f75-4c54-884c-03e55b78ef25": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "western attire"
+      }
+    ]
+  },
+  "0acf8653-5ceb-4edb-ad22-a87d6148d725": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "sleek high-quality sterling silver hoop"
+      }
+    ]
+  },
+  "0b0053d9-4afb-4577-ab73-bf238bb45bb0": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Versatile"
+      }
+    ]
+  },
+  "0deb5445-9429-4db2-815e-5c9aca7674cc": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "anniversary"
+      },
+      {
+        "field": "design_features",
+        "term": "red gemstone center"
+      }
+    ]
+  },
+  "0f2cddc5-fec4-4085-ad39-d3556c2df61b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      },
+      {
+        "field": "design_features",
+        "term": "diamond 4 circle"
+      }
+    ]
+  },
+  "0fa6fc6f-5acc-4fb4-a077-2ca9884e9e7b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "sophisticated"
+      }
+    ]
+  },
+  "106d5488-d378-47bd-8498-33c6296e708a": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "double-sided"
+      }
+    ]
+  },
+  "11c992fb-e396-44d3-a248-1664f086d99f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "Diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "12e3e1a2-0cf6-4eed-896b-6d682f05bfb4": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "light weight"
+      },
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "14cc46b0-6b85-4627-b9fa-82e6c92bb1b2": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "Western attire"
+      }
+    ]
+  },
+  "14f8be70-bc3a-4a6b-b18e-95c1c205e381": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "layered"
+      },
+      {
+        "field": "design_features",
+        "term": "soft sophisticated look"
+      },
+      {
+        "field": "design_features",
+        "term": "layering with favorite pieces"
+      }
+    ]
+  },
+  "16a5b95c-a471-4153-8319-b19f7da5472a": {
+    "dropped_extracted": {
+      "materials": [
+        "diamond"
+      ],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "182d1f49-e12d-4337-8909-fe2390d3192c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Safe for sensitive skin"
+      }
+    ]
+  },
+  "1a966b23-f552-4d89-90f3-ed359a3fd5dd": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "double-sided"
+      }
+    ]
+  },
+  "1c1772cc-2393-4ada-98da-568104a0f96d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "anniversary"
+      },
+      {
+        "field": "occasion",
+        "term": "Valentine's Day"
+      },
+      {
+        "field": "design_features",
+        "term": "dual-tone silver lining with golden base"
+      }
+    ]
+  },
+  "1c94094e-134e-421a-b859-38070730907a": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "solitaire flower"
+      }
+    ]
+  },
+  "1f0d9bd9-5ede-472d-bd6f-4f4e4c0de8d0": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "minimalist charm"
+      }
+    ]
+  },
+  "1f0f7e73-5d82-44b3-ac91-4f5e780fab35": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatility for festive occasion wear"
+      }
+    ]
+  },
+  "22c0aa23-bd27-44b9-b767-9c6ab79df39c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "two-sided"
+      },
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "finish",
+        "term": "smooth lustrous surface"
+      },
+      {
+        "field": "design_features",
+        "term": "petals"
+      },
+      {
+        "field": "design_features",
+        "term": "smooth lustrous surface"
+      }
+    ]
+  },
+  "2684abee-e688-44ce-8999-e97f72a896ec": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "subtle shimmer"
+      }
+    ]
+  },
+  "2ce0d0e9-1b53-4125-a062-d8af611eb045": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatility for festive occasion wear"
+      }
+    ]
+  },
+  "2cf83134-2684-439f-976c-4eb7563387d7": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      },
+      {
+        "field": "design_features",
+        "term": "diamond heart"
+      }
+    ]
+  },
+  "2d8a3dda-b3d0-4373-96d0-f6410602aaaf": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Contemporary"
+      }
+    ]
+  },
+  "307318e6-9733-4802-9799-c6a26c95f15c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      }
+    ]
+  },
+  "311c3545-1b94-4b18-937d-f96841924713": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "light weight"
+      },
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "31629cd2-8514-43b8-b261-f3a34423e83d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      }
+    ]
+  },
+  "32074064-19d4-442b-a0dd-ec81f81226aa": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Safe for sensitive skin"
+      }
+    ]
+  },
+  "32c7b479-a24d-43f0-ad46-9712ba621bba": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "gold color finish"
+      }
+    ]
+  },
+  "34ee2a16-7864-48ef-a72a-df4b5cac52dc": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "classic refined band"
+      }
+    ]
+  },
+  "376b39b6-b55e-4927-91c3-b68ff5a8ff6d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "green stone"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "green stones"
+      }
+    ]
+  },
+  "3c8e532d-c43d-45fa-b021-5281e12f6679": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "gold color finish"
+      }
+    ]
+  },
+  "3f8099a6-ae7e-48ff-95ea-dfd2c15614b6": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatility for festive occasion wear"
+      }
+    ]
+  },
+  "40d6c308-e5fb-417c-a644-f6e5e99163af": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "Diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "437e3a93-cd0d-4456-9ede-71115cbe6a83": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "western attire"
+      }
+    ]
+  },
+  "439c3a48-9012-42ca-a246-8e153dd9a571": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "statement-making"
+      },
+      {
+        "field": "design_features",
+        "term": "dress-up"
+      }
+    ]
+  },
+  "451a1fae-c4ad-43c9-ab31-0ff048b13c2b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "Western attire"
+      }
+    ]
+  },
+  "4576d8d7-1a6c-4f21-8a44-8f45c5a0cfbe": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "red stones"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "475e6d91-9ec1-4e8f-82ba-89c99c378c09": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "sunbeam arc"
+      }
+    ]
+  },
+  "4830add6-afcb-4ed3-8fa7-4f1eba69881b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "nature-inspired"
+      },
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "suspended from sleek silver vines"
+      },
+      {
+        "field": "design_features",
+        "term": "soft dangling design"
+      },
+      {
+        "field": "design_features",
+        "term": "subtle eye-catching shimmer"
+      },
+      {
+        "field": "design_features",
+        "term": "high-quality lightweight materials"
+      }
+    ]
+  },
+  "4c8a73d2-f807-48b6-b679-d6f75a06e2f9": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "sparkling stones set throughout"
+      }
+    ]
+  },
+  "4fd8e6db-5f83-4b80-ba97-609dbb74b587": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "Diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "50d3e0ac-804c-4165-8002-35119d9ce4d6": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "sophisticated"
+      },
+      {
+        "field": "finish",
+        "term": "sparkling"
+      },
+      {
+        "field": "occasion",
+        "term": "everyday wear"
+      },
+      {
+        "field": "design_features",
+        "term": "shimmering crystals on petals"
+      },
+      {
+        "field": "design_features",
+        "term": "intricate flower arrangement"
+      },
+      {
+        "field": "design_features",
+        "term": "cascade effect"
+      }
+    ]
+  },
+  "52c61d96-eb80-47ae-a49f-74e867365149": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "long dangling design"
+      }
+    ]
+  },
+  "52e01d2c-f0d1-4468-98f4-794189e88141": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Delightful"
+      }
+    ]
+  },
+  "54351102-70eb-4bf5-ab4c-55fdbed6a9b5": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      }
+    ]
+  },
+  "54d77919-871e-46f5-8485-99c886b1c921": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "motifs",
+        "term": "grape cluster"
+      },
+      {
+        "field": "style",
+        "term": "whimsical"
+      },
+      {
+        "field": "design_features",
+        "term": "cluster of grapes"
+      },
+      {
+        "field": "design_features",
+        "term": "dangling"
+      }
+    ]
+  },
+  "574f44e4-67be-461b-a762-49a4be2b4e2f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "great for Indian wear"
+      }
+    ]
+  },
+  "585721c8-65aa-4ceb-b712-93cbe794d19f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "red stone"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "red stone"
+      }
+    ]
+  },
+  "5af4eaab-86d6-43b3-aa6a-7cf708ab1678": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatility for festive occasion wear"
+      }
+    ]
+  },
+  "5b0588e2-8971-4f45-a83b-238e94019c18": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      }
+    ]
+  },
+  "5bb2f708-1c72-47d5-a703-520a4961ac20": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "intricate Kundan work"
+      },
+      {
+        "field": "design_features",
+        "term": "mosaic brilliance"
+      },
+      {
+        "field": "design_features",
+        "term": "lustrous pearls"
+      }
+    ]
+  },
+  "5daa732b-5606-42ec-b5ba-cf8e188e2f3c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "Western attire"
+      }
+    ]
+  },
+  "5dc27e3c-58d6-4030-a13e-89ec02bdaec8": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "Red stones"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "60ffa427-5047-4717-9a87-f6a9dc97fc3e": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Water-Drop shape"
+      }
+    ]
+  },
+  "6120c39d-f76d-498b-a29d-e2cbbdb4c439": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Statement-making"
+      },
+      {
+        "field": "design_features",
+        "term": "Versatile"
+      }
+    ]
+  },
+  "6224aebe-3bf5-4766-82a9-90909704cb52": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "motifs",
+        "term": "Leaf"
+      }
+    ]
+  },
+  "6239d817-e434-4f16-8f94-d92d721207b8": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "snug fit"
+      }
+    ]
+  },
+  "623c6932-b8d4-4c48-a279-1cf6a9bc2940": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "hand made glass pendant"
+      }
+    ]
+  },
+  "62418905-f32b-467c-91c8-5421610e84d5": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "finely crafted adjustable gold colour chain"
+      },
+      {
+        "field": "design_features",
+        "term": "lightweight earrings"
+      }
+    ]
+  },
+  "63ba4a7f-5b57-4cf4-98b3-e7766dda5ef6": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": [
+        "iridescent"
+      ]
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "slender gleaming chain"
+      },
+      {
+        "field": "design_features",
+        "term": "radiant handpicked pearl"
+      }
+    ]
+  },
+  "64442b26-9ad1-4a41-9906-194c1890f4eb": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "gold finish"
+      },
+      {
+        "field": "design_features",
+        "term": "versatile for festive occasions"
+      }
+    ]
+  },
+  "669a0bb9-1550-4643-ba0f-0f6b399b0db8": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "Diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "American"
+      }
+    ]
+  },
+  "67977914-0b78-4593-8a0c-8b86b4a8bc8d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "statement-making"
+      },
+      {
+        "field": "design_features",
+        "term": "outfit-enhancing"
+      }
+    ]
+  },
+  "6922f2e3-7f7e-491a-8ad7-93d0357c36d4": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "Western attire"
+      },
+      {
+        "field": "design_features",
+        "term": "water-drop shape"
+      },
+      {
+        "field": "design_features",
+        "term": "cat's eye stone"
+      }
+    ]
+  },
+  "69f322e2-6395-47bd-8ea5-4455c5469cf7": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "setting showcases crystals"
+      },
+      {
+        "field": "design_features",
+        "term": "earring hooks designed for ease of use"
+      }
+    ]
+  },
+  "6b7b42f7-d94d-4ab9-88ca-6a2fcebd645d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Matching dangle earrings"
+      }
+    ]
+  },
+  "6f3ae04a-b6e3-4b7d-b5fd-c546e8dc2588": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "exquisite gold leaf detailing"
+      }
+    ]
+  },
+  "71458c00-16e4-45c6-b571-9bbb9989a58b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      }
+    ]
+  },
+  "73c8da3a-4592-483d-9902-43dfc9b9c002": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "motifs",
+        "term": "pearls"
+      }
+    ]
+  },
+  "7532126a-9c61-4a30-a5c7-4515a84d530e": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "sophisticated"
+      },
+      {
+        "field": "design_features",
+        "term": "meticulously crafted links"
+      }
+    ]
+  },
+  "766d4947-b7fe-42a4-901b-44ce7762428f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "whimsical"
+      },
+      {
+        "field": "style",
+        "term": "sophisticated"
+      }
+    ]
+  },
+  "768bb1ed-bfdd-4eda-8921-ee5f47de5582": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      }
+    ]
+  },
+  "76f97fa4-9d20-4921-9c20-37d2bc45e3fd": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "whimsical"
+      },
+      {
+        "field": "occasion",
+        "term": "events"
+      }
+    ]
+  },
+  "78d2891e-2d77-4298-957c-d100887e4d25": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "great for Indian wear"
+      }
+    ]
+  },
+  "7ae8373d-4bed-4659-a1ce-267afec8235d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": [
+        "black"
+      ]
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "sinusoidal strand"
+      },
+      {
+        "field": "design_features",
+        "term": "rose focal point"
+      },
+      {
+        "field": "design_features",
+        "term": "obsidian-hued enamel petals"
+      }
+    ]
+  },
+  "7bee8a4a-7bdc-49bc-afef-c3225656d0e8": {
+    "dropped_extracted": {
+      "materials": [
+        "Diamond"
+      ],
+      "stones": [
+        "Diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "7bf84f07-7108-40d3-85a8-8d69ba3d25d5": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "easily usable hooks"
+      }
+    ]
+  },
+  "7fe98dcc-2fcf-4414-9cf7-23ec27148b4c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "luminous pearl"
+      },
+      {
+        "field": "design_features",
+        "term": "full moon evocation"
+      }
+    ]
+  },
+  "7ff00767-5f88-4724-8ec3-67b7951d33ff": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "long drop design"
+      },
+      {
+        "field": "design_features",
+        "term": "single gemstone"
+      }
+    ]
+  },
+  "81397d54-f075-4215-8949-b93981b87a23": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      }
+    ]
+  },
+  "81414854-e166-4e6e-a4e7-59d43f2f8aef": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "double-sided"
+      },
+      {
+        "field": "design_features",
+        "term": "cube shape"
+      }
+    ]
+  },
+  "816f2727-d5dc-431b-9f88-ef3c73bcb68f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "trendy ear cuff earring"
+      }
+    ]
+  },
+  "84548f3a-d0ed-4529-b286-726d8370c849": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "halo of smaller sparkling stones"
+      },
+      {
+        "field": "design_features",
+        "term": "fine glistening chain"
+      },
+      {
+        "field": "design_features",
+        "term": "classic elegant setting"
+      },
+      {
+        "field": "design_features",
+        "term": "sleek polished band"
+      }
+    ]
+  },
+  "84fec94f-b5dc-4fff-a04e-623d1e464329": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "sophisticated"
+      },
+      {
+        "field": "design_features",
+        "term": "sleek circular design"
+      }
+    ]
+  },
+  "85743842-7ce2-4141-a441-41bd9871558f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": [
+        "silver-coloured"
+      ]
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "finish",
+        "term": "silver-coloured"
+      },
+      {
+        "field": "design_features",
+        "term": "silver-coloured finish"
+      },
+      {
+        "field": "design_features",
+        "term": "ear-hugging design"
+      },
+      {
+        "field": "design_features",
+        "term": "piercing-free"
+      }
+    ]
+  },
+  "85ad974e-bdb9-4ba6-90a4-27177ba84c91": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "gold color finish"
+      }
+    ]
+  },
+  "88cc2e63-9f2d-4dd3-8bd0-26e969352d9d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Sophisticated"
+      },
+      {
+        "field": "design_features",
+        "term": "sleek polished heart"
+      },
+      {
+        "field": "design_features",
+        "term": "day to night transition"
+      }
+    ]
+  },
+  "8d428ef1-1b46-42ee-bf3b-485877c5732a": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "statement-making"
+      }
+    ]
+  },
+  "8fe67e2e-18ce-482f-ac01-d3b5580955d0": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "91ce53bf-19e2-4a0b-bb70-bb4c72346ecd": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatile"
+      }
+    ]
+  },
+  "9827ec49-ce96-4574-919d-fb545c69cc4b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "office day"
+      },
+      {
+        "field": "design_features",
+        "term": "single solitaire gemstone"
+      },
+      {
+        "field": "design_features",
+        "term": "chic jewelry box packaging"
+      }
+    ]
+  },
+  "98fb7f0a-92f6-4502-b057-c59175e7d66d": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "leaf-shaped hair pin"
+      },
+      {
+        "field": "design_features",
+        "term": "gold finish"
+      }
+    ]
+  },
+  "99f38cf9-562d-4009-a279-5a265014dcd2": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "motifs",
+        "term": "diamond"
+      },
+      {
+        "field": "style",
+        "term": "ethnic American"
+      }
+    ]
+  },
+  "9b6cdcda-6302-4cd0-abec-723bf1773d7e": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "twin butterflies dancing"
+      },
+      {
+        "field": "design_features",
+        "term": "harmonious visual effect"
+      }
+    ]
+  },
+  "9ccbd80d-7060-4e18-a6ec-fccf0897c590": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "lightweight"
+      }
+    ]
+  },
+  "a0344686-fdae-4749-83d7-2921fe38ece9": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "metallic accents resembling constellations"
+      }
+    ]
+  },
+  "a1792977-f396-4041-afe2-b85533bd5178": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "blending green crystals and crimson droplets"
+      },
+      {
+        "field": "design_features",
+        "term": "easy-to-use hooks"
+      }
+    ]
+  },
+  "a190b2a9-1f9b-4ad6-b2e5-6e8916ea9a08": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "smooth radiant pearl"
+      },
+      {
+        "field": "design_features",
+        "term": "sleek timeless setting"
+      }
+    ]
+  },
+  "a1cf3de5-7f2d-4640-abf7-474d06750c3a": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "western attire"
+      }
+    ]
+  },
+  "a3ff5d4a-e544-424c-9e21-f4040006e409": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "sophisticated"
+      }
+    ]
+  },
+  "a47c7e58-0873-4941-b92b-e3b692726b0b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "gold color finish"
+      }
+    ]
+  },
+  "a55aa3da-c2bb-4787-8a4a-3113d1251f5e": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "a58a8c6b-1edc-4248-931e-dc8ff11f5834": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Blooming effect"
+      }
+    ]
+  },
+  "a5b399ee-f874-43df-b000-c9e8f42627bb": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "western attire"
+      }
+    ]
+  },
+  "a620d4be-aa3b-4dd1-9297-1487d0c0bca7": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "single gemstone"
+      },
+      {
+        "field": "design_features",
+        "term": "intricately designed petals"
+      }
+    ]
+  },
+  "a6e1cad7-cb2d-4b92-b796-51af5ff6d41b": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "pearls"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": []
+  },
+  "aaf16f64-a2ad-44ff-a322-dc9a39b790d0": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "nature-inspired"
+      }
+    ]
+  },
+  "b249a167-67c5-4d59-a292-4ba995330510": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "single uninterrupted line of shimmering crystals"
+      }
+    ]
+  },
+  "b37c039a-c7de-4e47-b011-dc325e61ad3f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "polished lustrous finish"
+      },
+      {
+        "field": "design_features",
+        "term": "handpicked faceted crystals"
+      }
+    ]
+  },
+  "b5ba94aa-c822-47f0-8d21-b5aafcfdbdf8": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Gold color finish"
+      }
+    ]
+  },
+  "b661c404-5e18-42dd-8cb7-c603237d1299": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "gold finish"
+      }
+    ]
+  },
+  "b70fa2ee-1ded-4e9f-8429-8695cb0a8bee": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "light weight"
+      },
+      {
+        "field": "design_features",
+        "term": "suitable for sensitive skin"
+      }
+    ]
+  },
+  "b858f29d-c947-441a-b65a-97dd6935957e": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "glamorous"
+      },
+      {
+        "field": "design_features",
+        "term": "intricately cut crystal"
+      }
+    ]
+  },
+  "b8b61e7e-fb47-41f9-bd9d-1bf8c211157c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatility to be worn as festive occasion wear"
+      }
+    ]
+  },
+  "b8fee544-4d0a-479d-9b22-ad8e0d2a78ee": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatile design for festive occasions"
+      }
+    ]
+  },
+  "b95e2af2-6409-49c7-a48c-8121b1e02482": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "versatile for festive occasions"
+      }
+    ]
+  },
+  "bae08f86-83bb-4bdb-b6e3-ca22c1de5384": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "bb94a149-ecb9-4212-9317-4970d7ea1654": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "Western attire"
+      },
+      {
+        "field": "design_features",
+        "term": "Statement-making"
+      }
+    ]
+  },
+  "be980a8b-4e51-4f44-b597-6cb9660c1dd8": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "American"
+      }
+    ]
+  },
+  "c23cf7f0-c75e-42cc-bdc5-86e6e44f31ab": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "triangle shape"
+      },
+      {
+        "field": "design_features",
+        "term": "cubic zirconia stones"
+      }
+    ]
+  },
+  "c29bfd13-1629-4da3-b00a-ae7e229b1612": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": [
+        "multicolour"
+      ]
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "multicolour"
+      }
+    ]
+  },
+  "c3f02087-51a5-41ee-88e0-66771078a14c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      }
+    ]
+  },
+  "c421f639-4d92-4539-84c9-ad5d2200da71": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "solitary crystal"
+      },
+      {
+        "field": "design_features",
+        "term": "easily usable hooks"
+      }
+    ]
+  },
+  "c515226b-f923-4ae9-94a9-5fd1e632cd65": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "fluidity of tassels"
+      }
+    ]
+  },
+  "c5cf2870-cd6c-4a66-882b-c62245ac4038": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Leaf motif"
+      },
+      {
+        "field": "design_features",
+        "term": "Hoop shape"
+      },
+      {
+        "field": "design_features",
+        "term": "CZ stones"
+      }
+    ]
+  },
+  "c5d531a5-a0fb-4b7f-99b0-f1b9715e2460": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "c69f50f7-44d3-4c2e-9d83-821f8f40ee35": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "c8da9ffa-13c1-4b72-8b91-7dd77b5c51c5": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Leaf shape"
+      }
+    ]
+  },
+  "cb96c9e3-8fb8-4b98-9800-1832759fc571": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "Western attire"
+      }
+    ]
+  },
+  "cbb86860-9eda-4394-90c3-a0c2e7b0f095": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      },
+      {
+        "field": "design_features",
+        "term": "diamond flower with pearl drop"
+      }
+    ]
+  },
+  "d1e33012-8970-4211-8437-37c00de796a0": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "Diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      }
+    ]
+  },
+  "d1ff903a-d0de-4cd6-b977-9235b5617d38": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "perfectly round lustrous pearl"
+      }
+    ]
+  },
+  "d20f15a3-101b-446d-bfa2-2fba6db14a93": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "Western attire"
+      },
+      {
+        "field": "design_features",
+        "term": "statement piece"
+      },
+      {
+        "field": "design_features",
+        "term": "versatile"
+      }
+    ]
+  },
+  "d77cc09b-e07a-42be-8746-f22b6e8779ca": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "etched wings"
+      },
+      {
+        "field": "design_features",
+        "term": "durable"
+      },
+      {
+        "field": "design_features",
+        "term": "secure fit"
+      }
+    ]
+  },
+  "d8a815d5-4858-42b3-87bc-b81ed11781b6": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "diamond"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "Ethnic American"
+      },
+      {
+        "field": "design_features",
+        "term": "stones set with perfection"
+      }
+    ]
+  },
+  "d9492bc7-be8e-41de-a11e-026d1c0e315c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "dresses up any outfit"
+      }
+    ]
+  },
+  "dc5019eb-f578-4f50-bcc5-d90f774b7b75": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "enhances natural elegance"
+      }
+    ]
+  },
+  "dd1814fc-f09e-4499-bad5-037133b56ac6": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [
+        "ruby crystal"
+      ],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "cascade of ruby-hued crystals"
+      },
+      {
+        "field": "design_features",
+        "term": "meticulously cut crystals"
+      },
+      {
+        "field": "design_features",
+        "term": "shimmering movement"
+      },
+      {
+        "field": "design_features",
+        "term": "classic and contemporary design"
+      }
+    ]
+  },
+  "de03eb48-64cc-45af-9609-59bca9ddbb07": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "occasion",
+        "term": "western attire"
+      }
+    ]
+  },
+  "df101455-8a46-4ffa-950a-c0a96302129f": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "sophisticated"
+      },
+      {
+        "field": "design_features",
+        "term": "suspended from polished silver threads"
+      }
+    ]
+  },
+  "df370c53-ceb5-4054-a8c7-e45771db8585": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      }
+    ]
+  },
+  "e2ad7930-b9ef-4215-a303-e80bd6a6783c": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "light weight"
+      },
+      {
+        "field": "design_features",
+        "term": "safe for sensitive skin"
+      }
+    ]
+  },
+  "e60825b1-7efa-41ba-86a0-a2ff02615fd5": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "Gold color finish"
+      }
+    ]
+  },
+  "eb9c005e-661e-43e8-9955-4eac2761c69e": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "design_features",
+        "term": "intricately detailed wings"
+      }
+    ]
+  },
+  "ebdd57d6-3f89-4e4e-871e-5579c84ce537": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "open airy aesthetic"
+      }
+    ]
+  },
+  "ecb15289-9d20-45a7-8efe-7ec41882b3ce": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "high-clarity crystal hand-set"
+      }
+    ]
+  },
+  "eeeee5b8-5f61-4db1-9f49-cc4eacc24c58": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "design_features",
+        "term": "single dazzling solitaire gemstone"
+      },
+      {
+        "field": "design_features",
+        "term": "set in sterling silver"
+      },
+      {
+        "field": "design_features",
+        "term": "flawless icy-clear solitaire"
+      },
+      {
+        "field": "design_features",
+        "term": "sleek elongated drop style"
+      },
+      {
+        "field": "design_features",
+        "term": "secure comfortable fit"
+      }
+    ]
+  },
+  "f82b838f-b877-4aea-a79f-2ce47854b7f5": {
+    "dropped_extracted": {
+      "materials": [],
+      "stones": [],
+      "colors": []
+    },
+    "flagged_ungrounded_not_dropped": [
+      {
+        "field": "style",
+        "term": "elegant"
+      },
+      {
+        "field": "style",
+        "term": "sophisticated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "sku": "eb527da3-254b-4bd8-8298-7fb7bd25fea2",
+    "title": "Ashiana NEW! Exquisite opal rhinestone flower ear clip ear cuff (single)",
+    "description_raw": "Ashianas latest trendy and stylish ear cuff earring makes an undeniable statement and can dress up any outfit. Great for an Indian wear also! Perfect gift for a Diva!",
+    "descriptor_sentence": "Motifs: flower Style: trendy, stylish Occasion: Indian wear Features: opal rhinestone flower ear clip ear cuff",
+    "descriptor_attrs": {
+      "motifs": [
+        "flower"
+      ],
+      "style": [
+        "trendy",
+        "stylish"
+      ],
+      "finish": [],
+      "occasion": [
+        "Indian wear"
+      ],
+      "design_features": [
+        "opal rhinestone flower ear clip ear cuff"
+      ],
+      "extracted": {
+        "materials": [],
+        "stones": [
+          "opal rhinestone"
+        ],
+        "colors": []
+      }
+    }
+  },
+  {
+    "sku": "6a43fcd6-64e5-4ef5-a75b-54a6f0da8fd3",
+    "title": "Ashiana Colorwave crystal Dangle Earrings for Women",
+    "description_raw": "Colorwave Dangles – Key Features:🌈 Multicolor Crystal Cascade: Stunning dangle earrings featuring vibrant, radiant crystals.✨ Shimmering Iridescence: Crystals reflect light beautifully, creating a dynamic wave of color.💎 Polished Metal Frame: Lightweight and comfortable for all-day wear.👗 Elegant & Versatile: Perfect for formal events or adding sparkle to casual outfits.💃 Flattering Design: Graceful length accentuates the neck with bold, fashionable flair.🎉 Modern Meets Timeless: Combines contemporary style with classic sparkle.",
+    "descriptor_sentence": "Style: elegant, versatile, modern, timeless Finish: polished Occasion: formal, casual Features: Multicolor Crystal Cascade, Shimmering Iridescence, Polished Metal Frame, Elegant & Versatile, Flattering Design, Modern Meets Timeless",
+    "descriptor_attrs": {
+      "motifs": [],
+      "style": [
+        "elegant",
+        "versatile",
+        "modern",
+        "timeless"
+      ],
+      "finish": [
+        "polished"
+      ],
+      "occasion": [
+        "formal",
+        "casual"
+      ],
+      "design_features": [
+        "Multicolor Crystal Cascade",
+        "Shimmering Iridescence",
+        "Polished Metal Frame",
+        "Elegant & Versatile",
+        "Flattering Design",
+        "Modern Meets Timeless"
+      ],
+      "extracted": {
+        "materials": [
+          "metal"
+        ],
+        "stones": [
+          "crystal"
+        ],
+        "colors": [
+          "multicolor"
+        ]
+      }
+    }
+  },
+  {
+    "sku": "d1e33012-8970-4211-8437-37c00de796a0",
+    "title": "Ashiana Exclusive! Ethnic American Diamond ear cuff d2 (pair)",
+    "description_raw": "Ashiana's latest trendy and stylish ear cuff earring makes an undeniable statement and can dress up any outfit. Great for an Indian wear also! Perfect gift for a Diva",
+    "descriptor_sentence": "Style: Ethnic American Occasion: Indian wear, gift Features: trendy, stylish, ear cuff, earring, statement, dress up any outfit",
+    "descriptor_attrs": {
+      "motifs": [],
+      "style": [
+        "Ethnic American"
+      ],
+      "finish": [],
+      "occasion": [
+        "Indian wear",
+        "gift"
+      ],
+      "design_features": [
+        "trendy",
+        "stylish",
+        "ear cuff",
+        "earring",
+        "statement",
+        "dress up any outfit"
+      ],
+      "extracted": {
+        "materials": [],
+        "stones": [],
+        "colors": []
+      }
+    }
+  },
+  {
+    "sku": "f6b34eea-b874-4f5d-b7e8-9b487c26ad90",
+    "title": "Ashiana Black and gold geometric dangling earring",
+    "description_raw": "Ashiana's Statement Earrings: Key FeaturesTrendy & Stylish: Ashiana's latest earrings feature a cutting-edge design that's sure to turn heads.Undeniable Statement: They make a bold fashion statement, instantly elevating any look.Versatile Styling: Perfect for dressing up any outfit.Perfect Gift: An ideal present for a true Diva.",
+    "descriptor_sentence": "Motifs: geometric Style: dangling earring Occasion: gift Features: trendy & stylish, cutting-edge design, bold fashion statement, versatile styling",
+    "descriptor_attrs": {
+      "motifs": [
+        "geometric"
+      ],
+      "style": [
+        "dangling earring"
+      ],
+      "finish": [],
+      "occasion": [
+        "gift"
+      ],
+      "design_features": [
+        "trendy & stylish",
+        "cutting-edge design",
+        "bold fashion statement",
+        "versatile styling"
+      ],
+      "extracted": {
+        "materials": [],
+        "stones": [],
+        "colors": [
+          "black",
+          "gold"
+        ]
+      }
+    }
+  },
+  {
+    "sku": "78927c01-334e-46e6-a436-502081e16333",
+    "title": "Ashiana Non-Precious Metal White Pearl Hair Band for Women",
+    "description_raw": "This latest trendy and stylish hair band makes an undeniable statement and can dress up any outfit. Makes a Diva out of you!",
+    "descriptor_sentence": "Style: trendy, stylish Features: trendy, stylish, makes an undeniable statement, dress up any outfit",
+    "descriptor_attrs": {
+      "motifs": [],
+      "style": [
+        "trendy",
+        "stylish"
+      ],
+      "finish": [],
+      "occasion": [],
+      "design_features": [
+        "trendy",
+        "stylish",
+        "makes an undeniable statement",
+        "dress up any outfit"
+      ],
+      "extracted": {
+        "materials": [
+          "Non-Precious Metal"
+        ],
+        "stones": [],
+        "colors": [
+          "White"
+        ]
+      }
+    }
+  },
+  {
+    "sku": "09f9d97e-a0ff-4eff-80b7-9c501967ee7d",
+    "title": "Ashiana Fabulous Statement Antique Bronze Carve Flower Necklace",
+    "description_raw": "This latest trendy and stylish neckpiece makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire! For a Diva.",
+    "descriptor_sentence": "Motifs: Flower Style: Trendy, Stylish, Statement Finish: Antique Bronze Occasion: Western, Indian Features: Carve Flower, Statement",
+    "descriptor_attrs": {
+      "motifs": [
+        "Flower"
+      ],
+      "style": [
+        "Trendy",
+        "Stylish",
+        "Statement"
+      ],
+      "finish": [
+        "Antique Bronze"
+      ],
+      "occasion": [
+        "Western",
+        "Indian"
+      ],
+      "design_features": [
+        "Carve Flower",
+        "Statement"
+      ],
+      "extracted": {
+        "materials": [],
+        "stones": [],
+        "colors": [
+          "Bronze"
+        ]
+      }
+    }
+  },
+  {
+    "sku": "4b80ff1d-f9de-42ac-b6b0-6088dc69e9ff",
+    "title": "Ashiana Cubic Zirconia Wedding Necklace + Earrings+ Bracelet Luxury Crystal Bridal Jewelry Sets for Women",
+    "description_raw": "Beautiful and attractive necklace set which can be worn with traditional and modern clothing. The necklace is a string of hand crafted stones with, Cubic Zirconia and is gold/silver plated. Suitable for all festive occasions!!",
+    "descriptor_sentence": "Style: Wedding, Bridal Finish: gold/silver plated Occasion: festive occasions Features: hand crafted stones, Cubic Zirconia, gold/silver plated, luxury crystal",
+    "descriptor_attrs": {
+      "motifs": [],
+      "style": [
+        "Wedding",
+        "Bridal"
+      ],
+      "finish": [
+        "gold/silver plated"
+      ],
+      "occasion": [
+        "festive occasions"
+      ],
+      "design_features": [
+        "hand crafted stones",
+        "Cubic Zirconia",
+        "gold/silver plated",
+        "luxury crystal"
+      ],
+      "extracted": {
+        "materials": [
+          "gold/silver plated"
+        ],
+        "stones": [
+          "Cubic Zirconia"
+        ],
+        "colors": []
+      }
+    }
+  },
+  {
+    "sku": "90dd0ead-85af-4da9-aebb-61b15928646c",
+    "title": "Ashiana Beautiful Heart Shaped Ethnic Chandelier chand bali for Women (Multi-Colour)",
+    "description_raw": "Elegant Hanging Earrings with Kundan, Pearls & Maroon Drops – Key Features🌟 Beautiful & Attractive Design: Perfectly complements traditional attire with grace.💎 Kundan & Pearl Work: Intricately studded with sparkling Kundan and delicate pearls.❤️ Maroon Hanging Drops: Adds a rich, vibrant touch for a festive look.👗 Ideal for Ethnic Wear: Perfect for weddings, festivals, and cultural celebrations.🎁 Great Gift Choice: A thoughtful and stylish present for loved ones.💡 Lightweight & Comfortable: Designed for comfortable, all-day wear.",
+    "descriptor_sentence": "Motifs: Heart Shaped Style: Ethnic, Chandelier chand bali, Hanging Earrings Occasion: weddings, festivals, cultural celebrations Features: Elegant Hanging Earrings, Kundan, Pearls, Maroon Drops, Lightweight & Comfortable",
+    "descriptor_attrs": {
+      "motifs": [
+        "Heart Shaped"
+      ],
+      "style": [
+        "Ethnic",
+        "Chandelier chand bali",
+        "Hanging Earrings"
+      ],
+      "finish": [],
+      "occasion": [
+        "weddings",
+        "festivals",
+        "cultural celebrations"
+      ],
+      "design_features": [
+        "Elegant Hanging Earrings",
+        "Kundan",
+        "Pearls",
+        "Maroon Drops",
+        "Lightweight & Comfortable"
+      ],
+      "extracted": {
+        "materials": [],
+        "stones": [
+          "Kundan",
+          "Pearls"
+        ],
+        "colors": [
+          "Maroon",
+          "Multi-Colour"
+        ]
+      }
+    }
+  },
+  {
+    "sku": "8aeb93ac-179c-4303-bf39-4e726f599a7b",
+    "title": "Ashiana Stylish White Multi Layer Drops Necklace Set",
+    "description_raw": "This latest trendy and stylish neckpiece set makes an undeniable statement and can dress up any outfit. Suitable for both a western and an Indian attire!",
+    "descriptor_sentence": "Ashiana Stylish Layer Drops Necklace Set",
+    "descriptor_attrs": null
+  },
+  {
+    "sku": "73b4f1ef-b68b-4b50-ac0f-59d26bdcf04d",
+    "title": "Emerald Green Beads Lotus Flower Jhumki earrings for women",
+    "description_raw": "Ashiana's latest ethnic, trendy and stylish jhumka earring is finished in an attractive gold color makes an undeniable statement and can dress up any outfit. Great for an Indian wear! Perfect gift for a Diva! From Ashiana's coveted pieces of hand & body chains, ear and palm cuffs, drop earrings and necklaces; choose your favorite to make an outstanding statement.",
+    "descriptor_sentence": "Motifs: lotus flower Style: jhumka earring Finish: gold Occasion: Indian wear Features: ethnic, trendy, stylish",
+    "descriptor_attrs": {
+      "motifs": [
+        "lotus flower"
+      ],
+      "style": [
+        "jhumka earring"
+      ],
+      "finish": [
+        "gold"
+      ],
+      "occasion": [
+        "Indian wear"
+      ],
+      "design_features": [
+        "ethnic",
+        "trendy",
+        "stylish"
+      ],
+      "extracted": {
+        "materials": [],
+        "stones": [],
+        "colors": [
+          "emerald green",
+          "gold"
+        ]
+      }
+    }
+  }
+]
