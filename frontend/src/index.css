@@ -3,18 +3,13 @@
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 body {
   margin: 0;
-  background: var(--color-ground);
-  background-image: radial-gradient(
-    ellipse at 50% 20%,
-    color-mix(in srgb, var(--color-ground) 88%, white) 0%,
-    var(--color-ground) 70%
-  );
-  color: var(--text-on-dark);
+  background: var(--color-ivory);
+  color: var(--text-on-light);
   font-family: var(--font-ui);
   font-size: var(--text-body-size);
   line-height: var(--text-body-line);

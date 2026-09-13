@@ -36,8 +36,11 @@ export default function CatalogPage() {
 
   return (
     <div>
-      <h1 className="srOnly">Catalog</h1>
       <div className={styles.header}>
+        <div className={styles.intro}>
+          <h1 className={styles.introTitle}>Find your next favourite piece</h1>
+          <p className={styles.introSubtitle}>Filter by type or collection, or search by name.</p>
+        </div>
         <div className={styles.searchRow}>
           <input
             type="search"

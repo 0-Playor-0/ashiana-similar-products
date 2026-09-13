@@ -2,12 +2,14 @@
 // versioned artifact bundle, served read-only by the API at request time.
 // No numbers here are computed; this is a fixed illustration, not a chart.
 const BOX_STYLE = {
-  fill: "var(--color-surface)",
-  stroke: "var(--color-accent-gold)",
+  fill: "var(--color-ivory)",
+  stroke: "var(--color-amber)",
   strokeWidth: 1,
 };
-const TEXT_STYLE = { fill: "var(--color-ground)", fontSize: 12, fontFamily: "var(--font-ui)" };
-const LABEL_STYLE = { fill: "var(--color-accent-ice)", fontSize: 11, fontFamily: "var(--font-ui)" };
+const TEXT_STYLE = { fill: "var(--color-umber)", fontSize: 12, fontFamily: "var(--font-ui)" };
+// Garnet, not amber — amber only clears 2.84:1 as text on ivory (fails);
+// garnet clears 8.84:1 (see DESIGN.md's contrast table).
+const LABEL_STYLE = { fill: "var(--color-garnet)", fontSize: 11, fontFamily: "var(--font-ui)" };
 
 function Box({ x, y, w, h, lines }: { x: number; y: number; w: number; h: number; lines: string[] }) {
   return (
@@ -35,7 +37,7 @@ function Arrow({ x1, y1, x2, y2 }: { x1: number; y1: number; x2: number; y2: num
       y1={y1}
       x2={x2}
       y2={y2}
-      stroke="var(--color-accent-silver)"
+      stroke="var(--color-umber)"
       strokeWidth={1.5}
       markerEnd="url(#arrowhead)"
     />
@@ -47,7 +49,7 @@ export function ArchitectureDiagram() {
     <svg viewBox="0 0 820 300" role="img" aria-label="Architecture: an offline pipeline builds a versioned artifact bundle from the catalog; the online API loads it once and serves ranking requests to the React UI.">
       <defs>
         <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-          <path d="M0,0 L8,4 L0,8 Z" fill="var(--color-accent-silver)" />
+          <path d="M0,0 L8,4 L0,8 Z" fill="var(--color-umber)" />
         </marker>
       </defs>
 

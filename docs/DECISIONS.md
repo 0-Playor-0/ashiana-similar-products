@@ -681,3 +681,51 @@ implemented exactly as specified in `docs/DESIGN.md` pass 2, but that was a prov
 approval to build against — final visual sign-off is still pending a live review, per explicit
 instruction not to treat the written spec as the final word once there's a working UI to look
 at.
+
+## 2026-09-14 — D6 redo: "velvet tray" rejected on live review, replaced
+
+**The dark-ground/jewel-tone direction from the previous entry was rejected after the user
+clicked through the built UI** ("doesn't match what I want"). Per explicit instruction, this
+was run as a genuinely fresh two-pass cycle, not a patch: new research (fetched and studied the
+real Ashiana storefront live, sampling colors via `getComputedStyle` rather than eyeballing;
+cross-referenced against a Figma fashion-e-commerce template the user attached for palette/
+type-boldness/polish reference only, not to copy verbatim), a new pass-1 proposal presented and
+approved, then pass 2 (self-critique + real WCAG contrast computation) presented and approved,
+*before* any code changed. Full research findings, the color/type/layout system, the contrast
+table, and the generic-defaults checklist all now live in `docs/DESIGN.md` (fully rewritten,
+not appended — the old "velvet tray" spec is gone, this replaces it).
+**Headline change:** page ground flips from dark (Smoked Bronze) to light (Ivory) — the
+structural opposite of the rejected direction. The one dark element (Umber) is promoted to a
+*persistent* band (nav header on every route, not just the inspector panel) rather than
+retired, which turned out to be both more faithful to the real site (whose own nav/
+announcement bar is dark umber) and a better differentiator from a generic light template than
+a plain cream nav would have been.
+**Re-skin scope, per explicit instruction:** tokens and hardcoded old-palette values only —
+routes, components, and interaction logic (React Router structure, TanStack Query hooks, the
+Inspector's debounce/URL-sync logic, the FLIP reorder animation, the API client) are
+byte-for-byte unchanged. Touched: `styles/tokens.css` (full rewrite — the old variable names
+themselves were renamed, not just their values, since the old semantic model literally inverted
+under the new palette: `--color-ground` meant "dark page background" and is meaningless once
+the ground is light), every component/route `.module.css`, two `.tsx` files with inline SVG/
+chart styles (`ArchitectureDiagram.tsx`, `UnderTheHood.tsx`'s Recharts props), `index.html`'s
+Google Fonts import (Fraunces → Bitter), and `favicon.svg`'s hardcoded hex values.
+**A real regression caught by re-running the quality gate, not assumed away:** axe-core flagged
+a genuine new contrast failure (catalog page's "N pieces" count text, 4.38:1 against the 4.5:1
+bar) caused by an `opacity: 0.65` secondary-text convention that happened to clear the bar
+easily against the old palette's contrast ratios but not the new one's. Audited every text
+`opacity` value in the app (18 instances) rather than patching just the one axe caught; fixed
+every value below the actual computed safe threshold (~0.70) to 0.72. Re-verified 0 violations
+on `/`, `/p/:sku`, `/under-the-hood` afterward, including with two previously-untested
+conditionally-rendered states forced visible (the all-zero-weights hint, the label-tool active
+button state).
+**Verified unaffected by the re-skin, not just assumed:** 360px→desktop responsive layout,
+keyboard focus visibility (the deepened Amber ring, computed for exactly this in pass 2, is
+confirmed visible on both the dark nav band and the light page), the debounced weight-slider →
+URL-sync → live re-rank interaction chain, and the `prefers-reduced-motion` CSS gate (the
+`MotionConfig reducedMotion="user"` logic itself was never touched by this redo).
+**Found, not fixed (pre-existing, out of scope):** running axe-core against `/label` for the
+first time (it wasn't audited in the original Phase 6 pass, since it isn't one of the three
+routes the Lighthouse-accessibility acceptance criterion covers) surfaced two landmark-structure
+violations (`landmark-one-main`, `region`) that predate this session's work and are unrelated to
+color. Left alone — not a regression from this change, and `/label` is a dev-only tool behind
+`VITE_ENABLE_LABELING`, not part of the graded UI surface.

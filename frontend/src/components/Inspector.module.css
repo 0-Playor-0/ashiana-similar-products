@@ -1,9 +1,11 @@
+/* The dark Umber band (docs/DESIGN.md pass 2) — the one dark moment on the
+   product page, echoing the nav band above it. */
 .panel {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
-  background: color-mix(in srgb, var(--color-surface) 6%, transparent);
-  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 35%, transparent);
+  background: var(--color-umber);
+  color: var(--text-on-dark);
   border-radius: var(--radius-card);
   padding: var(--space-4);
 }
@@ -36,7 +38,7 @@
 
 .slider {
   width: 100%;
-  accent-color: var(--color-accent-gold);
+  accent-color: var(--color-amber);
 }
 
 .row {
@@ -56,7 +58,7 @@
 .priceInput {
   width: 70px;
   appearance: none;
-  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 50%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-ivory) 40%, transparent);
   border-radius: 2px;
   background: transparent;
   color: var(--text-on-dark);
@@ -67,5 +69,5 @@
 .hint {
   margin: 0;
   font-size: var(--text-micro-size);
-  opacity: 0.65;
+  opacity: 0.72;
 }

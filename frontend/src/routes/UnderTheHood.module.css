@@ -22,8 +22,7 @@
 }
 
 .diagramWrap {
-  background: color-mix(in srgb, var(--color-surface) 4%, transparent);
-  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 30%, transparent);
+  background: var(--color-sand);
   border-radius: var(--radius-card);
   padding: var(--space-4);
   overflow-x: auto;
@@ -42,14 +41,14 @@
 }
 
 .versionCard {
-  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 30%, transparent);
+  border: 1px solid var(--color-sand);
   border-radius: var(--radius-card);
   padding: var(--space-3);
 }
 
 .versionLabel {
   font-size: var(--text-micro-size);
-  opacity: 0.65;
+  opacity: 0.72;
   margin-bottom: var(--space-1);
 }
 
@@ -74,7 +73,7 @@ th,
 td {
   text-align: left;
   padding: var(--space-2) var(--space-3);
-  border-bottom: 1px solid color-mix(in srgb, var(--color-accent-silver) 25%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-umber) 15%, transparent);
 }
 
 th {
@@ -95,7 +94,7 @@ th {
 }
 
 .failureCard {
-  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 30%, transparent);
+  border: 1px solid var(--color-sand);
   border-radius: var(--radius-card);
   padding: var(--space-3);
   display: flex;

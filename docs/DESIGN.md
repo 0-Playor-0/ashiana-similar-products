@@ -1,8 +1,10 @@
-# D6 design proposal — pass 2 (revised)
+# D6 design — "light ground, dark bands, bold moments" (redo, approved)
 
-Status: **revised, pending final sign-off** (§10.4's two-pass method). Pass 1's concept was
-approved; this pass self-critiques it against the brief, fixes real gaps found along the
-way, and is what's asked for before any UI code gets written.
+Status: **implemented, final visual sign-off pending a live click-through** (§10.4's two-pass
+method). This replaces an earlier direction ("velvet tray" — dark ground, jewel-tone accents)
+that was approved through pass 2, implemented, and then rejected by the user on visual review:
+"doesn't match what I want." This document is the redo that followed, run through the same
+two-pass process from scratch.
 
 ## Brief recap
 
@@ -11,196 +13,206 @@ way, and is what's asked for before any UI code gets written.
 - **Audience:** Ashiana's team — a technical reviewer and the business owner.
 - **Primary job:** make the recommendations feel like a real shop, while making the model's
   reasoning legible.
-- **Constraint:** product photos are the hero (white-background packshots) — palette and
-  surfaces must frame them, not compete with them.
+- **Additional input for the redo:** the user attached screenshots of a generic Figma
+  fashion-e-commerce template (bold black type, flat white cards, dense polished grid) and
+  asked for a fusion of that template's boldness/polish with the *actual* Ashiana storefront's
+  real structure and palette — fetched and studied live at ashianayouronestopshop.com, not
+  guessed. Real colors below are sampled via computed styles, not eyeballed.
 
-## Self-critique: what pass 1 got wrong
+## Research: what the real site actually does
 
-1. **Dark ground + gold risks reading as generic "luxury brand template,"** not specifically
-   "jewelry tray." Black-and-gold is *also* the default reflex for watches, spirits, and
-   premium-anything sites — it's not on the brief's explicit banned list, but it's adjacent
-   to the same failure mode (a subject-agnostic "premium" reskin). Fix below: commit to a
-   warm, uneven surface (patina/grain, not a flat corporate-gradient dark) and to specific
-   card framing that reads as *displayed-on-a-tray*, not *floating-on-a-dark-website*.
-2. **No text colors were actually specified — and one obvious pairing fails contrast
-   outright.** Pass 1 named surface/accent colors but never said what color *text* is, so I
-   went back and checked real WCAG contrast ratios rather than assuming the palette would
-   work (see table below). Antique Gold text on Card Ivory measures **2.18:1** — a hard
-   failure (needs 4.5:1). Gold must stay a fill/accent, never a text color on the light
-   cards. Oxidised Silver as small secondary text on Ivory measures **3.14:1** — also fails
-   at body-text size. Fixed by making Smoked Bronze do double duty as the text color on
-   light surfaces (it already existed for the page ground; reusing it keeps the palette at
-   6 named colors, not 7) and restricting Oxidised Silver's on-light use to non-text
-   elements (hairline borders, dividers) where the accessibility bar is lower.
-3. **Card treatment was left unspecified** — pass 1's "avoid soft grey shadows" was stated
-   as a principle but never actually resolved into a token. Fixed below: hairline border,
-   no shadow.
-4. **"How much the write-up matters"** is awkward, not plain — a shopper doesn't call a
-   product description a "write-up." Changed to "How much the description matters."
-5. **No accessibility tokens** (focus ring, reduced-motion commitment) were named, despite
-   the brief's explicit quality floor. Added below.
+Sampled via `getComputedStyle`, not screenshots-and-guessing:
 
-## Concept (kept from pass 1, sharpened)
+| Element | Value |
+|---|---|
+| Page ground | `#FFF9F5` — warm ivory |
+| Secondary band (trust-badge strip) | `#F2E5D9` — soft beige-tan |
+| Dark band (announcement bar, footer, testimonial-card frame) | `#643307` — deep umber |
+| Primary CTA fill ("Buy Now", white text) | `#DD8130` — burnt amber |
+| Discount text | `#12853D` green (used inconsistently — sometimes amber instead) |
+| Display heading font | Yeseva One (chunky bold serif) |
+| Body font | Inter |
 
-Jewelry photography is shot against a dark backdrop — velvet, wood, brushed metal — because
-that's what makes gold and stones read as luminous rather than washed out. The page shell
-takes that logic rather than defaulting to a light "cream + serif + terracotta" storefront.
-To keep this from collapsing into generic black-and-gold luxury branding, the ground isn't a
-flat color: it's specified as a very subtle warm radial variation (center slightly lighter
-than edges, like light catching an uneven oxidised-metal surface) and every card sits inside
-a thin gold *hairline*, not a shadow — the visual metaphor is a piece resting in a
-compartment of a display tray, not a card floating on a dark webpage.
+Content rhythm confirmed by browsing the live site: hero carousel → Featured Products →
+"Ashiana by Collection" (a 4-across model-photography grid: Antique/Zircon/Crystal/Kundan) →
+beige trust-badge strip → "Charm Jewellery" (large split promo) → "Our Categories" (circular
+icon strip) → "New Season Styles" (banner + product cards with a tinted footer band) →
+testimonials (dark-umber card carousel) → "Ashiana By Shagun" (beige + deep-plum/gold-script
+brand panel) → dark umber footer. Cards are flat — no border, no shadow.
+
+**The tension this creates, named up front:** this palette (cream + serif + warm-amber) sits
+close to the brief's #1 banned default, "cream background + serif + terracotta accent."
+Sourcing the hex values from the real site doesn't automatically escape that — a generic
+template built from different real hex values would still look generic if the *structure*
+matches. Two concrete, non-color choices do the actual work of escaping it (see Principles).
+
+Routes, components, and interaction logic are unchanged from Phase 6 — this is a token/visual
+redo only, not a rebuild. "Content rhythm" translates into the catalog page's filter-chip
+treatment and a bold intro header, not into new marketing sections (no hero carousel,
+testimonials, or brand-story block were added — those don't exist in this prototype's IA and
+adding them would mean fabricating copy/imagery this project doesn't have, against rule 7).
 
 ## Colors
 
 | Name | Hex | Role |
 |---|---|---|
-| Smoked Bronze | `#241C17` | Page ground (subtle warm radial variation, not flat) **and** body text color on light (Ivory) surfaces |
-| Card Ivory | `#FBF7F0` | Card/surface background — every product photo sits here; also the text color on dark (Smoked Bronze) surfaces |
-| Antique Gold | `#C9A55C` | Fill/accent only — CTAs, active-state fills, card hairline borders, "image" signal in the contribution bar. **Never used as text on light surfaces** (fails contrast, see below) |
-| Oxidised Silver | `#8A8D8C` | "text" signal in the contribution bar; secondary text **on dark ground only** (5.0:1); non-text use only on light (dividers, disabled states) |
-| Zircon Ice | `#B7DEE0` | "meta" signal in the contribution bar; focus-ring color on both light and dark |
-| Garnet | `#7A2E2E` | Discount/sale badges only — the one warm-red note, echoing the red stones common across the catalog |
+| Ivory | `#FFF8F2` | Page ground — light throughout, not dark |
+| Sand | `#F3E6D8` | Secondary surface — section bands, card-footer tint, active-chip fill, dividers |
+| Umber | `#4A2712` | Primary text on light; dark-band background (nav, inspector, cold-start banner); "text" signal color |
+| Amber | `#C97327` | Accent/outline/focus-ring/"image" signal only — **never a text-bearing solid fill** (see contrast table) |
+| Garnet | `#7A2E2E` | Rare accent; "meta" signal color — echoes the red stones common across the catalog |
 
-### Verified contrast (WCAG 2.1 relative luminance, not eyeballed)
+Amber and Garnet are both real gemstones — deliberate, reinforcing "jewelry" rather than a
+generic warm palette. The as-sampled site value for the CTA amber was `#DD8130`; it's deepened
+here to `#C97327` specifically so the focus ring clears WCAG 1.4.11's 3:1 non-text-contrast
+bar against *both* Ivory and Umber (see below) — the one hex changed between pass 1 and pass 2.
 
-| Pair | Ratio | Passes |
+### WCAG contrast — computed (relative-luminance formula), not eyeballed
+
+| Pair | Ratio | Verdict |
 |---|---|---|
-| Smoked Bronze text on Card Ivory | 15.69:1 | AAA |
-| Card Ivory text on Smoked Bronze | 15.69:1 | AAA |
-| Antique Gold on Smoked Bronze (icons/labels on dark) | 7.20:1 | AAA |
-| Oxidised Silver on Smoked Bronze (secondary text on dark) | 5.00:1 | AA |
-| Zircon Ice on Smoked Bronze | 11.60:1 | AAA |
-| Garnet on Card Ivory (badge text) | 8.71:1 | AAA |
-| Antique Gold on Card Ivory | **2.18:1** | **Fails — fill/accent only, never text** |
-| Oxidised Silver on Card Ivory, body-text size | **3.14:1** | **Fails at text size — non-text use only** |
+| Umber text on Ivory | 12.55:1 | AAA |
+| Ivory text on Umber | 12.55:1 | AAA |
+| Umber text on Sand | 10.77:1 | AAA |
+| Sand text on Umber | 10.77:1 | AAA |
+| Garnet text on Ivory | 8.84:1 | AAA |
+| Garnet text on Sand | 7.59:1 | AAA |
+| Ivory text on Garnet (filled badge) | 8.84:1 | AAA |
+| Amber text on Ivory | **2.84:1** | **Fails — never used** |
+| White text on Amber fill | **2.99:1** | **Fails — real site does this; we don't** |
+| Umber text on Amber fill | 3.75:1 | Passes 3:1 (bold/large labels only); short of 4.5:1, so never used for small dense text |
+| Amber focus ring on Ivory (deepened value) | 3.35:1 | Passes WCAG 1.4.11 non-text contrast |
+| Amber focus ring on Umber (deepened value) | 3.75:1 | Passes WCAG 1.4.11 non-text contrast |
+| Garnet on Umber | 1.42:1 | Fails badly — never paired; Garnet only appears on light surfaces or as a non-text chart/bar fill |
 
-Three signals (image/text/meta) still map to three distinct accent hues (gold/silver/ice) so
-the inspector's contribution bar reads as three genuinely different colors — the "spend
-boldness in one place" instruction in practice.
+**Resolution driven by the two real failures:** Amber never carries visible text as a solid
+fill anywhere in the app. It's an outline (filter chips, buttons, focus ring), a non-text
+accent (one signal-bar segment, a chart bar with no text on top of it), or paired with Umber
+text at bold/large sizes only. Every button/chip that needs a filled "active" state uses
+Sand fill + Umber text + Amber border instead — verified via the table above, not assumed.
+
+**A real regression caught and fixed during implementation:** axe-core flagged the catalog
+page's "472 pieces" count text at 4.38:1 (needs 4.5:1) — `opacity: 0.65` on Umber-on-Ivory text
+dims it further than it looks. Audited every `opacity` value used on text across the app;
+raised every one below ~0.70 (the real computed threshold, not a round number) to 0.72, which
+composites to ≥5:1 in every case checked. Confirmed via a second axe-core pass: 0 violations on
+`/`, `/p/:sku`, `/under-the-hood`.
+
+**Accepted tradeoff, not fixed:** Umber and Garnet (the "text" and "meta" signal colors) are
+both dark, muted, warm-toned hues that could read similarly to red-green colorblind viewers —
+a real weakness the old gold/silver/ice trio didn't have (that one spanned warm/neutral/cool).
+No cool hue was imported to fix this, since nothing cool exists anywhere on the real site and
+doing so would undercut the "sourced, not generic" reasoning above. Mitigated by what the
+implementation already does regardless of this redo: the three contribution-bar segments have
+a fixed left-to-right order (image/text/meta) and the tooltip/`aria-label` always states the
+signal by name — color reinforces, it isn't the only channel (WCAG 1.4.1).
 
 ## Typography
 
-- **Display/headings — Fraunces** (a warm, slightly idiosyncratic serif with real character
-  in its curves — not Georgia/Playfair, which is what "generic serif elegance" usually
-  means in practice). Used for product titles, section headers, the hero.
-- **UI/body — Inter.** Clean, humanist, does the actual work: prices, filters, buttons,
-  the inspector's numbers and labels.
+- **Display — Bitter**, a sturdy slab serif: real character, reads confident and crafted at
+  large sizes. Chosen specifically to be neither the real site's own Yeseva One (avoiding a
+  literal copy) nor the rejected direction's Fraunces (a genuinely fresh choice, not a rerun).
+- **Body/UI — Inter**, unchanged; both references already agree on it.
 
-| Token | Size | Weight | Typeface | Use |
-|---|---|---|---|---|
-| display | 40px / 1.1 | 600 | Fraunces | Hero moments only |
-| h1 | 28px / 1.2 | 500 | Fraunces | Product title, page title |
-| h2 | 20px / 1.3 | 500 | Fraunces | Section headers ("Similar pieces") |
-| body | 15px / 1.5 | 400 | Inter | Descriptions, filters |
-| small | 13px / 1.4 | 400 | Inter | Prices on cards, metadata |
-| micro | 11px / 1.3 | 500 | Inter | Badges, reason chips — sentence case, never all-caps |
+| Token | Size / weight | Use |
+|---|---|---|
+| display | 56px / 700 | Catalog page's bold intro title |
+| h1 | 34px / 700 | Product title, page titles |
+| h2 | 22px / 600 | Section headers |
+| body | 15px / 400 (Inter) | Descriptions, filters |
+| small | 13px / 400 (Inter) | Prices, metadata |
+| micro | 11px / 600 (Inter) | Badges, reason chips — sentence case, never all-caps |
 
-## Card treatment (resolved, was left open in pass 1)
+## Layout concept — "light ground, dark bands, bold moments"
 
-No drop shadow, ever. Every card is Card Ivory with a **1px Antique Gold hairline border**
-(not grey, not a shadow) — the metaphor is a compartment in a display tray, not a floating
-panel. Corners are barely rounded (4px, enough to soften, not enough to read as a generic
-rounded-rectangle SaaS card).
-
-## Accessibility tokens (added in pass 2)
-
-- **Focus ring:** 2px solid Zircon Ice with a 1px Smoked-Bronze (on light) or Card-Ivory (on
-  dark) inner offset ring, so the ring stays visible against either surface without needing
-  a different color per context.
-- **Reduced motion:** the one deliberate animation (card reorder on weight change) is
-  disabled under `prefers-reduced-motion`; cards simply re-render in their new order with no
-  transition. Nothing else in the app animates, so this is the only thing to gate.
-- **Alt text:** every product image's alt text is the product title (already in the data,
-  no extra authoring needed).
-
-## Layout — ASCII wireframes
-
-**Catalog (`/`)**
+The structural opposite of the rejected direction: the app stays Ivory throughout — white-
+background packshots need a light stage, and the real storefront itself is light. Boldness
+comes from type scale and solid color fills, not from darkening the whole page. **The one
+dark-Umber band is persistent, not a one-off**: it's the nav header on every route *and* the
+product page's inspector panel *and* the cold-start banner — the same material reused as a
+structural signature, echoing how the real site itself uses dark umber for its own nav/
+announcement bar and footer. Cards are flat: no border in the literal sense, just a barely-
+perceptible Sand hairline (1.17:1 against Ivory — near-imperceptible, reads as a soft edge, not
+a frame) — whitespace does the separating work, matching the real site's own card treatment.
 
 ```
+CATALOG (/)
 ┌──────────────────────────────────────────────────────────┐
-│  Ashiana — similar pieces, a prototype      [ Search... ] │
+│ Similar pieces — a prototype for Ashiana     Catalog  UTH │  ← Umber band, Ivory text,
+├──────────────────────────────────────────────────────────┤    every page
+│  Find your next favourite piece                            │  Bitter 56px/700, Umber
+│  Filter by type or collection, or search by name.          │
+│  (Earrings 338) (Necklaces 78) ...             [Search]    │  amber-outline pill chips,
+├──────────────────────────────────────────────────────────┤  Umber text, Sand fill when active
+│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐               │
+│  │ ivory, flat, near-imperceptible sand hairline │         │
+│  ├────────┤ ├────────┤ ├────────┤ ├────────┤               │
+│  │ Title    ₹1,299 (bold Umber)                  │         │
+│  └────────┘ └────────┘ └────────┘ └────────┘               │
+└──────────────────────────────────────────────────────────┘
+
+PRODUCT PAGE (/p/:sku)
+┌──────────────────────────────────────────────────────────┐
+│  ← Back to catalog                                         │
+├───────────────────────────┬─────────────────────────────── ┤
+│                            │ Antique Peacock Drop Earring   │  Bitter, bold
+│    ivory, flat, large      │ ₹1,299 · Antique collection    │
+│    product photo           ├─ Inspector ───────────────────┤  ← Umber dark band,
+│                            │ How much looks matter   0.5   │    Ivory text — same
+│                            │ ●━━━━━○────────                │    material as the nav
+│                            │ How much the description       │    band above it
+│                            │ matters                  0.2   │
+│                            │ ●━○───────────────              │
+│                            │ How much details matter  0.3   │
+│                            │ ●━━━○─────────────              │
+│                            │ [x] Same category only          │
+│                            │ Max price ratio: [ 2.0x ]       │
+│                            └────────────────────────────────┘│
 ├──────────────────────────────────────────────────────────┤
-│  Earrings   Necklaces   Rings   Bracelets   ...            │
-│  Antique   Kundan   Zircon   Crystal   Contemporary   ...  │
-├──────────────────────────────────────────────────────────┤
-│  ╭───────────╮  ╭───────────╮  ╭───────────╮  ╭────────╮  │
-│  │  (ivory,  │  │  (ivory,  │  │  (ivory,  │  │ (ivory,│  │
-│  │  gold     │  │  gold     │  │  gold     │  │ gold   │  │
-│  │  hairline)│  │  hairline)│  │  hairline)│  │hairline│  │
-│  │  packshot │  │  packshot │  │  packshot │  │packshot│  │
-│  ├───────────┤  ├───────────┤  ├───────────┤  ├────────┤  │
-│  │ Title     │  │ Title     │  │ Title     │  │ Title  │  │
-│  │ ₹1,299    │  │ ₹850      │  │ ₹2,450    │  │ ₹550   │  │
-│  ╰───────────╯  ╰───────────╯  ╰───────────╯  ╰────────╯  │
-│  (grid continues on the Smoked Bronze ground)              │
+│  Similar pieces                                              │  sentence case, bold
+│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐                │
+│  │ivory, flat│         │         │         │                │
+│  ├────────┤ ├────────┤ ├────────┤ ├────────┤                │
+│  │▓▓▓▓░░░░│ │░▓░▓▓▓░░│ │▓▓▓░░░▓░│ │░▓▓░░▓░░│  ← amber/umber/ │
+│  │ Title      ₹1,450                          │    garnet bar│
+│  │ Visually similar · Also features zircon     │              │
+│  │                          [From related category]│         │
+│  └────────┘ └────────┘ └────────┘ └────────┘                │
 └──────────────────────────────────────────────────────────┘
 ```
 
-**Product page (`/p/:sku`) — shopper layer + inspector**
+## Three design principles
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  ← Back to catalog                                        │
-├───────────────────────────┬────────────────────────────── ┤
-│                           │  Antique Peacock Drop Earring  │
-│    ╭──────────────╮       │  ₹1,299 · Antique collection   │
-│    │   (ivory,    │       │                                 │
-│    │   gold       │       │  ┌ Inspector ──────────────┐   │
-│    │   hairline)  │       │  │ How much looks matter    │   │
-│    │   large      │       │  │ ●━━━━━○──────────  0.5   │   │
-│    │   product    │       │  │ How much the description │   │
-│    │   photo      │       │  │ matters                   │  │
-│    ╰──────────────╯       │  │ ●━○───────────────  0.2   │   │
-│                           │  │ How much details matter   │  │
-│                           │  │ ●━━━○─────────────  0.3   │   │
-│                           │  │ [x] Same category only     │  │
-│                           │  │ Max price ratio: [ 2.0x ]  │  │
-│                           │  └────────────────────────────┘ │
-├──────────────────────────────────────────────────────────┤
-│  Similar pieces                                            │
-│  ╭───────────╮  ╭───────────╮  ╭───────────╮  ╭────────╮  │
-│  │ (ivory,   │  │ (ivory,   │  │ (ivory,   │  │(ivory, │  │
-│  │  gold     │  │  gold     │  │  gold     │  │ gold   │  │
-│  │  hairline)│  │  hairline)│  │  hairline)│  │hairline│  │
-│  │ packshot  │  │ packshot  │  │ packshot  │  │packshot│  │
-│  ├───────────┤  ├───────────┤  ├───────────┤  ├────────┤  │
-│  │▓▓▓▓░░░░░░░│  │▓░░░▓▓▓░░░░│  │▓▓▓░░░▓░░░░│  │░▓▓░░▓░░│  │ <- 3-segment
-│  │ gold/silv/ice contribution bar, per card                │  │    bar
-│  │ Title              ₹1,450                                │
-│  │ Visually similar · Same collection: Kundan               │
-│  │                                    [from related category]│ <- fallback badge
-│  ╰───────────╯  ╰───────────╯  ╰───────────╯  ╰────────╯  │
-└──────────────────────────────────────────────────────────┘
-```
+1. **Light does the heavy lifting.** An airy Ivory ground throughout — like the real
+   storefront, and because white-background packshots need a light stage to read cleanly.
+   Warmth comes from tone (Ivory → Sand → Umber), not from darkness.
+2. **Bold where it counts, structural where it repeats.** Figma-level confidence — a big slab
+   serif, real numerals, solid-fill accents — concentrated on a few moments (page titles,
+   primary actions, contribution bars). The dark Umber band is a *repeating structural
+   signature* (nav, inspector, status banner), not competing boldness — it's a frame, not a
+   flourish.
+3. **Earn the resemblance, don't default to it.** Because the real brand's own palette already
+   sits close to a generic-UI default, every color and font traces to something specific
+   actually observed (a sampled hex, a real button convention) or a deliberate departure from
+   it (Bitter instead of the site's own Yeseva One; bold 56px instead of the delicate serif a
+   generic version of this palette would reach for) — not a generic "warm boutique" reflex.
 
-## Three design principles (unchanged — held up under critique)
+## Generic-defaults checklist
 
-1. **The piece is the point.** Product photography stays the largest, brightest element on
-   every screen. UI chrome — nav, filters, labels — recedes into the Smoked Bronze ground so
-   nothing on the page competes with the jewelry itself for attention.
-2. **Show the seams.** The inspector layer is where this app is honest about being a model,
-   not a stylist. Contribution bars use hard-edged segments and real numbers (cosine, z),
-   not soft rounded "AI vibes" pills — the shift from the warm shopper layer to the more
-   diagrammatic inspector layer is itself a legibility cue: "you are now looking at how this
-   was computed."
-3. **One motion, one moment.** The card-reorder animation when a weight slider moves is the
-   *only* deliberate motion in the app (and is skipped entirely under `prefers-reduced-
-   motion`). Nothing else transitions, fades, or bounces — that restraint is what makes the
-   one animation that exists actually mean something.
+| Banned default | Status |
+|---|---|
+| Cream + serif + terracotta | Addressed above — sourced values, persistent dark band, bold execution differentiate it |
+| Near-black + single neon accent | N/A — opposite direction |
+| Identical rounded cards, soft grey shadow | Avoided — flat, near-borderless cards |
+| All-caps eyebrow labels | Caught in pass 2: an early wireframe sketch wrote "SIMILAR PIECES" in caps as shorthand for "bold" — corrected to sentence case, larger/bolder weight instead |
+| "A · B · C" meta strings | Only the one justified two-fact exception ("₹1,299 · Antique collection") |
+| "→" on buttons | None used |
 
-## Explicitly avoided (per the brief's list of generated-UI defaults)
+## Accessibility tokens
 
-Cream + serif + terracotta (inverted to dark ground + warm gold, not light); near-black +
-single neon accent (three distinct jewel-tone accents, not one neon); identical rounded
-cards with soft grey shadows (hairline border, no shadow, 4px corners — resolved in pass 2,
-was only a stated intention in pass 1); all-caps eyebrow labels (sentence case throughout);
-"A · B · C" meta strings ("₹1,299 · Antique collection" is the one deliberate two-fact
-exception, not a run of three-plus fragments); "→" appended to buttons (plain verbs — "See
-similar pieces," not "See similar pieces →").
-
-## Copy fixed in pass 2
-
-"How much the write-up matters" → **"How much the description matters"** — a shopper doesn't
-call a product description a "write-up."
+- **Focus ring:** a single 2px solid Amber ring (deepened specifically so one color clears
+  3:1 against both Ivory and Umber — see contrast table — no per-surface variant needed).
+- **Reduced motion:** unchanged from Phase 6 — the card-reorder animation (`motion`'s `layout`
+  prop, wrapped in `MotionConfig reducedMotion="user"`) is the only deliberate animation and is
+  disabled under `prefers-reduced-motion`.
+- **Alt text:** every product image's alt text is the product title.

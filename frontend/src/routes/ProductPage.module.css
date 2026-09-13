@@ -2,7 +2,7 @@
   display: inline-block;
   margin: var(--space-4) 0;
   font-size: var(--text-small-size);
-  color: var(--text-on-dark);
+  color: var(--text-on-light);
   opacity: 0.75;
   text-decoration: none;
 }
@@ -19,7 +19,7 @@
 }
 
 .imageWrap {
-  background: var(--color-surface);
+  background: var(--color-ivory);
   border: var(--card-border);
   border-radius: var(--radius-card);
   aspect-ratio: 1 / 1;

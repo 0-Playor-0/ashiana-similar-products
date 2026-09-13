@@ -11,7 +11,7 @@
 
 .imageWrap {
   aspect-ratio: 1 / 1;
-  background: var(--color-surface);
+  background: var(--color-ivory);
   overflow: hidden;
 }
 
@@ -49,7 +49,7 @@
   margin-top: var(--space-1);
   padding: 2px var(--space-2);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--color-accent-silver) 22%, var(--color-surface));
+  background: var(--color-sand);
   color: var(--text-on-light);
   font-size: var(--text-micro-size);
   font-weight: var(--text-micro-weight);
@@ -73,7 +73,7 @@
 .reasons li:not(:last-child)::after {
   content: "·";
   margin-left: var(--space-1);
-  opacity: 0.6;
+  opacity: 0.72;
 }
 
 /* Skeleton, matching the same geometry as .card so loading never jumps
@@ -82,21 +82,21 @@
   display: flex;
   flex-direction: column;
   background: var(--card-bg);
-  border: 1px solid color-mix(in srgb, var(--color-accent-gold) 40%, transparent);
+  border: var(--card-border);
   border-radius: var(--radius-card);
   overflow: hidden;
 }
 
 .skeletonImage {
   aspect-ratio: 1 / 1;
-  background: color-mix(in srgb, var(--color-ground) 8%, var(--color-surface));
+  background: color-mix(in srgb, var(--color-umber) 8%, var(--color-ivory));
 }
 
 .skeletonLine {
   height: 10px;
   margin: var(--space-3) var(--space-3) 0;
   border-radius: 2px;
-  background: color-mix(in srgb, var(--color-ground) 10%, var(--color-surface));
+  background: color-mix(in srgb, var(--color-umber) 10%, var(--color-ivory));
 }
 
 .skeletonLine:last-child {

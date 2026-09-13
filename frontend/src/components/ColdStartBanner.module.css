@@ -3,8 +3,10 @@
   align-items: center;
   gap: var(--space-3);
   padding: var(--space-2) var(--space-4);
-  background: var(--color-accent-ice);
-  color: var(--color-ground);
+  /* Umber, matching the real site's own dark announcement-bar convention —
+     a status bar reads naturally as another instance of the dark band. */
+  background: var(--color-umber);
+  color: var(--text-on-dark);
   font-size: var(--text-small-size);
   line-height: var(--text-small-line);
 }
@@ -14,8 +16,8 @@
   height: 14px;
   flex: none;
   border-radius: 50%;
-  border: 2px solid color-mix(in srgb, var(--color-ground) 30%, transparent);
-  border-top-color: var(--color-ground);
+  border: 2px solid color-mix(in srgb, var(--color-ivory) 30%, transparent);
+  border-top-color: var(--color-ivory);
   animation: spin 0.8s linear infinite;
 }
 

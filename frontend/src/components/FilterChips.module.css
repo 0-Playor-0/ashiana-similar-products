@@ -6,21 +6,23 @@
 
 .chip {
   appearance: none;
-  border: 1px solid color-mix(in srgb, var(--color-accent-silver) 50%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-umber) 30%, transparent);
   border-radius: 999px;
   background: transparent;
-  color: var(--text-on-dark);
+  color: var(--text-on-light);
   font-size: var(--text-small-size);
   padding: var(--space-1) var(--space-3);
   cursor: pointer;
 }
 
 .chip:hover {
-  border-color: var(--color-accent-gold);
+  border-color: var(--color-amber);
 }
 
+/* Amber border, Sand fill, Umber text — amber never carries the text
+   itself (2.84:1 on ivory fails; see DESIGN.md's contrast table). */
 .chipActive {
-  border-color: var(--color-accent-gold);
-  background: color-mix(in srgb, var(--color-accent-gold) 18%, transparent);
-  color: var(--color-accent-gold);
+  border-color: var(--color-amber);
+  background: var(--color-sand);
+  color: var(--text-on-light);
 }

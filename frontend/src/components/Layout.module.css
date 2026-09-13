@@ -11,6 +11,10 @@
   gap: var(--space-4);
   padding: var(--space-4) var(--space-5);
   flex-wrap: wrap;
+  /* The persistent dark Umber band (docs/DESIGN.md pass 2) — every page,
+     not just the inspector, echoing the real site's own dark nav/
+     announcement-bar convention. */
+  background: var(--color-umber);
 }
 
 .brand {
@@ -31,12 +35,17 @@
   color: var(--text-on-dark);
   opacity: 0.75;
   font-size: var(--text-small-size);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
 }
 
+/* Active/hover state is an amber underline, not amber text — amber only
+   clears 3.75:1 against umber, short of the 4.5:1 small-text bar, so the
+   distinguishing color lives on a non-text decoration instead (DESIGN.md). */
 .links a:hover,
 .links a[aria-current="page"] {
   opacity: 1;
-  color: var(--color-accent-gold);
+  border-bottom-color: var(--color-amber);
 }
 
 .main {

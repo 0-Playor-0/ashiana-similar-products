@@ -123,24 +123,24 @@ export default function UnderTheHood() {
                   layout="vertical"
                   margin={{ left: 8, right: 16, top: 8, bottom: 8 }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" stroke="var(--color-accent-silver)" opacity={0.25} />
-                  <XAxis type="number" stroke="var(--color-surface)" fontSize={11} />
+                  <CartesianGrid strokeDasharray="3 3" stroke="var(--color-umber)" opacity={0.15} />
+                  <XAxis type="number" stroke="var(--color-umber)" fontSize={11} />
                   <YAxis
                     type="category"
                     dataKey="title"
                     width={160}
-                    stroke="var(--color-surface)"
+                    stroke="var(--color-umber)"
                     fontSize={11}
                   />
                   <Tooltip
                     contentStyle={{
-                      background: "var(--color-ground)",
-                      border: "1px solid var(--color-accent-gold)",
-                      color: "var(--color-surface)",
+                      background: "var(--color-umber)",
+                      border: "1px solid var(--color-amber)",
+                      color: "var(--color-ivory)",
                       fontSize: 12,
                     }}
                   />
-                  <Bar dataKey="count" fill="var(--color-accent-gold)" radius={[0, 3, 3, 0]} />
+                  <Bar dataKey="count" fill="var(--color-amber)" radius={[0, 3, 3, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
