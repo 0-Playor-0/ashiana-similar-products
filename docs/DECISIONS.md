@@ -487,3 +487,15 @@ session was actively using it); worth a follow-up normalization pass in Phase 3 
 Phase 2 revisit.
 **Not yet approved** — presented to the user alongside three other Phase 3/4/6 scaffolding
 pieces done in the same pass; this entry records the reasoning regardless of the outcome.
+
+## 2026-09-13 — Node 22 LTS installed without sudo
+
+**Decision.** `brew install node@22` failed partway through (a dependency, `simdutf`, needed
+to build from source because no bottle was available, which needs newer Command Line Tools
+than this machine has — fixing that needs `sudo`/a system software update, which I won't do
+unprompted). Instead downloaded the official prebuilt tarball directly from
+`nodejs.org/dist/latest-v22.x/` (node-v22.23.2-darwin-arm64, matching rule 9's Node 22 LTS
+requirement), extracted it to `~/.local/node-v22/` (fully in user space), and symlinked
+`node`/`npm`/`npx` into `/opt/homebrew/bin/` (already on PATH, writable without sudo — same
+place `pip3`/`git` already live on this machine) so they persist across every shell command,
+not just the one that set up `$PATH`.

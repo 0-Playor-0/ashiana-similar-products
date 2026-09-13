@@ -1,0 +1,21 @@
+/* Design tokens (D6, docs/DESIGN.md pass 2 — provisionally approved,
+   final sign-off pending a live UI review). Shared across the whole app;
+   the dev-only /label route uses a small subset for baseline consistency,
+   not the full "shopper" card/hairline treatment. */
+
+:root {
+  --color-ground: #241c17; /* Smoked Bronze */
+  --color-surface: #fbf7f0; /* Card Ivory */
+  --color-accent-gold: #c9a55c; /* Antique Gold — fill/accent only, never text on light */
+  --color-accent-silver: #8a8d8c; /* Oxidised Silver — dark-ground text/accents only */
+  --color-accent-ice: #b7dee0; /* Zircon Ice — focus ring, meta signal */
+  --color-accent-garnet: #7a2e2e; /* Garnet — discount badges only */
+
+  --text-on-dark: var(--color-surface);
+  --text-on-light: var(--color-ground);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-ui: "Inter", -apple-system, "Segoe UI", sans-serif;
+
+  --radius-card: 4px;
+}
