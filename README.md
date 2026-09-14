@@ -183,7 +183,7 @@ core/           Ranking logic: fusion, category filters, reason generation.
 pipeline/       Offline pipeline: ingest, clean, image/text encoding, metadata
                 similarity, evaluation. Writes artifacts/.
 frontend/       React + Vite + TypeScript UI (catalog, product page + inspector,
-                under-the-hood, dev-only /label tool).
+                dev-only /label tool).
 artifacts/      Committed pipeline output: matrices, catalog, manifest, eval report
                 and figures. Product images (artifacts/thumbs/) are gitignored — see
                 Limitations.
