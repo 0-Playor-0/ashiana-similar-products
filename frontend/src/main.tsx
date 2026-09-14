@@ -1,7 +1,7 @@
 import { StrictMode, Suspense, lazy } from "react";
 import { createRoot } from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./styles/tokens.css";
 import "./index.css";
 import Layout from "./components/Layout";
@@ -9,9 +9,6 @@ import CatalogPage from "./routes/CatalogPage";
 import ProductPage from "./routes/ProductPage";
 import { ApiError } from "./api/client";
 
-// Recharts is a large dependency used only on this one page — code-split it
-// so the catalog/product pages (the demo's main path) stay light.
-const UnderTheHood = lazy(() => import("./routes/UnderTheHood"));
 const Label = lazy(() => import("./routes/Label.tsx"));
 
 const queryClient = new QueryClient({
@@ -43,14 +40,9 @@ createRoot(document.getElementById("root")!).render(
           <Route element={<Layout />}>
             <Route path="/" element={<CatalogPage />} />
             <Route path="/p/:sku" element={<ProductPage />} />
-            <Route
-              path="/under-the-hood"
-              element={
-                <Suspense fallback={<p>Loading…</p>}>
-                  <UnderTheHood />
-                </Suspense>
-              }
-            />
+            {/* Catches old links to the removed /under-the-hood route, and
+                any other unknown path, rather than rendering a blank page. */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
           {labelingEnabled && (
             <Route

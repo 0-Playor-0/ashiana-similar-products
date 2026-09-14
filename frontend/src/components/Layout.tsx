@@ -14,7 +14,6 @@ export default function Layout() {
           <NavLink to="/" end>
             Catalog
           </NavLink>
-          <NavLink to="/under-the-hood">Under the hood</NavLink>
         </nav>
       </header>
       <main className={styles.main}>

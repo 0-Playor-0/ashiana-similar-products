@@ -62,7 +62,7 @@
 /* opacity 0.72, not a rounder-looking 0.65-0.7 — measured against the real
    rendered composite (axe-core caught 0.65 failing at 4.38:1, need 4.5:1;
    0.72 clears it with margin). Applies to every opacity-dimmed text token
-   in this palette (see also Inspector .hint, UnderTheHood .versionLabel). */
+   in this palette (see also Inspector .hint). */
 .count {
   font-size: var(--text-small-size);
   opacity: 0.72;
