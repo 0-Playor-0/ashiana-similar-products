@@ -861,3 +861,37 @@ of `README.md` (so anyone clicking through sees it before they wonder why images
 broken) and again in the README's Limitations section with the full reasoning; a shorter
 version is also left as a comment in `render.yaml` next to the API service definition, for
 anyone reading the deploy config directly.
+
+## 2026-09-14 — §10.4's "don't copy Ashiana's logo or site branding" is reversed
+
+**What changed.** §10.4 originally said: "Don't copy Ashiana's logo or site branding. This
+is an independent prototype. Name it plainly." That instruction is now explicitly dropped,
+on direct stakeholder feedback (relayed by the user, not a decision made unilaterally by
+this project). The new goal: the app should read as though it could plausibly be a real
+page living *on* Ashiana's own site, not a visually distinct prototype sitting next to it —
+matching not just color and type (already underway: Plum sampled directly from the actual
+logo file, Yeseva One) but navigation structure, header layout, and section-framing/spacing
+conventions from the real storefront.
+**Why logged as a reversal, not folded in quietly.** The original instruction was followed
+carefully for two design passes — including a whole self-critique section in `DESIGN.md`
+about *not* reading as generic partly *because* it avoided copying the site's own chrome
+too closely, and a `#561B4B` logo-color pass 1 that explicitly reasoned about staying on
+the right side of the "inspiration, not replication" line under the old rule. That
+reasoning was correct *under the rule that existed at the time*. Recording this as an
+explicit reversal — what the instruction was, that it changed, and why — keeps that
+earlier work legible as a considered decision under different constraints, not an
+inconsistency or a place this project quietly changed its mind without saying so.
+**What's still explicitly out of scope, confirmed rather than assumed to have also
+flipped:**
+- **Ashiana's actual logo image file is not used directly anywhere in the app.** Matching
+  its color and general visual language is now in scope; embedding the literal asset is
+  not — it's still their copyrighted file, a distinct question from color/style alignment,
+  and the user was explicit that this would need to be asked about separately if it ever
+  came up, not inferred from this reversal.
+- **No change to what the app does.** The recommendation engine, the inspector, weight
+  sliders, reason chips, fallback badges — all unchanged. This reversal is scoped to
+  navigation, header, layout, and visual style only.
+- **The app still identifies itself as a prototype everywhere it already did** (page title,
+  README, footer/attribution copy) — closer visual alignment with the real site doesn't
+  relax the project's honesty about what this is; it changes how closely the *chrome*
+  matches, not whether the app discloses itself accurately.
