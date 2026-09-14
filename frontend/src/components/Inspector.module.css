@@ -1,10 +1,12 @@
-/* The dark Umber band (docs/DESIGN.md pass 2) — the one dark moment on the
-   product page, echoing the nav band above it. */
+/* The dark Plum band (docs/DESIGN.md) — one of the app's few deliberate
+   dark moments (alongside the cold-start banner), and the one place the
+   "show the seams" diagrammatic treatment lives; the header itself is
+   light, matching the real site's own structure. */
 .panel {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
-  background: var(--color-umber);
+  background: var(--color-plum);
   color: var(--text-on-dark);
   border-radius: var(--radius-card);
   padding: var(--space-4);

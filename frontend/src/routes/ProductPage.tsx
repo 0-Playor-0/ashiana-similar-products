@@ -77,7 +77,9 @@ export default function ProductPage() {
   if (product.isPending) {
     return (
       <div>
-        <span className={styles.back}>← Back to catalog</span>
+        <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+          <Link to="/">Catalog</Link>
+        </nav>
         <div className={styles.hero}>
           <div className={styles.imageWrap} aria-hidden="true" />
           <ProductCardSkeleton />
@@ -89,9 +91,9 @@ export default function ProductPage() {
   if (product.isError) {
     return (
       <div>
-        <Link to="/" className={styles.back}>
-          ← Back to catalog
-        </Link>
+        <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+          <Link to="/">Catalog</Link>
+        </nav>
         <ErrorState
           message={describeError("this piece", product.error)}
           onRetry={() => product.refetch()}
@@ -104,9 +106,13 @@ export default function ProductPage() {
 
   return (
     <div>
-      <Link to="/" className={styles.back}>
-        ← Back to catalog
-      </Link>
+      <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+        <Link to="/">Catalog</Link>
+        <span className={styles.breadcrumbSep} aria-hidden="true">
+          /
+        </span>
+        <span className={styles.breadcrumbCurrent}>{p.title}</span>
+      </nav>
 
       <div className={styles.hero}>
         <div className={styles.imageWrap}>

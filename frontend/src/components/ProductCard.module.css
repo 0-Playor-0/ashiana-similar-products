@@ -11,7 +11,10 @@
 
 .imageWrap {
   aspect-ratio: 1 / 1;
-  background: var(--color-ivory);
+  /* Sand, not Ivory — the fix for "light on light": a white packshot on a
+     card that's the same color as the page ground had no visual
+     separation at all (docs/DESIGN.md). */
+  background: var(--color-sand);
   overflow: hidden;
 }
 
@@ -89,14 +92,14 @@
 
 .skeletonImage {
   aspect-ratio: 1 / 1;
-  background: color-mix(in srgb, var(--color-umber) 8%, var(--color-ivory));
+  background: color-mix(in srgb, var(--color-plum) 8%, var(--color-sand));
 }
 
 .skeletonLine {
   height: 10px;
   margin: var(--space-3) var(--space-3) 0;
   border-radius: 2px;
-  background: color-mix(in srgb, var(--color-umber) 10%, var(--color-ivory));
+  background: color-mix(in srgb, var(--color-plum) 10%, var(--color-sand));
 }
 
 .skeletonLine:last-child {

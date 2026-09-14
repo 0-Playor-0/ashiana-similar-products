@@ -1,6 +1,6 @@
 .label-page {
   min-height: 100vh;
-  background: var(--color-umber);
+  background: var(--color-plum);
   color: var(--text-on-dark);
   font-family: var(--font-ui);
   padding: 24px;
@@ -35,7 +35,7 @@
   width: 240px;
   height: 240px;
   object-fit: contain;
-  background: var(--color-ivory);
+  background: var(--color-sand);
   border-radius: var(--radius-card);
   border: 1px solid var(--color-amber);
 }
@@ -87,11 +87,11 @@
   outline-offset: 2px;
 }
 
-/* Sand fill + Umber text, Amber border — amber never carries the text
-   itself (only 3.75:1 on umber, short of the 4.5:1 small-text bar). */
+/* Sand fill + Plum text, Amber border — amber never carries the text
+   itself (only 3.60:1 on plum, short of the 4.5:1 small-text bar). */
 .label-buttons button.active {
   background: var(--color-sand);
-  color: var(--color-umber);
+  color: var(--color-plum);
   border-color: var(--color-amber);
 }
 

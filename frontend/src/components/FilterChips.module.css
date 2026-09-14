@@ -6,7 +6,10 @@
 
 .chip {
   appearance: none;
-  border: 1px solid color-mix(in srgb, var(--color-umber) 30%, transparent);
+  /* 55%, not 30% — 30% measured 1.81:1 against ivory (fails WCAG 1.4.11's
+     3:1 for a boundary that's the chip's only visual cue); 55% clears it
+     at 3.33:1. See docs/DESIGN.md. */
+  border: 1px solid color-mix(in srgb, var(--color-plum) var(--border-mix), transparent);
   border-radius: 999px;
   background: transparent;
   color: var(--text-on-light);
@@ -19,7 +22,7 @@
   border-color: var(--color-amber);
 }
 
-/* Amber border, Sand fill, Umber text — amber never carries the text
+/* Amber border, Sand fill, Plum text — amber never carries the text
    itself (2.84:1 on ivory fails; see DESIGN.md's contrast table). */
 .chipActive {
   border-color: var(--color-amber);

@@ -3,9 +3,12 @@
   align-items: center;
   gap: var(--space-3);
   padding: var(--space-2) var(--space-4);
-  /* Umber, matching the real site's own dark announcement-bar convention —
-     a status bar reads naturally as another instance of the dark band. */
-  background: var(--color-umber);
+  /* Plum, matching the inspector band — a status bar reads naturally as
+     another instance of the app's one signature dark treatment. The
+     header's own strip uses a different, narrowly-scoped color (the real
+     site's literal announcement-bar umber) — this banner isn't part of
+     that fixed header structure, so it keeps our own dark color instead. */
+  background: var(--color-plum);
   color: var(--text-on-dark);
   font-size: var(--text-small-size);
   line-height: var(--text-small-line);

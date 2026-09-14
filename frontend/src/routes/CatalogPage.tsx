@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { useCategories, useProducts } from "../api/queries";
 import { FilterChips } from "../components/FilterChips";
 import { ProductCard, ProductCardSkeleton } from "../components/ProductCard";
@@ -11,7 +12,11 @@ const SKELETON_COUNT = 12;
 export default function CatalogPage() {
   const [productType, setProductType] = useState<string | null>(null);
   const [collection, setCollection] = useState<string | null>(null);
-  const [titleFilter, setTitleFilter] = useState("");
+  // Title filter lives in the URL (?q=), driven by the global header search
+  // (components/Layout.tsx) — not a local input here, so it works the same
+  // way from any page, not just this one.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const titleFilter = searchParams.get("q") ?? "";
 
   const categories = useCategories();
   const products = useProducts({
@@ -31,7 +36,9 @@ export default function CatalogPage() {
   const clearFilters = () => {
     setProductType(null);
     setCollection(null);
-    setTitleFilter("");
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    setSearchParams(next, { replace: true });
   };
 
   return (
@@ -39,17 +46,9 @@ export default function CatalogPage() {
       <div className={styles.header}>
         <div className={styles.intro}>
           <h1 className={styles.introTitle}>Find your next favourite piece</h1>
-          <p className={styles.introSubtitle}>Filter by type or collection, or search by name.</p>
-        </div>
-        <div className={styles.searchRow}>
-          <input
-            type="search"
-            className={styles.search}
-            placeholder="Search by title…"
-            aria-label="Search by title"
-            value={titleFilter}
-            onChange={(e) => setTitleFilter(e.target.value)}
-          />
+          <p className={styles.introSubtitle}>
+            Filter by type or collection, or search by name up above.
+          </p>
         </div>
         {categories.data && (
           <>

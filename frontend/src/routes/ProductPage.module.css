@@ -1,14 +1,31 @@
-.back {
-  display: inline-block;
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
   margin: var(--space-4) 0;
   font-size: var(--text-small-size);
+  color: var(--text-on-light);
+}
+
+.breadcrumb a {
   color: var(--text-on-light);
   opacity: 0.75;
   text-decoration: none;
 }
 
-.back:hover {
+.breadcrumb a:hover {
   opacity: 1;
+}
+
+.breadcrumbSep {
+  opacity: 0.5;
+}
+
+.breadcrumbCurrent {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .hero {
@@ -19,7 +36,7 @@
 }
 
 .imageWrap {
-  background: var(--color-ivory);
+  background: var(--color-sand);
   border: var(--card-border);
   border-radius: var(--radius-card);
   aspect-ratio: 1 / 1;

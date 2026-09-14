@@ -1,24 +1,29 @@
 /* Design tokens (D6, docs/DESIGN.md — "light ground, dark bands, bold
-   moments", approved pass 2, 2026-09-14). Final visual sign-off is a
-   separate live-review step; this is the approved-to-build spec.
+   moments", now aligned to Ashiana's real site per direct stakeholder
+   feedback: §10.4's "don't copy the logo/site branding" is reversed, see
+   docs/DECISIONS.md. Final visual sign-off is a separate live-review step;
+   this is the approved-to-build spec.
 
-   Palette sourced from the real Ashiana storefront (sampled via computed
-   styles, not eyeballed) fused with the Figma reference's bold type scale
-   and flat card treatment — see docs/DESIGN.md for the full reasoning and
-   the WCAG contrast table every pairing below was checked against. */
+   Plum is sampled directly from Ashiana's actual logo file (PIL pixel
+   sampling, not eyeballed — see docs/DESIGN.md). The header strip color is
+   the real site's own announcement-bar color, sampled via computed styles.
+   Every pairing below is checked against the real WCAG contrast formula,
+   not eyeballed — see docs/DESIGN.md for the full table. */
 
 :root {
   --color-ivory: #fff8f2; /* page ground — light throughout, not dark */
-  --color-sand: #f3e6d8; /* secondary surface: bands, card-footer tint, dividers */
-  --color-umber: #4a2712; /* primary text on light; dark band bg (nav, inspector); "text" signal */
+  --color-sand: #f3e6d8; /* secondary surface; also the card/image-wrap bg (was ivory — fixed the "light on light" product-photo definition problem) */
+  --color-plum: #561b4b; /* sampled from Ashiana's actual logo file — primary text on light; dark band bg (inspector, cold-start banner); "text" signal */
+  --color-strip: #643307; /* the real site's own announcement-bar color, sampled from the live site — used ONLY for the header's thin disclosure strip, not a general-purpose token */
   --color-amber: #c97327; /* accent/outline/ring/"image" signal — NEVER a text-bearing solid fill (2.99:1 with white, 2.84:1 as text on ivory — both fail; see DESIGN.md) */
   --color-garnet: #7a2e2e; /* rare accent, "meta" signal — echoes the red stones common across the catalog */
 
-  --text-on-light: var(--color-umber); /* 12.55:1 on ivory, 10.77:1 on sand — AAA */
-  --text-on-dark: var(--color-ivory); /* 12.55:1 on umber — AAA */
+  --text-on-light: var(--color-plum); /* 12.06:1 on ivory, 10.35:1 on sand — AAA */
+  --text-on-dark: var(--color-ivory); /* 12.06:1 on plum — AAA */
+  --text-on-strip: #ffffff; /* 10.39:1 on the strip color — AAA */
 
   --signal-image: var(--color-amber);
-  --signal-text: var(--color-umber);
+  --signal-text: var(--color-plum);
   --signal-meta: var(--color-garnet);
 
   --font-display: "Bitter", Georgia, serif;
@@ -57,18 +62,30 @@
   --space-7: 48px;
   --space-8: 64px;
 
-  /* Card treatment: flat, borderless-reading (a near-imperceptible sand
-     hairline, not the old gold-hairline "display tray" framing) */
+  /* Card treatment: Sand-backed image (was ivory-on-ivory, which is why
+     packshots had no visual separation from the page) + a real, deliberate
+     hairline — not a shadow (still avoided; see DESIGN.md's generic-
+     defaults check). */
   --radius-card: 4px;
-  --card-border: 1px solid var(--color-sand);
-  --card-bg: var(--color-ivory);
+  --card-border: 1px solid color-mix(in srgb, var(--color-plum) 25%, transparent);
+  --card-bg: var(--color-sand);
 
   /* Focus ring: a single amber ring, deepened from the as-sampled site
      value specifically so it clears WCAG 1.4.11's 3:1 non-text contrast
-     against BOTH ivory (3.35:1) and umber (3.75:1) — see DESIGN.md. One
+     against both ivory (3.35:1) and plum (3.60:1) — see DESIGN.md. One
      ring color that works everywhere, no per-surface variant needed. */
   --focus-ring-color: var(--color-amber);
   --focus-ring-width: 2px;
+
+  /* Safe alpha-blend conventions for dimmed text and low-emphasis borders,
+     computed against the real composited result (not guessed) — see
+     DESIGN.md. Two real contrast bugs were found and fixed by introducing
+     these as named tokens instead of ad-hoc color-mix() percentages
+     scattered per component: a 45% placeholder opacity that measured
+     2.58:1 (needs 4.5:1), and a 30% border opacity that measured 1.81:1
+     (needs 3:1 for a boundary that's a control's only visual cue). */
+  --text-dim-mix: 72%;
+  --border-mix: 55%;
 
   --motion-duration: 0.35s;
   --motion-easing: cubic-bezier(0.22, 1, 0.36, 1);
