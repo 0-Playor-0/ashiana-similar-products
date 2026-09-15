@@ -137,24 +137,6 @@ Five decisions worth knowing about, out of many made along the way:
   during label-pool construction were ever hand-labeled; anything else scores as
   relevance-0 by convention (standard pooled-IR evaluation), not as a confirmed miss.
 
-**What changes at 10k+ items** (today's catalog is 472 products; none of this is
-implemented, it's the honest answer to what would break first):
-- Store each item's top-k neighbors per signal instead of full N×N matrices.
-- A weighted sum of cosines is exactly a plain dot product over per-signal vectors
-  pre-scaled by √weight and concatenated — that's what would make an ANN index usable at
-  all, since ANN libraries index under one fixed distance metric, not a runtime-adjustable
-  weighted sum of three.
-- ANN only starts to matter around 100k+ items; below that, exact search over precomputed
-  matrices (today's approach) is both fast enough and exactly correct. The category hard
-  filter also turns into a filtered/hybrid ANN search problem, not just an index swap.
-- New items need incremental indexing, and a policy for how stale neighbor lists are
-  allowed to get between rebuilds.
-- Once real click data exists, the honest move is to blend it with these content signals
-  (e.g. as re-ranker features, or as the fallback for genuinely new items), not to replace
-  content-based fusion outright — it's what makes cold start work at all.
-
-Full reasoning for all of the above is in the
-[notebook](notebooks/ashiana_similar_products.ipynb), §7–§8.
 
 ## Local setup
 
