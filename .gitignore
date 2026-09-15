@@ -23,3 +23,8 @@ artifacts/eval/figures/recommendations_full.html
 artifacts/eval/figures/recommendations_sample.html
 .DS_Store
 *.log
+
+# Kept locally, not published in this public repo — see README's Repo map.
+docs/
+tests/
+ROADMAP.md

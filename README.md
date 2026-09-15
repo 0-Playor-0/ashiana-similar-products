@@ -12,18 +12,19 @@ shopper can actually see and adjust.
 
 > **Product photos don't appear on the live deployment, on purpose.** There's no written
 > permission from Ashiana to redistribute their product photography, and this is a public
-> submission, so `artifacts/thumbs/` is deliberately gitignored and never published (see
-> [D3 in DECISIONS.md](docs/DECISIONS.md)). Everything else — ranking, category fallback,
-> weight fusion, the evaluation numbers below, the API itself — is real and running against
-> the actual 472-product catalog. The [demo video](#demo-video) is recorded locally, where
-> the images do exist, specifically so it can show the real shopper experience.
+> submission, so `artifacts/thumbs/` is deliberately gitignored and never published — a
+> considered, documented call, not an oversight. Everything else — ranking, category
+> fallback, weight fusion, the evaluation numbers below, the API itself — is real and
+> running against the actual 472-product catalog. The [demo video](#demo-video) is recorded
+> locally, where the images do exist, specifically so it can show the real shopper
+> experience.
 
 Free-tier hosting sleeps after inactivity — the first request after a while can take about
 a minute to wake up. The UI shows a banner while it waits.
 
 ## Architecture
 
-![Architecture diagram: an offline pipeline builds a versioned artifact bundle from the catalog; the online API loads it once and serves ranking requests to the React UI.](docs/architecture.svg)
+![Architecture diagram: an offline pipeline builds a versioned artifact bundle from the catalog; the online API loads it once and serves ranking requests to the React UI.](architecture.svg)
 
 **Offline** (rerun only when the catalog changes): DINOv2-small embeds each product's
 packshot, bge-small-en-v1.5 embeds an LLM-grounded text descriptor, and a Gower-style
@@ -55,8 +56,9 @@ human-readable reasons. The React UI is a static site in front of it.
 
 ## Evaluation
 
-25 stratified queries, 595 hand-labeled query/candidate pairs (`docs/LABELING_GUIDE.md`),
-graded relevance (0/1/2), NDCG@5 and P@5 with 95% bootstrap CIs (1000 resamples). Full
+25 stratified queries, 595 hand-labeled query/candidate pairs, pooled-IR sampled across six
+ranking methods, graded relevance (0/1/2), NDCG@5 and P@5 with 95% bootstrap CIs (1000
+resamples). Full
 methodology, ablations, proxies (coverage, hubness, cross-signal agreement, price sanity),
 and failure cases are in [`artifacts/eval/report.json`](artifacts/eval/report.json) and the
 [notebook](notebooks/ashiana_similar_products.ipynb).
@@ -96,30 +98,27 @@ current bundle version and exact weights are always available live at
 
 ## Design decisions
 
-The full log — every non-trivial choice, why, and what was considered instead — is in
-[`docs/DECISIONS.md`](docs/DECISIONS.md). Five worth reading first:
+Five decisions worth knowing about, out of many made along the way:
 
-1. **[Image rights (D3)](docs/DECISIONS.md).** No written permission to redistribute
-   Ashiana's product photography, so it's gitignored throughout — including from the live
-   deployment, decided explicitly rather than left ambiguous once a working deploy made it
-   tempting to just commit the thumbnails and move on.
-2. **[LLM provider pivot to Groq (D4)](docs/DECISIONS.md).** Gemini's free tier caps at 20
-   requests/day on every model tried — confirmed from the API's own quota error, not
-   assumed — so the project switched to Groq, one of the roadmap's own pre-approved
-   options, rather than stalling on a vendor limit outside the project's control.
-3. **[Flat-region weight tuning](docs/DECISIONS.md).** The default fusion weights are
-   chosen as the centroid of grid points within one standard error of the best point, not
-   the single best point — a leave-one-query-out check confirms this doesn't overfit to
-   the 25-query label set the way picking the literal best grid cell would risk.
-4. **[The D6 design redo](docs/DECISIONS.md).** The first visual direction (dark ground,
-   jewel-tone accents) was built, reviewed live, and rejected as not matching what was
-   wanted — the response was fresh research (the real Ashiana storefront's actual colors
-   and structure, sampled directly) and a new two-pass proposal, not a re-skin of the
-   rejected version.
-5. **[Production deploy debugging](docs/DECISIONS.md).** Three real deploy failures (an
-   invalid Render Blueprint field, a build-breaking symlink, a 500-vs-404 bug in static
-   file serving) were each root-caused by reproducing the actual failure locally or reading
-   the actual error, not by guessing and iterating blindly against the live deploy.
+1. **Image rights.** No written permission to redistribute Ashiana's product photography,
+   so it's gitignored throughout — including from the live deployment, decided explicitly
+   rather than left ambiguous once a working deploy made it tempting to just commit the
+   thumbnails and move on.
+2. **LLM provider pivot to Groq.** Gemini's free tier caps at 20 requests/day on every
+   model tried — confirmed from the API's own quota error, not assumed — so the project
+   switched to Groq instead of stalling on a vendor limit outside the project's control.
+3. **Flat-region weight tuning.** The default fusion weights are chosen as the centroid of
+   grid points within one standard error of the best point, not the single best point — a
+   leave-one-query-out check confirms this doesn't overfit to the 25-query label set the
+   way picking the literal best grid cell would risk.
+4. **A visual design redo.** The first visual direction (dark ground, jewel-tone accents)
+   was built, reviewed live, and rejected as not matching what was wanted — the response
+   was fresh research (the real Ashiana storefront's actual colors and structure, sampled
+   directly) and a new two-pass proposal, not a re-skin of the rejected version.
+5. **Production deploy debugging.** Three real deploy failures (an invalid Render Blueprint
+   field, a build-breaking symlink, a 500-vs-404 bug in static file serving) were each
+   root-caused by reproducing the actual failure locally or reading the actual error, not
+   by guessing and iterating blindly against the live deploy.
 
 ## Limitations
 
@@ -162,7 +161,7 @@ Full reasoning for all of the above is in the
 ```bash
 make setup   # venv (Python 3.11) + pinned requirements-pipeline.txt + Playwright's Chromium
 make build   # runs the offline pipeline end-to-end -> artifacts/ (uses the committed
-             # LLM cache; zero API calls needed, see docs/DECISIONS.md)
+             # LLM cache; zero API calls needed)
 make eval    # pipeline/evaluate.py -> artifacts/eval/report.json + figures
 make api     # uvicorn api.app.main:app --reload, http://localhost:8000
 make ui      # cd frontend && npm run dev, http://localhost:5173 (real product images,
@@ -170,13 +169,13 @@ make ui      # cd frontend && npm run dev, http://localhost:5173 (real product i
 ```
 
 `api/requirements.txt` is deliberately separate from `requirements-pipeline.txt` and never
-imports `torch`/`transformers`/`sentence_transformers` — enforced by a test
-(`tests/api/test_no_heavy_deps.py`), not just a convention.
+imports `torch`/`transformers`/`sentence_transformers` — enforced by an automated test, not
+just a convention.
 
 ## Repo map
 
 ```
-api/            FastAPI service — numpy only, no ML deps (rule 5)
+api/            FastAPI service — numpy only, no ML deps
 core/           Ranking logic: fusion, category filters, reason generation.
                 Numpy-only, imported by both api/ and pipeline/ — never reimplemented
                 in either.
@@ -191,12 +190,10 @@ config/         settings.yaml (tunables) and taxonomy.yaml (type/collection/mate
                 similarity tables).
 data/           Canonical catalog (data/catalog.jsonl). Raw scrape snapshot and
                 downloaded images are gitignored.
-docs/           DECISIONS.md (full decision log), DESIGN.md (D6 visual design),
-                LABELING_GUIDE.md, architecture.svg.
 labels/         Hand-labeled relevance judgments (labels/relevance_labels.json).
 notebooks/      Design/evaluation notebook — runs top-to-bottom on a fresh Colab
                 runtime with no secrets required.
-tests/          core/, api/, and light pipeline tests.
+architecture.svg  The diagram above.
 render.yaml     Render Blueprint for the live deployment.
 ```
 
@@ -205,10 +202,10 @@ render.yaml     Render Blueprint for the live deployment.
 Catalog data (titles, prices, categories, descriptions) was scraped from Ashiana's public
 storefront, [ashianayouronestopshop.com](https://www.ashianayouronestopshop.com), for this
 educational project. Product photography is **not** reproduced anywhere in this repo or its
-live deployment — see [Limitations](#limitations) and [D3](docs/DECISIONS.md) above. This
-is an independent, unofficial prototype, not affiliated with or endorsed by Ashiana.
+live deployment — see [Limitations](#limitations) above. This is an independent, unofficial
+prototype, not affiliated with or endorsed by Ashiana.
 
 ## Demo video
 
 _Coming soon — recorded locally against `make api && make ui`, so it can show the real
-product photography the live deployment deliberately omits. Script in `ROADMAP.md` §14._
+product photography the live deployment deliberately omits._
