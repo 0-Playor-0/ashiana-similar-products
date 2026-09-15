@@ -49,10 +49,7 @@ export default function Layout() {
   return (
     <div className={styles.shell}>
       <header>
-        <div className={styles.strip}>
-          An independent recommender prototype for Ashiana&apos;s catalog — not an official
-          Ashiana site.
-        </div>
+        <div className={styles.strip}>Technical Submission for Internship - AI/ML and Web Dev</div>
         <ColdStartBanner />
         <div className={styles.nav}>
           <NavLink to="/" className={styles.brand}>
