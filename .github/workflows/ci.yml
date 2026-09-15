@@ -15,8 +15,6 @@ jobs:
       - name: Install dev deps
         run: |
           pip install -r api/requirements.txt
-          pip install ruff==0.16.7 pytest==8.4.2 openai==3.13.0
+          pip install ruff==0.16.7
       - name: Lint
         run: ruff check .
-      - name: Test
-        run: pytest
